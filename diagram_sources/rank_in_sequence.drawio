@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.8.1 Chrome/122.0.6261.171 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="3I6mRa5P5nZsIQNZ7VRq">
+    <mxGraphModel dx="987" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-1" value="First end-of-shift report for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="440" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-1" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.02;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.005;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="i-SSKv4laA4iEFBlzxF1-1" target="urL7mEImCn63v73o6za4-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="475.5" as="sourcePoint" />
+            <mxPoint x="710" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-4" value="rico:directlyPrecedesInSequence" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="i-SSKv4laA4iEFBlzxF1-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.548;entryDx=0;entryDy=0;exitX=1.012;exitY=-0.13;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" target="urL7mEImCn63v73o6za4-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="474.6200000000001" as="sourcePoint" />
+            <mxPoint x="998.2" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-10" value="rico:directlyPrecedesInSequence" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="i-SSKv4laA4iEFBlzxF1-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-2" value="Second end-of-shift report for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="438" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-3" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="urL7mEImCn63v73o6za4-2" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-4" value="Third end-of-shift report for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="438" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-5" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="urL7mEImCn63v73o6za4-4" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.503;exitY=1.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i-SSKv4laA4iEFBlzxF1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="700" as="sourcePoint" />
+            <mxPoint x="385" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-2" value="rico:rankInSequence" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EpBhALy7t8dP9uE1hjOp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-3" value="1" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.503;exitY=1.101;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EpBhALy7t8dP9uE1hjOp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="744.76" y="504" as="sourcePoint" />
+            <mxPoint x="744.76" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-5" value="rico:rankInSequence" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EpBhALy7t8dP9uE1hjOp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-6" value="2" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="690" y="580" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.503;exitY=1.101;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EpBhALy7t8dP9uE1hjOp-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084.76" y="506" as="sourcePoint" />
+            <mxPoint x="1085" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-8" value="rico:rankInSequence" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EpBhALy7t8dP9uE1hjOp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpBhALy7t8dP9uE1hjOp-9" value="3" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="580" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

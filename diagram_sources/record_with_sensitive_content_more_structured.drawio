@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="WZFGuF3_luYS6yypNmb6">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nzPCm0qADtQluWHLBumH-1" value="Recording of &lt;i&gt;Go Along Mule&lt;/i&gt; by Uncle Dave Macon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="270" width="180" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-1" vertex="1">
+          <mxGeometry y="40" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-3" value="Use of &#39;Recording of &lt;i&gt;Go Along Mule&lt;/i&gt; by Uncle Dave Macon&#39; should take into account that it may be viewed as offensive" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="321.25" y="430" width="337.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-4" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-3" vertex="1">
+          <mxGeometry y="40" width="337.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.539;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.517;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-3" target="nzPCm0qADtQluWHLBumH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="492" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-6" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="658.75" y="480" as="sourcePoint" />
+            <mxPoint x="840" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-9" value="is rule associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-8" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-10" value="Flagging of &#39;Recording of Go Along Mule by Uncle Dave Macon&#39; as possibly offensive" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="430" width="260" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-11" value="Event" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-10" vertex="1">
+          <mxGeometry y="40" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-12" value="Judgement of possible offensiveness" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="277" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-13" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-12" vertex="1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nzPCm0qADtQluWHLBumH-12" target="nzPCm0qADtQluWHLBumH-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="404" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-15" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-14" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="450" as="sourcePoint" />
+            <mxPoint x="658.75" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-17" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-16" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.002;exitDx=0;exitDy=0;entryX=0.518;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-10" target="nzPCm0qADtQluWHLBumH-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="410" as="sourcePoint" />
+            <mxPoint x="1091.25" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-19" value="is or was subevent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-18" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.002;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" target="nzPCm0qADtQluWHLBumH-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969.5" y="496" as="sourcePoint" />
+            <mxPoint x="969.5" y="597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-21" value="is or was performed by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-20" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-22" value="Musicologist A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="917.5" y="590" width="105" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-23" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-22" vertex="1">
+          <mxGeometry y="26" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nzPCm0qADtQluWHLBumH-10" target="nzPCm0qADtQluWHLBumH-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="540" as="sourcePoint" />
+            <mxPoint x="720" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-25" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-24" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-27" value="2010s" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="277" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-28" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-27" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-29" value="Reason for flagging &#39;Recording of Go Along Mule by Uncle Dave Macon&#39; as possibly offensive&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=37;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="430" width="290" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-30" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-29" vertex="1">
+          <mxGeometry y="37" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.007;exitY=0.423;exitDx=0;exitDy=0;entryX=0.997;entryY=0.418;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-29" target="nzPCm0qADtQluWHLBumH-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="450" as="sourcePoint" />
+            <mxPoint x="1140.5" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-32" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-31" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.014;exitY=0.846;exitDx=0;exitDy=0;entryX=1.014;entryY=0.385;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-30" target="nzPCm0qADtQluWHLBumH-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="506" as="sourcePoint" />
+            <mxPoint x="1180.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-35" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-34" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nzPCm0qADtQluWHLBumH-29" target="nzPCm0qADtQluWHLBumH-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1385" y="420" as="sourcePoint" />
+            <mxPoint x="1490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-37" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-36" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.05;exitY=-0.045;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-10" target="nzPCm0qADtQluWHLBumH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="350" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-39" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-38" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.6;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-1" target="nzPCm0qADtQluWHLBumH-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="230.99" as="sourcePoint" />
+            <mxPoint x="700" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-41" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;has creation date&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-40" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-42" value="1927" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="140" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-43" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-42" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

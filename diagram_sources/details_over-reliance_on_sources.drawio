@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="tdFbKafQqXdWOXAYOD6T">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8FflVjubQUmxHpzgolP5-17" value="Parish registers in Norway in use around 1801" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="140" width="210" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-18" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8FflVjubQUmxHpzgolP5-17" vertex="1">
+          <mxGeometry y="40" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-31" value="Cross-checking of identifications of Sámi ethnicity, or the lack thereof, in the 1801 census of Norway&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="320" width="280" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-32" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8FflVjubQUmxHpzgolP5-31" vertex="1">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.49;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="8FflVjubQUmxHpzgolP5-31" target="8FflVjubQUmxHpzgolP5-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-34" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8FflVjubQUmxHpzgolP5-33" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8FflVjubQUmxHpzgolP5-31" target="Whcwb0SjIizKIRzA1Hdj-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="352.5" as="sourcePoint" />
+            <mxPoint x="660" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-2" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-3" value="Entry of birth of child to Magnild Andersdatter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="327" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-3" vertex="1">
+          <mxGeometry y="26" width="265" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8FflVjubQUmxHpzgolP5-17" target="Whcwb0SjIizKIRzA1Hdj-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="172.5" as="sourcePoint" />
+            <mxPoint x="640" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-7" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-6" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-8" value="Alstahaug parish register, 1801-1819" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="147" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-9" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-8" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="Whcwb0SjIizKIRzA1Hdj-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="170" as="sourcePoint" />
+            <mxPoint x="1090" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-11" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-10" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-12" value="Alstahaug, Norway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="147" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-13" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-12" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.51;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Whcwb0SjIizKIRzA1Hdj-3" target="Whcwb0SjIizKIRzA1Hdj-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="260" as="sourcePoint" />
+            <mxPoint x="950" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-15" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-14" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Whcwb0SjIizKIRzA1Hdj-3" target="Whcwb0SjIizKIRzA1Hdj-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1121" y="478" as="sourcePoint" />
+            <mxPoint x="1140" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-17" value="scope and content" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-16" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-18" value="Magnild Andersdatter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="595" y="500" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-19" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-18" vertex="1">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-20" value="Magnhild Andersdatter is described as Sámi. She does not seem to appear in the 1801 census.&amp;nbsp;" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="260" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Whcwb0SjIizKIRzA1Hdj-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="380" as="sourcePoint" />
+            <mxPoint x="580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-22" value="has or had subject" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-21" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.732;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Whcwb0SjIizKIRzA1Hdj-4" target="Whcwb0SjIizKIRzA1Hdj-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="490.0000000000002" as="sourcePoint" />
+            <mxPoint x="1085" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-24" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-23" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-25" value="Maundy Thursday, 1802" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="503" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-26" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-25" vertex="1">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-27" value="Sámi people" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="500" width="109" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-28" value="Group&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#C6D9F1;strokeWidth=2;fillColor=#C6D9F1;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-27" vertex="1">
+          <mxGeometry y="26" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Whcwb0SjIizKIRzA1Hdj-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="526" as="sourcePoint" />
+            <mxPoint x="590" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-30" value="has or had member" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-29" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-31" value="Article:&amp;nbsp;&lt;i&gt;Identification of the South Saami in the Norwegian 1801 Census: Why Is the 1801 Census a Problematic Source? &lt;/i&gt;by Håkon Hermanstrand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=64;strokeColor=#FBD5B5;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="390" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-32" value="Thing" style="text;strokeColor=#FBD5B5;fillColor=#FBD5B5;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Whcwb0SjIizKIRzA1Hdj-31" vertex="1">
+          <mxGeometry y="64" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Whcwb0SjIizKIRzA1Hdj-4" target="Whcwb0SjIizKIRzA1Hdj-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="390" as="sourcePoint" />
+            <mxPoint x="1133" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Whcwb0SjIizKIRzA1Hdj-34" value="is related to" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Whcwb0SjIizKIRzA1Hdj-33" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

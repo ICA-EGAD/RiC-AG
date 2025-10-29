@@ -1,0 +1,250 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="9dDk0zf2ElysKSQKNrrg">
+    <mxGraphModel dx="4543" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-1" value="Digitization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="70" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-1" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-3" value="Scanning" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="70" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-4" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-3" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0;entryDx=0;entryDy=0;exitX=1.007;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-2" target="KS-wqAkKazjO4-zXT2j7-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="91.99800000000005" as="sourcePoint" />
+            <mxPoint x="1020" y="101.99000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-6" value="has or had subevent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-7" value="Parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="711" width="290" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-8" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-7" vertex="1">
+          <mxGeometry y="26" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="HIHmw64CFz3xZAufGdiX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="330" as="sourcePoint" />
+            <mxPoint x="920" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-10" value="is or was affected by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="KS-wqAkKazjO4-zXT2j7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="220.00000000000023" as="sourcePoint" />
+            <mxPoint x="910" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-12" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-14" value="Original parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="510" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-15" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-14" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-7" target="KS-wqAkKazjO4-zXT2j7-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="130" as="sourcePoint" />
+            <mxPoint x="920" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-18" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-17" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-20" value="Digitization of the parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="506" width="249" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-21" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-20" vertex="1">
+          <mxGeometry y="40" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-7" target="KS-wqAkKazjO4-zXT2j7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="702.9860000000001" as="sourcePoint" />
+            <mxPoint x="1258.045" y="572.0020000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-2" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-3" value="Digitizing of the parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="274" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-4" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HIHmw64CFz3xZAufGdiX-3" vertex="1">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-4" target="HIHmw64CFz3xZAufGdiX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829.5" y="224" as="sourcePoint" />
+            <mxPoint x="829.5" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-6" value="has or had subevent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="KS-wqAkKazjO4-zXT2j7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="545" as="sourcePoint" />
+            <mxPoint x="920" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-8" value="has or had derived instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="JKg9k7a9o7TrxqdrPF9H-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="310" as="sourcePoint" />
+            <mxPoint x="1270" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-2" value="is or was performed by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="JKg9k7a9o7TrxqdrPF9H-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-3" value="Regional State Archives in Trondheim" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="262" width="280" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-4" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JKg9k7a9o7TrxqdrPF9H-3" vertex="1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="JKg9k7a9o7TrxqdrPF9H-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="320.0000000000002" as="sourcePoint" />
+            <mxPoint x="550" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-6" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="JKg9k7a9o7TrxqdrPF9H-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-7" value="2005 - 2007" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="262" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-8" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JKg9k7a9o7TrxqdrPF9H-7" vertex="1">
+          <mxGeometry y="26" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-9" value="Pages affected by personal information restrictions should be blocked" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="682" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-10" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JKg9k7a9o7TrxqdrPF9H-9" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-20" target="JKg9k7a9o7TrxqdrPF9H-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1439" y="480" as="sourcePoint" />
+            <mxPoint x="1559" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JKg9k7a9o7TrxqdrPF9H-12" value="is or was regulated by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="JKg9k7a9o7TrxqdrPF9H-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-po9a9koqytGyxwWgbJC-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.54;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-2" target="HIHmw64CFz3xZAufGdiX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="176" as="sourcePoint" />
+            <mxPoint x="780" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-po9a9koqytGyxwWgbJC-2" value="has or had subevent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-po9a9koqytGyxwWgbJC-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-1" value="Personal information restrictions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="850" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-2" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rx7ATSWB7nXu5Q-0kk-8-1" vertex="1">
+          <mxGeometry y="26" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=1.091;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-8" target="Rx7ATSWB7nXu5Q-0kk-8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="720" as="sourcePoint" />
+            <mxPoint x="1300" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-4" value="is or was regulated by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Rx7ATSWB7nXu5Q-0kk-8-1" target="JKg9k7a9o7TrxqdrPF9H-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="900" as="sourcePoint" />
+            <mxPoint x="1630" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-6" value="is rule associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="Rx7ATSWB7nXu5Q-0kk-8-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="754" as="sourcePoint" />
+            <mxPoint x="250" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-8" value="representation type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-9" value="Analogue textual" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="690" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.086;entryY=0.83;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-20" target="Rx7ATSWB7nXu5Q-0kk-8-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1529" y="400" as="sourcePoint" />
+            <mxPoint x="1659" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-11" value="representation type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-10" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-12" value="Digital textual" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1689" y="398" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="Rx7ATSWB7nXu5Q-0kk-8-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193.75" y="398" as="sourcePoint" />
+            <mxPoint x="170" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-14" value="carrier type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-13" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-15" value="Paper, hard-bound books" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-22" value="National Archives of Norway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="102" width="280" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-23" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Rx7ATSWB7nXu5Q-0kk-8-22" vertex="1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.537;exitY=-0.034;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JKg9k7a9o7TrxqdrPF9H-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="244" as="sourcePoint" />
+            <mxPoint x="1470" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rx7ATSWB7nXu5Q-0kk-8-25" value="is or was part of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Rx7ATSWB7nXu5Q-0kk-8-24" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQvBZuwSpkYE8e8Grdi3-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.521;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="nQvBZuwSpkYE8e8Grdi3-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="413" as="sourcePoint" />
+            <mxPoint x="840" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nQvBZuwSpkYE8e8Grdi3-2" value="activity type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="nQvBZuwSpkYE8e8Grdi3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQvBZuwSpkYE8e8Grdi3-3" value="Scanning" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="780" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

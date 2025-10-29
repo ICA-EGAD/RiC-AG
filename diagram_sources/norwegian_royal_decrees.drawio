@@ -1,0 +1,500 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Page-1" id="HgHFVY9R_KAYbedn_kdG">
+    <mxGraphModel dx="1450" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-1" value="Minutes from the meetings of the statsråd (council of state), 5th of January to 5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="407" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-2" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-3" value="Royal Palace, Oslo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="237" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-4" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-3">
+          <mxGeometry y="26" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-5" value="Meetings of the statsråd (council of state), 5th of January to 5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="297" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-6" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-5">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.72;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-1" target="ioNMe-Dj2N602QLqS_ev-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="357" as="sourcePoint" />
+            <mxPoint x="670" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-8" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-5" target="ioNMe-Dj2N602QLqS_ev-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="357" as="sourcePoint" />
+            <mxPoint x="690" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-10" value="has or had location" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.577;exitY=-0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-5" target="ioNMe-Dj2N602QLqS_ev-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="266.01" as="sourcePoint" />
+            <mxPoint x="973" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-12" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-13" value="5th of January to 5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="130" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-14" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-13">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.366;exitY=1.082;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-18" target="ioNMe-Dj2N602QLqS_ev-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.0999999999999" y="647.002" as="sourcePoint" />
+            <mxPoint x="324" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-16" value="documentary form type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-17" value="Minutes from the meetings of the statsråd (council of state), 5th of January to 29th of March 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="557" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-18" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-17">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.27;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-2" target="ioNMe-Dj2N602QLqS_ev-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="550" as="sourcePoint" />
+            <mxPoint x="744" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-20" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-21" value="Protokoll (formal minutes" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="90" y="717" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.366;entryY=-0.028;entryDx=0;entryDy=0;exitX=0.76;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-2" target="ioNMe-Dj2N602QLqS_ev-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="477" as="sourcePoint" />
+            <mxPoint x="705" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-23" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-26" value="Minutes from the meeting of the statsråd (council of state), 5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="557" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-27" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-26">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.676;exitY=1.137;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-27" target="ioNMe-Dj2N602QLqS_ev-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="623" as="sourcePoint" />
+            <mxPoint x="740" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-29" value="documentary form type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-30" value="Referat (informal minutes)" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="820" y="717" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-31" value="Invasion of Norway on the 9th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;strokeColor=#FFFAA0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="417" width="150" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-32" value="Event" style="text;strokeColor=#FFFAA0;strokeWidth=2;fillColor=#FFFAA0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-31">
+          <mxGeometry y="42" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.013;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-32" target="ioNMe-Dj2N602QLqS_ev-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="457" as="sourcePoint" />
+            <mxPoint x="936" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-34" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.338;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-31" target="ioNMe-Dj2N602QLqS_ev-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1058" y="457" as="sourcePoint" />
+            <mxPoint x="860" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-36" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-37" value="1940 - 1948" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="317" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-38" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-37">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-1" target="ioNMe-Dj2N602QLqS_ev-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="325" as="sourcePoint" />
+            <mxPoint x="329" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-40" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.93;exitY=1.127;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-27" target="ioNMe-Dj2N602QLqS_ev-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="791" as="sourcePoint" />
+            <mxPoint x="990" y="697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-42" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-43" value="1948" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="690" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-44" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-43">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.527;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.536;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-27" target="ioNMe-Dj2N602QLqS_ev-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="657" as="sourcePoint" />
+            <mxPoint x="737" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-46" value="history" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-47" value="The protokoll (formal minutes) from this meeting were not written up due to the invasion of Norway on the 9th of April 1940; the original material was lost, but a referat (informal minutes) was partially able to be reconstructed in 1948" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="560" y="807" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.2;exitY=1.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.668;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-27" target="ioNMe-Dj2N602QLqS_ev-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="780" as="sourcePoint" />
+            <mxPoint x="540" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-49" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-50" value="Meeting of the statsråd (council of state), 5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="691" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-51" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-50">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.244;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-51" target="ioNMe-Dj2N602QLqS_ev-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="877" as="sourcePoint" />
+            <mxPoint x="350" y="847" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-53" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-54" value="5th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="837" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-55" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-54">
+          <mxGeometry y="26" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-56" value="Meetings of the statsråd (council of state), 9th of January 1940 to 18th of December 1942" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="297" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-57" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-56">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-58" value="Minutes from the meeting of the statsråd (council of state), 9th of April 1940 to 18th December 1942" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="407" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-59" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-58">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.542;exitY=1.081;exitDx=0;exitDy=0;entryX=0.345;entryY=-0.031;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-75" target="ioNMe-Dj2N602QLqS_ev-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="627" as="sourcePoint" />
+            <mxPoint x="1380" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-61" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.327;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-58" target="ioNMe-Dj2N602QLqS_ev-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1755.9" y="400.5400000000001" as="sourcePoint" />
+            <mxPoint x="1570" y="356.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-63" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-5" target="ioNMe-Dj2N602QLqS_ev-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="329.41" as="sourcePoint" />
+            <mxPoint x="1510" y="329.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-65" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.013;entryY=0.399;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-31" target="ioNMe-Dj2N602QLqS_ev-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="444" as="sourcePoint" />
+            <mxPoint x="1450" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-69" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-70" value="Minutes from the meeting of the statsråd (council of state), 10th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="721" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-71" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-70">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="530" as="sourcePoint" />
+            <mxPoint x="1300" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-73" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-74" value="Minutes from the meeting of the statsråd (council of state), 9th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="557" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-75" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-74">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-76" value="Meeting of the statsråd (council of state), 9th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="557" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-77" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-76">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-74" target="ioNMe-Dj2N602QLqS_ev-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1625" y="623" as="sourcePoint" />
+            <mxPoint x="1410" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-79" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-76" target="ioNMe-Dj2N602QLqS_ev-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2470" y="615.5" as="sourcePoint" />
+            <mxPoint x="2290" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-81" value="has or had location" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-82" value="Hamar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="563.9999999999998" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-83" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-82">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-84" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.661;entryY=0.034;entryDx=0;entryDy=0;exitX=-0.01;exitY=1.143;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-59" target="ioNMe-Dj2N602QLqS_ev-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="466" as="sourcePoint" />
+            <mxPoint x="1622" y="547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-85" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.247;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=gap;jumpSize=12;entryX=0.876;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-59" target="ioNMe-Dj2N602QLqS_ev-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1654" y="488" as="sourcePoint" />
+            <mxPoint x="1680" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-87" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2" y="-61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-88" value="Meeting of the statsråd (council of state), 10th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="717" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-89" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-88">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.191;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.579;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-75" target="ioNMe-Dj2N602QLqS_ev-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1241.25" y="725" as="sourcePoint" />
+            <mxPoint x="1270" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-91" value="scope and content" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-92" value="Handwritten with single royal decree: temporary shift of capital of Norway to Hamar" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="870" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-93" value="Trysil" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="730.9999999999998" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-94" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-93">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2170" y="749.41" as="sourcePoint" />
+            <mxPoint x="2360" y="749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-96" value="has or had location" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.536;exitY=1.115;exitDx=0;exitDy=0;entryX=0.536;entryY=-0.04;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-77" target="ioNMe-Dj2N602QLqS_ev-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="660" as="sourcePoint" />
+            <mxPoint x="1941" y="742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-98" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.577;exitY=-0.069;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.473;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ioNMe-Dj2N602QLqS_ev-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="297" as="sourcePoint" />
+            <mxPoint x="1440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-100" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-101" value="9th of January 1940 to 18th of December 1942" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="130" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-102" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-101">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.885;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-58" target="ioNMe-Dj2N602QLqS_ev-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="410" as="sourcePoint" />
+            <mxPoint x="1940" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-105" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-106" value="London, UK" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="265" width="145" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-107" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-106">
+          <mxGeometry y="26" width="145" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="766.9999999999999" as="sourcePoint" />
+            <mxPoint x="1920" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-109" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.649;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-71" target="ioNMe-Dj2N602QLqS_ev-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="889" as="sourcePoint" />
+            <mxPoint x="1710" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-111" value="scope and content" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-112" value="Contains single royal decree: refusal of capitulation to the invading army (&quot;Kongens nei&quot;)" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="920" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ioNMe-Dj2N602QLqS_ev-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="620" as="sourcePoint" />
+            <mxPoint x="1395" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-114" value="documentary form type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-115" value="Protokoll (formal minutes)" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="940" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.312;exitY=1.133;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.916;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-71" target="ioNMe-Dj2N602QLqS_ev-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1483" y="870" as="sourcePoint" />
+            <mxPoint x="1480" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-117" value="documentary form type" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.577;exitY=-0.048;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-76" target="ioNMe-Dj2N602QLqS_ev-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2308.39" y="390" as="sourcePoint" />
+            <mxPoint x="2240" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-119" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-120" value="9th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2202.5" y="400" width="95" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-121" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-120">
+          <mxGeometry y="26" width="95" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-122" value="10th of April 1940" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="898" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-123" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-122">
+          <mxGeometry y="26" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-124" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.54;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-89" target="ioNMe-Dj2N602QLqS_ev-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2110.0000000000005" y="836.998" as="sourcePoint" />
+            <mxPoint x="2152.1" y="985.7099999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-125" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-126" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.176;entryY=-0.069;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-31" target="ioNMe-Dj2N602QLqS_ev-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1368" y="473" as="sourcePoint" />
+            <mxPoint x="1200" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-127" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-128" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.346;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=gap;jumpSize=11;" edge="1" parent="1" source="ioNMe-Dj2N602QLqS_ev-32" target="ioNMe-Dj2N602QLqS_ev-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="483" as="sourcePoint" />
+            <mxPoint x="1263" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioNMe-Dj2N602QLqS_ev-129" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ioNMe-Dj2N602QLqS_ev-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-108" y="-90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

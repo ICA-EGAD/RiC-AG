@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="gD_oswIPVhmendxxoWTu">
+    <mxGraphModel dx="1243" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1KNnokjcpxOvImdohz6O-1" value="UK import data, Jan - Jun 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="190" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-7" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1KNnokjcpxOvImdohz6O-1" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-3" value="HM Revenue &amp;amp; Customs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="595" y="390" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-4" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1KNnokjcpxOvImdohz6O-3" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.55;entryY=0;entryDx=0;entryDy=0;exitX=0.533;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="1KNnokjcpxOvImdohz6O-7" target="1KNnokjcpxOvImdohz6O-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="sourcePoint" />
+            <mxPoint x="130" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-6" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="1KNnokjcpxOvImdohz6O-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-1" value="Importing of goods to the UK" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="350" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A35KRgC0kDwhK_vT6vw7-1" vertex="1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.696;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1KNnokjcpxOvImdohz6O-7" target="A35KRgC0kDwhK_vT6vw7-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="480" as="sourcePoint" />
+            <mxPoint x="280" y="480.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="A35KRgC0kDwhK_vT6vw7-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="1KNnokjcpxOvImdohz6O-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836.3399999999999" y="741.242" as="sourcePoint" />
+            <mxPoint x="890" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A35KRgC0kDwhK_vT6vw7-23" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="A35KRgC0kDwhK_vT6vw7-22" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-1" value="Details of import of pineapples by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="430" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-2" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-1" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-3" value="Declaration of import of pineapples by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="670" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-4" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-3" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.538;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-3" target="z_VkaY4JEPrvHYw7quxx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="485" as="sourcePoint" />
+            <mxPoint x="1380" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-6" value="has genetic link to record resource" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-7" value="Fruiterer A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=light-dark(#e5dfec, #27374c);strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="810" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-8" value="Agent" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=light-dark(#E5DFEC,#EDEDED);align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-7" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-4" target="z_VkaY4JEPrvHYw7quxx-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="676" as="sourcePoint" />
+            <mxPoint x="736" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-10" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-15" value="Import of pineapples, 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="660" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-16" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-15" vertex="1">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-2" target="z_VkaY4JEPrvHYw7quxx-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="552" as="sourcePoint" />
+            <mxPoint x="580" y="647" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-20" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-19" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.018;exitY=0.398;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-3" target="z_VkaY4JEPrvHYw7quxx-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="570" as="sourcePoint" />
+            <mxPoint x="340" y="736" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-22" value="results or resulted from" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-21" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-23" value="May 3rd, 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="290" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-24" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-23" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.545;exitY=-0.021;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="z_VkaY4JEPrvHYw7quxx-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="395" as="sourcePoint" />
+            <mxPoint x="1220" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-26" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-25" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-33" value="April 20th, 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="820" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-34" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-33" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="z_VkaY4JEPrvHYw7quxx-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="735" as="sourcePoint" />
+            <mxPoint x="1290" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-43" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="z_VkaY4JEPrvHYw7quxx-42" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.996;entryY=1.071;entryDx=0;entryDy=0;exitX=0.167;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="1KNnokjcpxOvImdohz6O-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1057" y="410" as="sourcePoint" />
+            <mxPoint x="940" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--2" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="2DeLvdhZdxa3scJvV6O--1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

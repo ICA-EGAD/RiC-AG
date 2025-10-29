@@ -1,0 +1,204 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Page-1" id="9dDk0zf2ElysKSQKNrrg">
+    <mxGraphModel dx="1450" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-7" value="Parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="711" width="290" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-8" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-7" vertex="1">
+          <mxGeometry y="26" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.376;exitY=-0.035;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitPerimeter=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="HIHmw64CFz3xZAufGdiX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.99999999999977" y="358" as="sourcePoint" />
+            <mxPoint x="540.0000000000002" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-10" value="is or was affected by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44" y="116" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.703;entryY=0.056;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;entryPerimeter=0;" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="KS-wqAkKazjO4-zXT2j7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1579.9999999999995" y="-99.99999999999989" as="sourcePoint" />
+            <mxPoint x="1950" y="274" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1710" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-12" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-18" y="118" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-14" value="Original parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="510" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-15" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-14" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-7" target="KS-wqAkKazjO4-zXT2j7-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="130" as="sourcePoint" />
+            <mxPoint x="920" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-18" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KS-wqAkKazjO4-zXT2j7-17" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-20" value="Digitisation of parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="510" width="249" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KS-wqAkKazjO4-zXT2j7-21" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KS-wqAkKazjO4-zXT2j7-20" vertex="1">
+          <mxGeometry y="40" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KS-wqAkKazjO4-zXT2j7-7" target="KS-wqAkKazjO4-zXT2j7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="702.9860000000001" as="sourcePoint" />
+            <mxPoint x="1258.045" y="572.0020000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-2" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-3" value="Digitising of parish registers for Bratsberg church, 1797-1961" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="70" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-4" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HIHmw64CFz3xZAufGdiX-3" vertex="1">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HIHmw64CFz3xZAufGdiX-3" target="jHxaoRCW4uBXogkJU6WA-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1071.25" y="214" as="sourcePoint" />
+            <mxPoint x="955" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-6" value="has or had subevent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-7" value="" style="endArrow=classic;html=1;rounded=0;curved=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="577" as="sourcePoint" />
+            <mxPoint x="1830" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HIHmw64CFz3xZAufGdiX-8" value="has or had derived instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="HIHmw64CFz3xZAufGdiX-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-13" y="-255" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-2" value="Digitising of parish register for Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=36;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="238" width="230" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-3" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-2">
+          <mxGeometry y="36" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-4" value="Original parish register for Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="238" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-5" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-4">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-4" target="jHxaoRCW4uBXogkJU6WA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.9999999999998" y="510" as="sourcePoint" />
+            <mxPoint x="690.0000000000002" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-7" value="is or was affected by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.001;entryY=0.932;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KS-wqAkKazjO4-zXT2j7-14" target="jHxaoRCW4uBXogkJU6WA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="492" as="sourcePoint" />
+            <mxPoint x="447" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-9" value="has or had component" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-2" target="jHxaoRCW4uBXogkJU6WA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1199.9999999999995" y="160.0000000000001" as="sourcePoint" />
+            <mxPoint x="1250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-11" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-12" value="Digitisation of parish register for Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="238" width="249" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-13" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-12">
+          <mxGeometry y="40" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-12" target="KS-wqAkKazjO4-zXT2j7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="406" as="sourcePoint" />
+            <mxPoint x="1640" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-17" value="is or was component of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-18" value="Parish register for Bratsberg church, 1938-1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="450" width="290" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-19" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-18">
+          <mxGeometry y="26" width="290" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KS-wqAkKazjO4-zXT2j7-7" target="jHxaoRCW4uBXogkJU6WA-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="698" as="sourcePoint" />
+            <mxPoint x="830" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-21" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-18" target="jHxaoRCW4uBXogkJU6WA-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="439" as="sourcePoint" />
+            <mxPoint x="280" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-23" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-18" target="jHxaoRCW4uBXogkJU6WA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="556" as="sourcePoint" />
+            <mxPoint x="1170" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-25" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHxaoRCW4uBXogkJU6WA-4" target="jHxaoRCW4uBXogkJU6WA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="390" as="sourcePoint" />
+            <mxPoint x="1080" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHxaoRCW4uBXogkJU6WA-27" value="has or had derived instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="jHxaoRCW4uBXogkJU6WA-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9" y="-68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

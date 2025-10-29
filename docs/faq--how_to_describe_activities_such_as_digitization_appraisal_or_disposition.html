@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — How to describe activities such as digitization,
+appraisal, or disposition</title>
+  <link rel="stylesheet" href="application_guidelines.css">
+</head>
+<body>
+<header>
+<div class="page-header">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--the_instantiation_entity.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6c." title="Section 6c."></a></span>
+<span class="header-previous"><a href="faq--the_instantiation_entity.html">6c.</a> <span class="header-previous-title"><a href="faq--the_instantiation_entity.html" class="header">FAQ
+— The Instantiation entity</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--sequences.html">6e.</a> <span class="header-next-title"><a href="faq--sequences.html" class="header">FAQ
+— Sequences</a></span></span>
+<span class="header-right-arrow"><a href="faq--sequences.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6e." title="Section 6e."></a></span>
+</div>
+</div>
+</header>
+<h1 class="title">6d. FAQ — How to describe activities such as
+digitization, appraisal, or disposition</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#what-is-this-faq-about"
+id="toc-what-is-this-faq-about"><span
+class="toc-section-number">6d.1</span> What is this FAQ about?</a></li>
+<li><a href="#digitization" id="toc-digitization"><span
+class="toc-section-number">6d.2</span> Digitization</a></li>
+<li><a href="#appraisal-and-disposition"
+id="toc-appraisal-and-disposition"><span
+class="toc-section-number">6d.3</span> Appraisal and disposition</a></li>
+</ul>
+</div>
+<h2 data-number="6d.1" id="what-is-this-faq-about"><span
+class="header-section-number">6d.1</span> What is this FAQ about<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>As touched upon in <a
+href="faq--general_questions_and_smaller_modelling_questions.html#are-activity-and-event-central-entities-in-ric-how-about-rule-and-place">§6a.3.2</a>,
+the Activity entity is important in RiC. It is very flexible: it might
+be used when describing functional provenance — there are several
+examples of this in, for instance, <a
+href="faq--record_or_record_set.html">§6b</a> and <a
+href="faq--sequences.html">§6e</a>; or for incorporating context which
+bears upon a Record Resource in less direct ways, as for instance in
+some of the examples in <a
+href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html">§7</a>
+and <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html">§8</a>;
+or for expressing meta-metadata, as discussed in <a
+href="faq--general_questions_and_smaller_modelling_questions.html#do-you-have-examples-illustrating-chapter-6-of-ric-cm">§6a.3.4</a>.</p>
+<p>Here, though, we will focus upon using Activity to describe archival
+and records management processes. <a href="#digitization">First</a> we
+will discuss digitization, and <a
+href="#appraisal-and-disposition">then</a> appraisal and disposition.
+When it comes to the use of the Activity entity, the same modelling
+pattern will be used in both cases; it generalizes to many other kinds
+of processes. Other aspects of the modelling may be of independent
+interest.</p>
+<p>Much of the discussion, especially the core aspect of how the
+Activity entity is used, is appropriate for a beginner in RiC who has
+acquired a little experience. Certain aspects are a little more
+advanced.</p>
+<h2 data-number="6d.2" id="digitization"><span
+class="header-section-number">6d.2</span> Digitizatio<span class="end-of-section-heading">n<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>As we did in <a
+href="faq--record_or_record_set.html#parish-registers">§6b.3</a>, let us
+consider a parish register for Bratsberg Church between 1938 and 1952.
+For an example of how it looks, see for instance the <a
+href="https://media.digitalarkivet.no/view/39552/50">page for deaths in
+1939 and 1940</a>.</p>
+<p>This parish register was scanned in 2005 by the Regional State
+Archives in Trondheim, a sub-entity within the National Archives of
+Norway. We might model this as follows, incorporating some context. At
+its heart is the way in which the Activity entity and the relations
+<em>affects or affected</em>, <em>results or resulted in</em>,
+<em>occurred at date</em>, and <em>is or was performed by</em> are
+used.</p>
+<p><a href="diagrams/digitization.svg"><img
+src="diagrams/digitization.svg" alt="Digitization" /></a></p>
+<p>Some notes on the modelling:</p>
+<ol type="1">
+<li><p>As discussed <a
+href="faq--record_or_record_set.html#parish-registers">§6b.3</a>, we
+might model the parish register as a Record or a Record Set depending on
+the context; we have chosen Record here.</p></li>
+<li><p>The Rule brought into the modelling concerning blocking of pages
+has been applied to all pages to do with births in the digitization, as
+can be <a href="https://media.digitalarkivet.no/view/39552/6">seen</a>
+in the early parts of the parish register.</p></li>
+<li><p>For why digitization is regarded as an Activity pertaining to an
+Instantiation as oppposed to a Record Resource, see the discussion in <a
+href="faq--the_instantiation_entity.html#do-i-have-an-instantiation-or-a-record-resource">§6c.2</a>:
+the intellectual aspect of the Record Resource — the information it
+holds — is essentially unaltered; digitization takes one inscription of
+that information to another. From a more functional point of view, a
+digitization may make a Record Resource more widely available — online,
+or via another electronic channel — or it may contribute to more robust
+preservation of it; but, in the first instance at least, this again has
+to do with how concrete inscriptions of the information held in a Record
+Resource are used, without affecting that information itself.</p></li>
+<li><p>We refer to <a
+href="faq--general_questions_and_smaller_modelling_questions.html#can-you-elaborate-upon-the-difference-between-activity-and-event">§6a.3.3</a>
+for more on why Activity and not Event is used in all three cases in the
+modelling, including the one-off Activity of the digitization of this
+particular parish register: the degree of time that an Activity lasts is
+not so important in this regard, rather…</p>
+<blockquote>
+<p>An Activity is an agent designed and performed event that has an
+intended purpose or purposes.</p>
+</blockquote>
+<p>…which applies here.</p></li>
+<li><p>In RiC-O, one has <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#hasOrHadAnalogueInstantiation">rico:hasOrHadAnalogueInstantiation</a>
+and <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#hasOrHadDigitalInstantiation">rico:hasOrHadDigitalInstantiation</a>
+available as refinements of <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#hasOrHadInstantiation">rico:hasOrHadInstantiation</a>;
+these would complement nicely the use of the Representation Type
+attribute in the modelling.</p></li>
+<li><p>Digitization could of course also apply e.g. to audio material;
+the noting of the Carrier Type and Representation Type of an
+Instantation as in the modelling, in addition to the inclusion of
+scanning as a specific form of digitization, allows for deducing which
+kind of digitization is meant in this case — even by a machine.</p></li>
+<li><p>The ‘Digitization’ and ‘Scanning’ Activities serve a slightly
+different purpose to the ‘Scanning’ Activity Type in the model. As is
+discussed in more depth in <a
+href="faq--how_to_use_ric_with_vocabularies.html">§6f</a>, a primary
+purpose of Activity Type and similar attributes in RiC is categorization
+— this facilitating simple querying, for instance — often making use of
+a standardized vocabulary. To this end, as in the other cases, Activity
+Type is defined in RiC-CM to be non-repeatable, with the expectation
+that the narrowest available categorization is used, as in the
+diagram.</p>
+<p>The inclusion of the ‘Digitization’ and the ‘Scanning’ Activities, on
+the other hand, permits us to express the nuance that the one is a
+special case of the other, but more significantly allows us to connect
+the digitization of the parish register to a much broader context: all
+kinds of relations and attributes might have their source in either the
+Digitization or the Scanning Activity.</p></li>
+</ol>
+<p>If the digitized instantiation in this example were, say, in such a
+format as to allow for annotating, and if it were indeed to be
+annotated, it might in the end, as per the discussion in <a
+href="faq--the_instantiation_entity.html#when-does-a-derived-instantiation-represent-a-new-record">§6c.3</a>,
+be judged an Instantiation of a new Record. We might model this as
+follows.</p>
+<p><a href="diagrams/digitization--new_record.svg"><img
+src="diagrams/digitization--new_record.svg"
+alt="Digitization resulting in new record" /></a></p>
+<p>On a different note, as it happens, all of the parish registers for
+Bratsberg Church up to 1961 have been digitized. We could model this as
+follows, regarding all of these parish registers as aggregating into a
+Record Set. The only change from the case of a single register is that
+the Date Entity is now a period of time (one could make use of the Date
+Type attribute to emphasize this if one wished).</p>
+<p><a href="diagrams/digitization--record_set.svg"><img
+src="diagrams/digitization--record_set.svg"
+alt="Digitization record set" /></a></p>
+<p>The modelling of the single parish register with which we began fits
+into the above as follows.</p>
+<p><a
+href="diagrams/digitization--record_set--including_record.svg"><img
+src="diagrams/digitization--record_set--including_record.svg"
+alt="Digitization record set including record" /></a></p>
+<h2 data-number="6d.3" id="appraisal-and-disposition"><span
+class="header-section-number">6d.3</span> Appraisal and dispositio<span class="end-of-section-heading">n<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>We turn to an <a
+href="https://groups.google.com/g/records_in_contexts_users/c/X9KYzx45kZE/m/_Nx6CpsuBQAJ">example</a>
+from the RiC mailing list, discussing appraisal by a records management
+organization in Flanders of a series which we denote by R. One outcome
+of the appraisal is the decision to destroy, ten years later (say), a
+file within the series, which we denote by F. R has an entry in a
+government register, and the outcomes of the appraisal of R, including
+the disposition of F, are required by law to be logged in this
+register.</p>
+<p>The register log indicating that F is to be destroyed can be regarded
+as providing a mandate for that destruction. It so happens in this case
+that the same records management organization that conducted the
+appraisal is also likely to carry out the disposition when the time
+comes. A description in RiC of all of this might look as follows.</p>
+<p><a href="diagrams/appraisal.svg"><img src="diagrams/appraisal.svg"
+alt="Appraisal" /></a></p>
+<p>Some notes on the modelling:</p>
+<ol type="1">
+<li>The key aspect is the way in which appraisal of R is formulated as
+an Activity in conjunction with the relations <em>is or was affected
+by</em>, <em>results or resulted in</em>, and <em>performs or
+performed</em>, entirely analogously to in the approach to digitization
+above.</li>
+<li>We have chosen to model the government register as a Record Set, and
+the entry for R in the register as a Record. This is because, in the
+context we are exploring, the emphasis is upon R rather than upon the
+register as a record of appraisals in Flanders; see <a
+href="faq--record_or_record_set.html">§6b</a> for detailed discussion of
+this kind of judgement.</li>
+<li>RiC-O includes the object property <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#hasDestructionDate">rico:hasDestructionDate</a>;
+if one is using RiC-O, this would be a bit more precise than <em>is date
+associated with</em>.</li>
+<li>There is nothing in RiC that prevents referring to dates in the
+future, despite the verb tense of some relations. These may be changed
+in future versions of RiC, with steps towards this having already been
+taken in the latest version (1.1) of RiC-O.</li>
+<li>Similarly to in the digitization example, we might have asserted
+that the Activity ‘Appraisal of R’ has Activity Type ‘Appraisal’; but
+viewing it as a sub-event of ‘Appraisal’ as a general Activity is useful
+here, allowing for a bridge to be built via a Rule to the logging of the
+outcomes of the appraisal in the government register.</li>
+</ol>
+<footer>
+<div class="page-footer">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--the_instantiation_entity.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6c." title="Section 6c."></a></span>
+<span class="header-previous"><a href="faq--the_instantiation_entity.html">6c.</a> <span class="header-previous-title"><a href="faq--the_instantiation_entity.html" class="header">FAQ
+— The Instantiation entity</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--sequences.html">6e.</a> <span class="header-next-title"><a href="faq--sequences.html" class="header">FAQ
+— Sequences</a></span></span>
+<span class="header-right-arrow"><a href="faq--sequences.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6e." title="Section 6e."></a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

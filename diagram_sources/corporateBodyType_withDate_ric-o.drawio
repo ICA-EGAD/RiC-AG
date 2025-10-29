@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2025-10-13T18:15:59.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="4uEY6-tNlVfDW904gqET" version="24.5.1" type="device">
+  <diagram name="Page-1" id="1JxPmDrOZ6C-Ugt2GIDU">
+    <mxGraphModel dx="1276" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-3" value="&lt;span style=&quot;line-height: 115%; font-family: Helvetica, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Archives nationales de France&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="80" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-4" value="rico:CorporateBody" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8VdEKnk1jZlLYVMc5YEI-3" vertex="1">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-5" value="service with national competence" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="280" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-6" value="rico:CorporateBodyType, skos:Concept" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8VdEKnk1jZlLYVMc5YEI-5" vertex="1">
+          <mxGeometry y="26" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="8VdEKnk1jZlLYVMc5YEI-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="134" as="sourcePoint" />
+            <mxPoint x="973" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-21" value="rico:hasOrHadCorporateBodyType" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-20" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-13" value="The AnF vocabulary on corporate body types" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="430" width="250" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-14" value="&lt;div&gt;skos:ConceptScheme&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-13" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.531;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.577;exitY=1.15;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8VdEKnk1jZlLYVMc5YEI-6" target="nHtug_AuCQl4-Nsb1y1J-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="330" as="sourcePoint" />
+            <mxPoint x="370" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-16" value="skos:inScheme" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nHtug_AuCQl4-Nsb1y1J-15" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-6" value="A documented categorization relation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="210" height="52" as="geometry">
+            <mxRectangle x="981" y="570" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-8" value="2006, December 24" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="560" y="490" width="170" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.932;entryY=1.2;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="pRkFn8fLbrwOyceERFAQ-7" target="8VdEKnk1jZlLYVMc5YEI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="460" as="sourcePoint" />
+            <mxPoint x="574" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-10" value="rico:relationHasSource" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="pRkFn8fLbrwOyceERFAQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.947;exitY=1.123;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.39;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8VdEKnk1jZlLYVMc5YEI-4" target="pRkFn8fLbrwOyceERFAQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="284" as="sourcePoint" />
+            <mxPoint x="790" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-14" value="rico:thingIsTargetOfRelation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="pRkFn8fLbrwOyceERFAQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.036;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.647;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pRkFn8fLbrwOyceERFAQ-7" target="pRkFn8fLbrwOyceERFAQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="399" as="sourcePoint" />
+            <mxPoint x="650" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="671" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-16" value="rico:beginningDate" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="pRkFn8fLbrwOyceERFAQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pRkFn8fLbrwOyceERFAQ-7" value="rico:TypeRelation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="376" width="210" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

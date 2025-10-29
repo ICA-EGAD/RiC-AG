@@ -1,0 +1,287 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="3AHjamHM2uGK3xO2TBnt">
+    <mxGraphModel dx="1024" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-3" value="&lt;span style=&quot;color: rgb(32, 32, 32); font-family: Arial, Helvetica, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Cervantes&#39; memorial on the printing of El Quijote&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="599" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-4" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-3" vertex="1">
+          <mxGeometry y="26" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.015;exitY=-0.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-4" target="KIXE_TsKrN7_V5I0v-MR-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="562.0700000000002" as="sourcePoint" />
+            <mxPoint x="1800" y="653.0700000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-6" value="has author" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KIXE_TsKrN7_V5I0v-MR-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-7" value="Miguel de Cervantes Saavedra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2190" y="597.0000000000002" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-8" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-7" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.476;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.449;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-3" target="KIXE_TsKrN7_V5I0v-MR-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1903" y="590" as="sourcePoint" />
+            <mxPoint x="2250" y="531.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-32" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KIXE_TsKrN7_V5I0v-MR-31" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-33" value="Report in favour of the printing of El Quijote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="450" width="280" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-34" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-33" vertex="1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-33" target="KIXE_TsKrN7_V5I0v-MR-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2454" y="556.0700000000002" as="sourcePoint" />
+            <mxPoint x="2450" y="647.0700000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-38" value="has author" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KIXE_TsKrN7_V5I0v-MR-37" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-39" value="Antonio de Herrera y Tordesillas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="450.00000000000017" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-40" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-39" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1.014;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-15" target="KIXE_TsKrN7_V5I0v-MR-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="1026" as="sourcePoint" />
+            <mxPoint x="1150" y="1016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-48" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KIXE_TsKrN7_V5I0v-MR-47" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-49" value="National Historical Archives" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="780" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-50" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-49" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-15" target="KIXE_TsKrN7_V5I0v-MR-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1188.3400000000001" y="1292.3600000000001" as="sourcePoint" />
+            <mxPoint x="1032.3400000000001" y="1312.3600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-52" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="KIXE_TsKrN7_V5I0v-MR-51" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-53" value="Period of extraction for conservation reasons of records from the collections of the Councils" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="780" width="270" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KIXE_TsKrN7_V5I0v-MR-54" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KIXE_TsKrN7_V5I0v-MR-53" vertex="1">
+          <mxGeometry y="40" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-1" value="Records of the escribanías (notaries) of the Council of Castile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="590" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-2" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DvZySXc-UM1LbdX2JnYo-1" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DvZySXc-UM1LbdX2JnYo-2" target="KIXE_TsKrN7_V5I0v-MR-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="760" as="sourcePoint" />
+            <mxPoint x="1430" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-5" value="has or had holder" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="DvZySXc-UM1LbdX2JnYo-4" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1634.5800000000004" y="1187.662" as="sourcePoint" />
+            <mxPoint x="1630" y="803" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-17" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="DvZySXc-UM1LbdX2JnYo-16" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvZySXc-UM1LbdX2JnYo-30" value="" style="endArrow=classic;html=1;rounded=0;curved=0;entryX=1.014;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-9" target="KIXE_TsKrN7_V5I0v-MR-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="790" as="sourcePoint" />
+            <mxPoint x="980" y="821.4239999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-27" value="is or was perfomed by" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DvZySXc-UM1LbdX2JnYo-30" vertex="1" connectable="0">
+          <mxGeometry x="0.082" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvZySXc-UM1LbdX2JnYo-1" target="yF71AXkjC2v1el_h7eYI-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1244" y="570" as="sourcePoint" />
+            <mxPoint x="1150" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-2" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-3" value="Archivo Antiguo de Consejo. Consultas y Decretos (Ancient Archive of the Council. Consultations and Decrees)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="590" width="340" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-4" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-3" vertex="1">
+          <mxGeometry y="40" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-9" value="Extraction of records for conservation reasons" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="770" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-10" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-9" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-15" value="Colección de pergaminos y documentos de Consejos (Collection of parchments and documents of the Councils)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1148" y="950" width="350" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-16" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-15" vertex="1">
+          <mxGeometry y="40" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.475;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-10" target="yF71AXkjC2v1el_h7eYI-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="870" as="sourcePoint" />
+            <mxPoint x="1290" y="943" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-18" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-17" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.005;entryY=1.154;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-9" target="DvZySXc-UM1LbdX2JnYo-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080.34" y="712.6800000000001" as="sourcePoint" />
+            <mxPoint x="1210" y="739.3199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-20" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-19" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-21" value="Council of Castile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="440" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-22" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-21" vertex="1">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.59;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DvZySXc-UM1LbdX2JnYo-1" target="yF71AXkjC2v1el_h7eYI-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="691.22" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="681.7819999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-24" value="has creator" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-23" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.563;entryY=1.19;entryDx=0;entryDy=0;exitX=-0.009;exitY=0.019;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-16" target="KIXE_TsKrN7_V5I0v-MR-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="666" as="sourcePoint" />
+            <mxPoint x="830" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-26" value="has or had holder" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-25" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-28" value="Compound record unit related to the license application and printing privilege of El Quijote, by Miguel de Cervantes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="790" width="320" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-29" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-28" vertex="1">
+          <mxGeometry y="40" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.388;exitY=1.131;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-54" target="yF71AXkjC2v1el_h7eYI-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="850" as="sourcePoint" />
+            <mxPoint x="1690" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-31" value="normalized date value" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-30" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-32" value="198X/.." style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="945" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-53" target="yF71AXkjC2v1el_h7eYI-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="950" as="sourcePoint" />
+            <mxPoint x="1860" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-34" value="expressed date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-33" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-36" value="From the 1980s onwards" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="945" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-37" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0.785;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-16" target="yF71AXkjC2v1el_h7eYI-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="1050" as="sourcePoint" />
+            <mxPoint x="1728" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1930" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-38" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-37" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7" y="-126" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=-0.174;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="KIXE_TsKrN7_V5I0v-MR-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="622.41" as="sourcePoint" />
+            <mxPoint x="1730" y="622.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-40" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-39" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.116;exitY=-0.045;exitDx=0;exitDy=0;entryX=0.567;entryY=1.136;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="yF71AXkjC2v1el_h7eYI-28" target="KIXE_TsKrN7_V5I0v-MR-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="632.41" as="sourcePoint" />
+            <mxPoint x="1760" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-43" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-42" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1.016;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=gap;jumpSize=26;curved=1;" parent="1" source="yF71AXkjC2v1el_h7eYI-28" target="KIXE_TsKrN7_V5I0v-MR-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2277" y="790" as="sourcePoint" />
+            <mxPoint x="2080" y="653" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2740" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-45" value="includes or included" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-44" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-141" y="79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-46" value="Cronista Mayor de Castilla (Principal Chronicler of Castile)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="310" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-47" value="Position" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yF71AXkjC2v1el_h7eYI-46" vertex="1">
+          <mxGeometry y="40" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.013;entryY=-0.125;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KIXE_TsKrN7_V5I0v-MR-39" target="yF71AXkjC2v1el_h7eYI-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="530" as="sourcePoint" />
+            <mxPoint x="1370" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yF71AXkjC2v1el_h7eYI-49" value="occupies or occupied" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="yF71AXkjC2v1el_h7eYI-48" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

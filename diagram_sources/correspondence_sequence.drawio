@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5615.213 Safari/537.36" version="26.0.14">
+  <diagram name="Page-1" id="3I6mRa5P5nZsIQNZ7VRq">
+    <mxGraphModel dx="1118" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-1" value="Inquiry by a citizen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="260" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-1" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="i-SSKv4laA4iEFBlzxF1-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="285.5" as="sourcePoint" />
+            <mxPoint x="360" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-4" value="precedes or preceded" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="i-SSKv4laA4iEFBlzxF1-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-5" value="Reply by official body" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="260" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-6" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-5" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-7" value="Response to official body&#39;s reply by citizen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="260" width="260" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-8" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-7" vertex="1">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.007;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="i-SSKv4laA4iEFBlzxF1-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="285.5" as="sourcePoint" />
+            <mxPoint x="710" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-10" value="precedes or preceded" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="i-SSKv4laA4iEFBlzxF1-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-11" value="Reply by official body to citizen&#39;s response" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="260" width="250" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-12" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-11" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.004;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="i-SSKv4laA4iEFBlzxF1-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="286" as="sourcePoint" />
+            <mxPoint x="1132" y="287.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-14" value="precedes or preceded" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="i-SSKv4laA4iEFBlzxF1-13" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

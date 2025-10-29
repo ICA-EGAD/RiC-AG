@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — General questions and smaller modelling questions</title>
+  <link rel="stylesheet" href="application_guidelines.css">
+</head>
+<body>
+<header>
+<div class="page-header">
+<div class="header-left">
+<span class="header-left-arrow"><a href="mappings.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 5." title="Section 5."></a></span>
+<span class="header-previous"><a href="mappings.html">5.</a> <span class="header-previous-title"><a href="mappings.html" class="header">Mappings</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--record_or_record_set.html">6b.</a> <span class="header-next-title"><a href="faq--record_or_record_set.html" class="header">FAQ
+— Record or Record Set?</a></span></span>
+<span class="header-right-arrow"><a href="faq--record_or_record_set.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6b." title="Section 6b."></a></span>
+</div>
+</div>
+</header>
+<h1 class="title">6a. FAQ — General questions and smaller modelling
+questions</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#what-is-this-part-about"
+id="toc-what-is-this-part-about"><span
+class="toc-section-number">6a.1</span> What is this part about?</a></li>
+<li><a href="#general-questions" id="toc-general-questions"><span
+class="toc-section-number">6a.2</span> General questions</a>
+<ul>
+<li><a href="#is-ric-an-officially-recommended-standard"
+id="toc-is-ric-an-officially-recommended-standard"><span
+class="toc-section-number">6a.2.1</span> Is RiC an officially recommended
+standard?</a></li>
+<li><a href="#what-is-the-relationship-between-ric-o-and-ric-cm"
+id="toc-what-is-the-relationship-between-ric-o-and-ric-cm"><span
+class="toc-section-number">6a.2.2</span> What is the relationship between
+RiC-O and RiC-CM?</a></li>
+<li><a
+href="#is-it-correct-to-describe-ric-as-a-standard-for-the-description-of-records"
+id="toc-is-it-correct-to-describe-ric-as-a-standard-for-the-description-of-records"><span
+class="toc-section-number">6a.2.3</span> Is it correct to describe RiC as
+a standard for the description of records?</a></li>
+<li><a
+href="#is-ric-intended-for-records-managers-as-well-as-archivists"
+id="toc-is-ric-intended-for-records-managers-as-well-as-archivists"><span
+class="toc-section-number">6a.2.4</span> Is RiC intended for records
+managers as well as archivists?</a></li>
+<li><a href="#will-an-analogue-of-the-tool-atom-be-developed-for-ric"
+id="toc-will-an-analogue-of-the-tool-atom-be-developed-for-ric"><span
+class="toc-section-number">6a.2.5</span> Will an analogue of the tool
+Atom be developed for RiC?</a></li>
+</ul></li>
+<li><a href="#smaller-modelling-questions"
+id="toc-smaller-modelling-questions"><span
+class="toc-section-number">6a.3</span> Smaller modelling questions</a>
+<ul>
+<li><a href="#is-describing-the-content-of-a-record-within-rics-domain"
+id="toc-is-describing-the-content-of-a-record-within-rics-domain"><span
+class="toc-section-number">6a.3.1</span> Is describing the content of a
+Record within RiC’s domain?</a></li>
+<li><a
+href="#are-activity-and-event-central-entities-in-ric-how-about-rule-and-place"
+id="toc-are-activity-and-event-central-entities-in-ric-how-about-rule-and-place"><span
+class="toc-section-number">6a.3.2</span> Are Activity and Event central
+entities in RiC? How about Rule and Place?</a></li>
+<li><a
+href="#can-you-elaborate-upon-the-difference-between-activity-and-event"
+id="toc-can-you-elaborate-upon-the-difference-between-activity-and-event"><span
+class="toc-section-number">6a.3.3</span> Can you elaborate upon the
+difference between Activity and Event?</a></li>
+<li><a href="#do-you-have-examples-illustrating-chapter-6-of-ric-cm"
+id="toc-do-you-have-examples-illustrating-chapter-6-of-ric-cm"><span
+class="toc-section-number">6a.3.4</span> Do you have examples
+illustrating Chapter 6 of RiC-CM?</a></li>
+<li><a
+href="#my-archival-institution-holds-fragments-of-medieval-documents-how-might-ric-model-this"
+id="toc-my-archival-institution-holds-fragments-of-medieval-documents-how-might-ric-model-this"><span
+class="toc-section-number">6a.3.5</span> My archival institution holds
+fragments of medieval documents, how might RiC model this?</a></li>
+</ul></li>
+</ul>
+</div>
+<h2 data-number="6a.1" id="what-is-this-part-about"><span
+class="header-section-number">6a.1</span> What is this part about<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>This part of the Application Guidelines has several sub-parts. We
+begin in <a
+href="faq--general_questions_and_smaller_modelling_questions.html">§6a</a>
+on this page with some frequently asked questions about RiC in general,
+before turning to some smaller modelling questions concerning RiC. In
+the following sub-parts, <a
+href="faq--record_or_record_set.html">§6b</a>, <a
+href="faq--the_instantiation_entity.html">§6c</a>, <a
+href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html">§6d</a>,
+and <a href="faq--sequences.html">§6e</a>, we discuss further modelling
+questions in quite some detail. The final two sub-parts give an
+introduction to using vocabularies with RiC (<a
+href="faq--how_to_use_ric_with_vocabularies.html">§6f</a>) and extending
+RiC (<a href="faq--how_to_extend_ric.html">§6g</a>).</p>
+<p>An introduction to concepts in RiC was given in <a
+href="getting_started_with_ric.html">§2</a>; the answers given here are
+intended to complement this and RiC-CM, offering further guidance. We
+bring up subtleties and nuances which often arise upon taking RiC into
+use in earnest. All of the entities in RiC-CM, and a large percentage of
+the attributes and relations, are covered either on one of the pages of
+the FAQ or in <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html">§8</a>.</p>
+<p>We encourage the modelling examples to be explored in a spirit of
+reflection, to be dipped in and out of: more important than the concrete
+details is the philosophy of the modelling, how the examples are
+approached. How might you approach your own examples in a similar
+way?</p>
+<p>If at any point you feel overwhelmed, don’t forget that although the
+aim in some of these FAQs, as well as in <a
+href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html">§7</a>
+and in <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html">§8</a>,
+is to really get to the heart of what RiC can do, RiC fully allows for
+more traditional methodologies to be translated into it, as discussed in
+<a href="getting_started_with_ric.html">§2</a> and comprehensively
+described in <a href="mappings.html">§5</a>.</p>
+<h2 data-number="6a.2" id="general-questions"><span
+class="header-section-number">6a.2</span> General question<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<h3 data-number="6a.2.1"
+id="is-ric-an-officially-recommended-standard"><span
+class="header-section-number">6a.2.1</span> Is RiC an officially
+recommended standard?</h3>
+<p>Yes, the International Council on Archives has officially recommended
+RiC as a replacement for ISAD(G), ISAAR(CPF), ISDF, and ISDIAH since the
+release of v1 in 2023. See <a
+href="combining_ric_with_other_standards.html#the-ica-standards-ric-replaces">§4.2</a>
+for a discussion of the relationship between these four standards and
+RiC.</p>
+<h3 data-number="6a.2.2"
+id="what-is-the-relationship-between-ric-o-and-ric-cm"><span
+class="header-section-number">6a.2.2</span> What is the relationship
+between RiC-O and RiC-CM?</h3>
+<p><a
+href="https://www.ica.org/resource/records-in-contexts-conceptual-model/">RiC-CM</a>
+is the primary definition of Records in Contexts. It is itself what one
+might call semi-formal: some further choices are necessary to arrive at
+something fully formal, for instance something which a machine can
+understand and which software applications can be built upon. <a
+href="https://www.ica.org/resource/records-in-contexts-ontology/">RiC-O</a>
+is such a formalisation. It is an <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html">ontology</a>: a
+formal definition of semantics, in a language, <a
+href="https://en.wikipedia.org/wiki/Web_Ontology_Language">OWL</a>, made
+for this purpose.</p>
+<p>In addition, whilst formally transposing the entities, relations, and
+attributes of RiC-CM to OWL classes, object properties, and datatype
+properties, RiC-O expands RiC by adding more of these, allowing for
+greater nuance, and the precise expression of aspects of archival and
+records management practice which have not yet made it into RiC-CM. See
+the <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#understanding-RiCO">introduction
+to RiC-O</a> for a detailed overview. New versions of RiC-O are released
+fairly frequently, driven by the suggestions and requests of users.
+Innovations in RiC-O will likely be incorporated into future versions of
+RiC-CM.</p>
+<p>One can certainly, though, take RiC into use without RiC-O. On the
+one hand, RiC-CM can be useful as a tool for an archivist/records
+manager even without supporting software — stimulating reflection upon
+internal practices, for instance. On the other, as touched upon in <a
+href="implementation_strategies.html#introduce-ric-in-your-software">§3.8</a>
+and <a
+href="combining_ric_with_other_standards.html#ric-o-versus-eadeac-cpf">§4.4</a>,
+other formalisations of RiC-CM than RiC-O should be possible.</p>
+<h3 data-number="6a.2.3"
+id="is-it-correct-to-describe-ric-as-a-standard-for-the-description-of-records"><span
+class="header-section-number">6a.2.3</span> Is it correct to describe RiC
+as a standard for the description of records?</h3>
+<p>RiC can definitely be regarded as a standard for the description of
+records. However, it might be most accurate to say that RiC provides a
+semantics — semi-formal in the case of RiC-CM, formal in the case of
+RiC-O — for archival and records management practice. It is reflecting
+upon, and seeking to represent the needs and nuances of, this practice
+that has driven the development of RiC. RiC’s semantics might inform and
+find use in diverse aspects of archival and records management, not only
+description. In addition, the fact, touched upon in <a
+href="implementation_strategies.html#other-kinds-of-cultural-heritage-objects">§4.8</a>
+and <a href="faq--record_or_record_set.html#record-part">§6b.2.4</a>,
+that RiC allows for and encourages bridges to other domains — examples
+are given in <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html#broader-cultural-heritage-aspects">§8.8</a>
+and <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html#beyond-the-traditional-archival-context">§8.10</a>
+— may open the door to other kinds of utilization than description as
+conventionally understood.</p>
+<h3 data-number="6a.2.4"
+id="is-ric-intended-for-records-managers-as-well-as-archivists"><span
+class="header-section-number">6a.2.4</span> Is RiC intended for records
+managers as well as archivists?</h3>
+<p>Yes! RiC is Record-centric, and is intended to provide a semantics
+for the entire life of a Record. As discussed in <a
+href="combining_ric_with_other_standards.html#records-management">§4.3</a>,
+the standard ISO 23081 is the canonical reference for records
+management, but RiC is much closer to it than earlier standards, and a
+revision of ISO 23081 is planned which will take RiC into account. By
+embracing use of RiC’s Activity entity, one should be able to model most
+aspects of records management; see <a
+href="#are-activity-and-event-central-entities-in-ric-how-about-rule-and-place">below</a>
+and <a
+href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html">§6d</a>
+for more on this, and <a href="faq--sequences.html">§6e</a> for a
+particularly relevant part of the Application Guidelines. Specific
+semantics are available for many aspects of records management, all the
+more so in RiC-O. EGAD is is open to adding more in future versions of
+RiC, according to the needs and requests of users.</p>
+<h3 data-number="6a.2.5"
+id="will-an-analogue-of-the-tool-atom-be-developed-for-ric"><span
+class="header-section-number">6a.2.5</span> Will an analogue of the tool
+Atom be developed for RiC?</h3>
+<p>The development of software to support working with RiC is beyond the
+direct scope of EGAD itself, though we are actively working to support
+initiatives in this direction. Atom too was developed outside of the
+committee responsible for ISAD(G) and its companion standards. It takes
+time for the influence of new standards to be felt, and EGAD has a firm
+belief that software with comprehensive support for RiC will arrive in
+due course — some already exists commercially, whilst freely available
+tools are beginning to be developed. Keep an eye on the RiC <a
+href="https://ica-egad.github.io/RiC-ResourceList/">Resource List</a>,
+which is intended, amongst other things, to serve as a hub for
+developments in this area.</p>
+<p>A technical barrier — not necessarily insurmountable — to simply
+further developing Atom to support RiC is that natural data formats for
+RiC, such as RDF, OWL and variants, are not necessarily immediately
+well-suited to the relational database infrastructure underlying Atom;
+see <a
+href="implementation_strategies.html#map-your-legacy-data-to-ric">§3.6</a>
+and <a
+href="implementation_strategies.html#introduce-ric-in-your-software">§3.8</a>
+for a little more on this. There are also funding obstacles.</p>
+<p>Modern software usually is built around APIs for programmatic
+handling of data. It is possible that providing such APIs for use with
+RiC might be more appropriate and fruitful in today’s open-source
+ecosystem than development of a full-scale application akin to Atom. At
+minimum, though, it will be necessary construct tools for translating
+data in Atom databases to RiC.</p>
+<h2 data-number="6a.3" id="smaller-modelling-questions"><span
+class="header-section-number">6a.3</span> Smaller modelling
+question<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<h3 data-number="6a.3.1"
+id="is-describing-the-content-of-a-record-within-rics-domain"><span
+class="header-section-number">6a.3.1</span> Is describing the content of
+a Record within RiC’s domain?</h3>
+<p>The tasks of archivists and records managers might be said to
+primarily concern the handling of records — with its many facets —
+rather than detailed interaction with the contents of those records,
+this being carried out by users of records. Nevertheless, there is far
+from a complete divide.</p>
+<p>Firstly, modelling content in a structured way enriches the
+description of a record, placing it into a richer context, this
+facilitating its discovery; broadening the understanding of its
+provenance; and opening the door to any number of connections between
+fields, serendipitous or sought after. RiC-CM includes various
+attributes and relations to this end, the Scope and content attribute
+and <em>has or had subject</em> relation, for instance; whilst RiC-O
+also includes for example <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#hasContentWhichRepresents">rico:hasContentWhichRepresents</a>
+and <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#sentimentOrEmotionExpressed">rico:sentimentOrEmotionExpressed</a>,
+with further developments likely. In addition, RiC fully allows for
+other standards to take over at the boundaries of RiC, as we discussed
+<a
+href="is-it-correct-to-describe-ric-as-a-standard-for-the-description-of-records">above</a>.</p>
+<p>Secondly, certain aspects of a record’s content can be of importance
+for the handling of a record. If, for instance, a record’s content is
+deemed sensitive, offensive, or inappropriate in any other way, one
+might make use of a Rule to express this as suggested below; the
+releavant content of the Record is not modelled explicitly, only
+referred to in free-text, although one could certainly do this using
+Record Part.</p>
+<p><a href="diagrams/record_with_sensitive_content.svg"><img
+src="diagrams/record_with_sensitive_content.svg"
+alt="Record with sensitive content" /></a></p>
+<p>As an aside, whilst the History attribute is used in the modelling
+above for simplicity, one might model this kind of meta-metadata,
+i.e. the reason something appears in a description, using — as suggested
+in Chapter 6 of RiC-CM and discussed in more detail <a
+href="do-you-have-examples-illustrating-chapter-6-of-ric-cm">below</a> —
+a Record, the content of which might be along the lines of the History
+attribute above, but which would in addition facilitate expressing in a
+structured way who made the judgement of offensiveness, when it was
+made, and so on.</p>
+<p><a
+href="diagrams/record_with_sensitive_content_more_structured.svg"><img
+src="diagrams/record_with_sensitive_content_more_structured.svg"
+alt="Record with sensitive content, more structured" /></a></p>
+<h3 data-number="6a.3.2"
+id="are-activity-and-event-central-entities-in-ric-how-about-rule-and-place"><span
+class="header-section-number">6a.3.2</span> Are Activity and Event
+central entities in RiC? How about Rule and Place?</h3>
+<p>In short: yes, they are all regarded as central entities! Earlier
+standards including entities somewhat akin Activity, such as ISDF, have
+not been broadly adopted, although activities themselves are implicit
+all function-based classification schemes, which are widespread. The
+scope of Activity is much broader in RiC than in these previous
+standards, though: it may be used to refer to archival practices and
+processes; it may be used to indicate functional provenance; or it may
+be used to refer to external happenings of relevance to the archival
+context. See the introduction to <a
+href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html">§6d</a>
+for links to examples of all of these kinds of usage in the Application
+Guidelines. In many ways, Activity and Event might be said to be the
+glue that makes RiC what it is, when it is fully embraced.</p>
+<p>This is of course not to say that you cannot express what you want in
+RiC without Activity or Event; you certainly can! See <a
+href="getting_started_with_ric.html">§2</a> for a typical example in
+which Activity or Event are hardly present; migrations from ISAD(G) or
+other earlier standards along the lines suggested in <a
+href="mappings.html">§5</a> may well not use Activity or Event to begin
+with. It is more when the philosophy of RiC has begun to impress itself
+upon one that Activity or Event will likely enter the stage!</p>
+<p>The Rule and Mandate entities, if perhaps not quite as widely
+applicable as Activity or Event, can also be made use of in all kinds of
+archival and records management settings, those pertaining to conditions
+of access for instance. In addition, of course, external laws,
+regulations, and societal mores frequently are important aspects of the
+context of a Record Resource. See <a
+href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html#appraisal-and-disposition">§6d.3</a>
+for an example where the Rule and Mandate entities are fundamental to
+the context.</p>
+<p>The Place entity often plays an important role in binding together
+aspects of context: see <a
+href="record_or_record_set.html#invasion-of-norway-in-1940">§6b.4.2</a>
+and <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html">§8</a>
+for example. RiC sees Places as having a dynamic, geopolitical
+character; their changes through time can be a significant and
+enlightenting, if non-traditional, perspective from which to approach
+records.</p>
+<h3 data-number="6a.3.3"
+id="can-you-elaborate-upon-the-difference-between-activity-and-event"><span
+class="header-section-number">6a.3.3</span> Can you elaborate upon the
+difference between Activity and Event?</h3>
+<p>In RiC, an Activity is a special case of an Event. As an initial
+guide, it is quite likely that you have an Activity, and that this
+should be used. It is easy to be a little tricked by ordinary language,
+coming to a quick conclusion that something might be more of a one-off
+event than an activity, but RiC-CM stresses that an Event might very
+well be a continuous endeavour that lasts a period of time. The key
+sentence in RiC-CM, in §2.2.4, is that an Activity is:</p>
+<blockquote>
+<p>an agent-designed and performed event that has an intended purpose or
+purposes.</p>
+</blockquote>
+<p>Almost any aspect of archival and records management practice —
+digitization, accrual, appraisal, description, curation, and so on —
+will likely fall under this.</p>
+<p>A typical use of an Event which is not an Activity would be in
+connection with <em>is associated with event</em>, <em>has or had
+subject</em>, or <em>has or had main subject</em>, namely relating a
+Record or Record Set to a certain moment of history, seen in our context
+as an abstract point of reference, i.e. we disregard its performance and
+purpose; <a
+href="https://discover.york.ac.uk/collections/halifax-diaries/?m=2&amp;cv=42">Lord
+Halifax’s diaries</a> might be said relate to the Event of the Second
+World War, without being regarded as documenting it as such — an
+Activity which they document is Lord Halifax’s carrying out of his
+governmental and private duties. Such Events are very useful for placing
+a Record Resource in a rich thematic context, facilitating for instance
+their discovery. Further examples of the Event vs Activity distinction
+are given in <a
+href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html#incorporating-map-data-into-a-sámi-context">§7.4</a>
+and <a href="faq--record_or_record_set.html#minute-books">§6b.4</a>.</p>
+<h3 data-number="6a.3.4"
+id="do-you-have-examples-illustrating-chapter-6-of-ric-cm"><span
+class="header-section-number">6a.3.4</span> Do you have examples
+illustrating Chapter 6 of RiC-CM?</h3>
+<p>The focus of Chapter 6 in RiC-CM is upon meta-metadata, the principal
+theme being that RiC has a certain self-reflexivity: it can be used to
+speak about itself — to elaborate upon modelling choices in a structured
+way. To achieve this, one approach, where a single relation or attribute
+has been chosen, might be to interpolate with Activity, Event, and
+Record entities and relations. An example of this approach is given
+above <a
+href="faq--general_questions_and_smaller_modelling_questions.html#is-describing-the-content-of-a-record-within-rics-domain">§6a.3.1</a>;
+see also <a
+href="faq--record_or_record_set.html#databases">§6b.5</a>.</p>
+<p>One also has the attributes of relations in §5.5 of RiC-CM,
+implemented as sub-classes of the <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#Relation">rico:Relation</a>
+class in RiC-O. Although it may at first seem a distinct mechanism, use
+of these attributes is in fact very similar to the interpolation
+approach, albeit that the latter is more general, and typically more
+flexible. In future, the two techniques may be formally unified.</p>
+<p>Recording of meta-metadata is important in settings where artifical
+intelligence is used; it is sometimes referred to as paradata in this
+context. The diagram below indicates how this might be modelled in the
+case of transcription of handwritten parish register using AI. Instead
+of the single <em>has or had derived instantiation</em> relation, a
+number of Activity and other entities are involved. More could of course
+be included. Standards developed specifically for the purpose might be
+used to form the content of the Records documenting the two Activities
+in the modelling.</p>
+<p><a href="diagrams/artifical_intelligence_transcription.svg"><img
+src="diagrams/artificial_intelligence_transcription.svg"
+alt="Transcription using artificial intelligence" /></a></p>
+<p>As a second example, a generative AI chatbot might be used to create
+an overview of the contents of a Record, to be used as part of a
+description of that Record. This might be modelled as follows, the
+prompt given to the chatbot being an important piece of
+meta-metadata/paradata in such cases. Again, more could be included.</p>
+<p><a href="diagrams/generative_chatbot.svg"><img
+src="diagrams/generative_chatbot.svg"
+alt="Archival description using generative chatbot" /></a></p>
+<h3 data-number="6a.3.5"
+id="my-archival-institution-holds-fragments-of-medieval-documents-how-might-ric-model-this"><span
+class="header-section-number">6a.3.5</span> My archival institution holds
+fragments of medieval documents, how might RiC model this?</h3>
+<p>An example are fragments at the Norwegian National Archives of a
+manuscript containing <a
+href="https://en.wikipedia.org/wiki/Frostating_Law">Frostatingsloven</a>,
+pictured <a
+href="https://www.arkivverket.no/utforsk-arkivene/skole/historiske-kilder/middelalder-i-norge/frostatingsloven">here</a>.
+In RiC, a Record (RiC-E04) is not required to have an extant
+Instantiation (RiC-E06), only to have once had one. Thus each fragment
+can be modelled as a Record Part (RiC-E05) with a still-extant
+Instantiation, components of a now-lost Instantiation of a Record.</p>
+<p>A somewhat tricky aspect is how exactly to define this Record: what
+does it document? Why are the fragments held in an archival institution?
+There exist discussions of these matters in the literature, which it
+would take us too far afield to enter into; as ever, the context in
+which one approaches the questions is crucial. For simplicity, let us
+regard the original manuscript as a Record of propagation of
+Frostatingsloven in the 1300s.</p>
+<p>There do exist (complete) transcriptions of Frostatingsloven from the
+1600s. We include one of these in the modelling too, viewing it as an
+Instantiation of a copy of the Record in question; given that we taking
+the Record to be documenting the propagating of Frostatingsloven, rather
+than Frostatingsloven itself as an abstract, non-written conception, it
+would not be correct to regard it as an Instantiation of the original
+Record itself — as discussed in <a
+href="faq--the_instantiation_entity.html#when-does-a-derived-instantiation-represent-a-new-record">§6c.3</a>,
+one might regard it as representing a Record in its own right, but we
+omit to take this into consideration here.</p>
+<p><a href="diagrams/frostatingsloven.svg"><img
+src="diagrams/frostatingsloven.svg" alt="Frostatingsloven" /></a></p>
+<footer>
+<div class="page-footer">
+<div class="header-left">
+<span class="header-left-arrow"><a href="mappings.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 5." title="Section 5."></a></span>
+<span class="header-previous"><a href="mappings.html">5.</a> <span class="header-previous-title"><a href="mappings.html" class="header">Mappings</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--record_or_record_set.html">6b.</a> <span class="header-next-title"><a href="faq--record_or_record_set.html" class="header">FAQ
+— Record or Record Set?</a></span></span>
+<span class="header-right-arrow"><a href="faq--record_or_record_set.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6b." title="Section 6b."></a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

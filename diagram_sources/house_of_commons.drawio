@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="Page-1" id="wj9K9l7zEDump_uKwFwl">
+    <mxGraphModel dx="5705" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--1" value="What was said during the House of Commons on the 22nd of November 1965" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="350" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRClzzUXsJLG_zB9FqQ--1" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--3" value="Debate on slum clearances on the 22nd of November 1965" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="190" width="180" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRClzzUXsJLG_zB9FqQ--3" vertex="1">
+          <mxGeometry y="40" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.506;exitY=1.192;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LRClzzUXsJLG_zB9FqQ--4" target="LRClzzUXsJLG_zB9FqQ--1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--6" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="LRClzzUXsJLG_zB9FqQ--5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--7" value="Sitting of the House of Commons on the 22nd of November 1965" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=32;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="350" width="240" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--8" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRClzzUXsJLG_zB9FqQ--7" vertex="1">
+          <mxGeometry y="32" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=-0.059;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="LRClzzUXsJLG_zB9FqQ--8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="150" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--10" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="LRClzzUXsJLG_zB9FqQ--9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LRClzzUXsJLG_zB9FqQ--3" target="LRClzzUXsJLG_zB9FqQ--13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="220" as="sourcePoint" />
+            <mxPoint x="820" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--12" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="LRClzzUXsJLG_zB9FqQ--11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--13" value="Manchester, UK" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="735" y="60" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--14" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRClzzUXsJLG_zB9FqQ--13" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--15" value="Liverpool, UK" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="197" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--16" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRClzzUXsJLG_zB9FqQ--15" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LRClzzUXsJLG_zB9FqQ--3" target="LRClzzUXsJLG_zB9FqQ--15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="246" as="sourcePoint" />
+            <mxPoint x="777" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRClzzUXsJLG_zB9FqQ--18" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="LRClzzUXsJLG_zB9FqQ--17" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-1" value="Order of business of the House of Commons on the 22nd of November 1965" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="510" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-0gzfpoOfJBawXRQkLt8-1" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-0gzfpoOfJBawXRQkLt8-1" target="LRClzzUXsJLG_zB9FqQ--8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-205" y="479" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-0gzfpoOfJBawXRQkLt8-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-5" value="22nd of November 1965" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="510" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-6" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-0gzfpoOfJBawXRQkLt8-5" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.503;exitY=1.088;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="LRClzzUXsJLG_zB9FqQ--2" target="-0gzfpoOfJBawXRQkLt8-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="530" as="sourcePoint" />
+            <mxPoint x="410" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-8" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-0gzfpoOfJBawXRQkLt8-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-0gzfpoOfJBawXRQkLt8-1" target="-0gzfpoOfJBawXRQkLt8-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="543" as="sourcePoint" />
+            <mxPoint x="620" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-10" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-0gzfpoOfJBawXRQkLt8-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-0gzfpoOfJBawXRQkLt8-15" target="-0gzfpoOfJBawXRQkLt8-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="290" as="sourcePoint" />
+            <mxPoint x="-100" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-13" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="-0gzfpoOfJBawXRQkLt8-12" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-38" y="-61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-14" value="Motion made, and Question proposed, That this house do now adjourn&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=36;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="190" width="215" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="-0gzfpoOfJBawXRQkLt8-15" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="-0gzfpoOfJBawXRQkLt8-14" vertex="1">
+          <mxGeometry y="36" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="-0gzfpoOfJBawXRQkLt8-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="190" as="sourcePoint" />
+            <mxPoint x="408" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-4" value="is record resource associated with record resource" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="GlOB15VhZgz-NCssGiBj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-5" value="Hansard, volume 721" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="355" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-6" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GlOB15VhZgz-NCssGiBj-5">
+          <mxGeometry y="30" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRClzzUXsJLG_zB9FqQ--1" target="GlOB15VhZgz-NCssGiBj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-8" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="GlOB15VhZgz-NCssGiBj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-9" value="Jourmal of the House of Commons, volume 221" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="690" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-10" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GlOB15VhZgz-NCssGiBj-9">
+          <mxGeometry y="30" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.504;exitY=1.059;exitDx=0;exitDy=0;entryX=0.449;entryY=-0.076;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="-0gzfpoOfJBawXRQkLt8-2" target="GlOB15VhZgz-NCssGiBj-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="668.8199999999999" as="sourcePoint" />
+            <mxPoint x="450" y="668.8199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlOB15VhZgz-NCssGiBj-12" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="GlOB15VhZgz-NCssGiBj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

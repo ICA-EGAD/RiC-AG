@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="tdFbKafQqXdWOXAYOD6T">
+    <mxGraphModel dx="1024" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CLS3Svrvf3qCleAxAATw-1" value="1801 census of Norway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="450" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CLS3Svrvf3qCleAxAATw-2" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="CLS3Svrvf3qCleAxAATw-1" vertex="1">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CLS3Svrvf3qCleAxAATw-3" value="Searching for references to the Sámi in the Norwegian national archives" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="423" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CLS3Svrvf3qCleAxAATw-4" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="CLS3Svrvf3qCleAxAATw-3" vertex="1">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CLS3Svrvf3qCleAxAATw-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CLS3Svrvf3qCleAxAATw-4" target="CLS3Svrvf3qCleAxAATw-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="390" as="sourcePoint" />
+            <mxPoint x="760" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLS3Svrvf3qCleAxAATw-6" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="CLS3Svrvf3qCleAxAATw-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-1" value="References to Sámi ethnicity (&lt;i&gt;lapp&lt;/i&gt;, &lt;i&gt;finn, &lt;/i&gt;etc), and/or the lack of these, in censuses and the like should be treated critically and evaluated in a context of other sources (e.g. parish registers), methodological oddities such as the placing of other Sámi at the end of a census list, and the correspondence of dates with cyclical patterns in the Sámi way of life" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=70;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="500" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-2" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-1">
+          <mxGeometry y="70" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.41;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.62;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-2" target="CLS3Svrvf3qCleAxAATw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="732" y="360" as="sourcePoint" />
+            <mxPoint x="835" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-6" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-7" value="Carrying out of the 1801 census of Norway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="720" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-8" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-7">
+          <mxGeometry y="30" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.615;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-7" target="CLS3Svrvf3qCleAxAATw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="560.0000000000002" as="sourcePoint" />
+            <mxPoint x="790" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-10" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-13" value="Sámi people" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="590" width="109" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-14" value="Group&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#C6D9F1;strokeWidth=2;fillColor=#C6D9F1;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-13">
+          <mxGeometry y="26" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.413;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8FflVjubQUmxHpzgolP5-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="490" as="sourcePoint" />
+            <mxPoint x="827" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-16" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-17" value="Parish registers in Norway in use around 1801" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;fillColor=none;strokeWidth=3;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="210" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-18" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-17">
+          <mxGeometry y="40" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-1" target="8FflVjubQUmxHpzgolP5-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="612" y="200" as="sourcePoint" />
+            <mxPoint x="420" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-20" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-21" value="Cyclical patterns in the Sámi way of life" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="583" width="170" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-22" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-21">
+          <mxGeometry y="40" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-21" target="8FflVjubQUmxHpzgolP5-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="620" as="sourcePoint" />
+            <mxPoint x="1120" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-24" value="is or was performed by" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.684;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.78;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=gap;jumpSize=32;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-2" target="8FflVjubQUmxHpzgolP5-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1021" y="320" as="sourcePoint" />
+            <mxPoint x="1020" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-12" value="is rule associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.61;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=gap;jumpSize=32;exitX=0.92;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-2" target="8FflVjubQUmxHpzgolP5-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="320" as="sourcePoint" />
+            <mxPoint x="1129.82" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-26" value="is rule associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-27" value="" style="endArrow=classic;html=1;rounded=0;jumpStyle=gap;jumpSize=32;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-1" target="8FflVjubQUmxHpzgolP5-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="290" as="sourcePoint" />
+            <mxPoint x="1330" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-28" value="is rule associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-29" value="Article:&amp;nbsp;&lt;i&gt;Identification of the South Saami in the Norwegian 1801 Census: Why Is the 1801 Census a Problematic Source? &lt;/i&gt;by Håkon Hermanstrand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=64;strokeColor=#FBD5B5;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="222" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-30" value="Thing" style="text;strokeColor=#FBD5B5;fillColor=#FBD5B5;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-29">
+          <mxGeometry y="64" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-31" value="Cross-checking of identifications of Sámi ethnicity, or the lack thereof, in the 1801 census of Norway&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="280" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-32" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8FflVjubQUmxHpzgolP5-31">
+          <mxGeometry y="50" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.325;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.632;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-31" target="8FflVjubQUmxHpzgolP5-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="420" as="sourcePoint" />
+            <mxPoint x="110" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-34" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.601;exitY=1.135;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-32" target="CLS3Svrvf3qCleAxAATw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="421" as="sourcePoint" />
+            <mxPoint x="271" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-36" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.416;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-1" target="8FflVjubQUmxHpzgolP5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="370" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-38" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=gap;jumpSize=32;curved=1;exitX=0.411;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-32" target="8FflVjubQUmxHpzgolP5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364.38" y="560" as="sourcePoint" />
+            <mxPoint x="365.38" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-40" value="is event associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6" y="-82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-41" value="" style="endArrow=classic;html=1;rounded=0;jumpStyle=gap;jumpSize=32;curved=1;exitX=0.135;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="380" as="sourcePoint" />
+            <mxPoint x="1250" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="900" />
+              <mxPoint x="970" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-42" value="is event associated with" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-14" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-32" target="CLS3Svrvf3qCleAxAATw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="471" as="sourcePoint" />
+            <mxPoint x="411" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-44" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=gap;jumpSize=16;" edge="1" parent="1" source="8FflVjubQUmxHpzgolP5-1" target="CLS3Svrvf3qCleAxAATw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="280" as="sourcePoint" />
+            <mxPoint x="640" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8FflVjubQUmxHpzgolP5-4" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="8FflVjubQUmxHpzgolP5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="33" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

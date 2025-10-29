@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="gD_oswIPVhmendxxoWTu">
+    <mxGraphModel dx="1167" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1KNnokjcpxOvImdohz6O-1" value="UK import data, Jan - Jun 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="885" y="11" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-7" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1KNnokjcpxOvImdohz6O-1" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-1" value="Details of import of pineapples by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="175" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-1" vertex="1">
+          <mxGeometry y="40" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.485;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.484;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="1KNnokjcpxOvImdohz6O-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="998" y="171" as="sourcePoint" />
+            <mxPoint x="651" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--2" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="2DeLvdhZdxa3scJvV6O--1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--3" value="Country of despatch of pineapples imported by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="173" width="270" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3OjV7-LwKeenVDGuTnR--3" vertex="1">
+          <mxGeometry y="40" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--6" value="Costa Rica" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="372" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--7" value="Place" style="text;strokeColor=#FBD5B5;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3OjV7-LwKeenVDGuTnR--6" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3OjV7-LwKeenVDGuTnR--3" target="z_VkaY4JEPrvHYw7quxx-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="400" as="sourcePoint" />
+            <mxPoint x="1020" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--10" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="3OjV7-LwKeenVDGuTnR--9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.501;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="3OjV7-LwKeenVDGuTnR--6" source="3OjV7-LwKeenVDGuTnR--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="699" y="432" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-9" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YwInSzJZS02sovpQlkrH-8" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-1" value="Data on imports from Costa Rica to be copied to the Costa Rican embassy in London" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="540" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-2" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ayXayVruHbEbQBrlT62j-1" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ayXayVruHbEbQBrlT62j-1" target="3OjV7-LwKeenVDGuTnR--6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="582" as="sourcePoint" />
+            <mxPoint x="490" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-4" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.481;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ayXayVruHbEbQBrlT62j-1" target="ayXayVruHbEbQBrlT62j-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="610" as="sourcePoint" />
+            <mxPoint x="1210" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-6" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-7" value="Importing of goods to the UK from Costa Rica" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="372" width="260" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-8" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ayXayVruHbEbQBrlT62j-7" vertex="1">
+          <mxGeometry y="30" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="ayXayVruHbEbQBrlT62j-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="215.37" as="sourcePoint" />
+            <mxPoint x="1390" y="215.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-12" value="has copy" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-13" value="Costa Rican embassy copy of import of pineapples by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="175" width="290" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-14" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ayXayVruHbEbQBrlT62j-13" vertex="1">
+          <mxGeometry y="40" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.424;exitY=0.027;exitDx=0;exitDy=0;entryX=0.657;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="ayXayVruHbEbQBrlT62j-7" target="z_VkaY4JEPrvHYw7quxx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="270" as="sourcePoint" />
+            <mxPoint x="1400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-16" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-15" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.708;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ayXayVruHbEbQBrlT62j-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1478" y="441" as="sourcePoint" />
+            <mxPoint x="1400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-18" value="results or resulted in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-17" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.535;exitY=1.177;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="ayXayVruHbEbQBrlT62j-21" edge="1" source="ayXayVruHbEbQBrlT62j-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="246" as="sourcePoint" />
+            <mxPoint x="1585" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-20" value="has or had holder" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="ayXayVruHbEbQBrlT62j-19" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-21" value="Costa Rican embassy in London" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="374" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ayXayVruHbEbQBrlT62j-22" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ayXayVruHbEbQBrlT62j-21" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IfYc7XCii6Fm3Litd8__-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.013;exitY=-0.085;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ayXayVruHbEbQBrlT62j-8" target="3OjV7-LwKeenVDGuTnR--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="581" as="sourcePoint" />
+            <mxPoint x="700" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IfYc7XCii6Fm3Litd8__-3" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="IfYc7XCii6Fm3Litd8__-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

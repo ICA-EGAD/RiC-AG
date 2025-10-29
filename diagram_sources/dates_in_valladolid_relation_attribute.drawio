@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.8.1 Chrome/122.0.6261.171 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="InGpxBxNSoObbEFVzZig">
+    <mxGraphModel dx="2072" dy="1233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-1" value="Relation of Habsburg court to Valladolid&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="600" width="250" height="52" as="geometry">
+            <mxRectangle x="981" y="570" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-2" value="rico:PlaceRelation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-3" value="Valladolid" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="600" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-4" value="rico:Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-3">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-7" value="Royal court of Habsburg Spain" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="220" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-8" value="rico:Group&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#C6D9F1;strokeWidth=2;fillColor=#C6D9F1;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-7">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YwP1cXS7euOR0K1sA1_i-7" target="YwP1cXS7euOR0K1sA1_i-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="sourcePoint" />
+            <mxPoint x="1230" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-10" value="rico:thingIsTargetOfRelation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YwP1cXS7euOR0K1sA1_i-2" target="YwP1cXS7euOR0K1sA1_i-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="770.0000000000002" as="sourcePoint" />
+            <mxPoint x="1090" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-12" value="rico:isAssociatedWithDate" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-13" value="Period the royal court was at Valladolid" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="764" width="255" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-14" value="rico:Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-13">
+          <mxGeometry y="26" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="YwP1cXS7euOR0K1sA1_i-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="820" as="sourcePoint" />
+            <mxPoint x="930" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-16" value="rico:normalizedDateValue" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-17" value="1601/1606" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="875" y="905" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="YwP1cXS7euOR0K1sA1_i-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="820" as="sourcePoint" />
+            <mxPoint x="1320" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-19" value="rico:expressedDate" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-20" value="1601 to 1606" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="905" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YwP1cXS7euOR0K1sA1_i-7" target="YwP1cXS7euOR0K1sA1_i-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="530" as="sourcePoint" />
+            <mxPoint x="960" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-24" value="rico:isAssociatedWithPlace" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8" y="92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.016;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YwP1cXS7euOR0K1sA1_i-2" target="YwP1cXS7euOR0K1sA1_i-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="625.5" as="sourcePoint" />
+            <mxPoint x="1420" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwP1cXS7euOR0K1sA1_i-6" value="rico:relationHasSource" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YwP1cXS7euOR0K1sA1_i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

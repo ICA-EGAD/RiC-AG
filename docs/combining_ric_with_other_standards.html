@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Combining RiC with other standards</title>
+  <link rel="stylesheet" href="application_guidelines.css">
+</head>
+<body>
+<header>
+<div class="page-header">
+<div class="header-left">
+<span class="header-left-arrow"><a href="implementation_strategies.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 3." title="Section 3."></a></span>
+<span class="header-previous"><a href="implementation_strategies.html">3.</a> <span class="header-previous-title"><a href="implementation_strategies.html" class="header">Implementation
+strategies</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="mappings.html">5.</a> <span class="header-next-title"><a href="mappings.html" class="header">Mappings</a></span></span>
+<span class="header-right-arrow"><a href="mappings.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 5." title="Section 5."></a></span>
+</div>
+</div>
+</header>
+<h1 class="title">4. Combining RiC with other standards</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#what-is-this-part-about"
+id="toc-what-is-this-part-about"><span
+class="toc-section-number">4.1</span> What is this part about?</a></li>
+<li><a href="#the-ica-standards-ric-replaces"
+id="toc-the-ica-standards-ric-replaces"><span
+class="toc-section-number">4.2</span> The ICA standards RiC
+replaces</a></li>
+<li><a href="#records-management" id="toc-records-management"><span
+class="toc-section-number">4.3</span> Records management</a></li>
+<li><a href="#ric-o-versus-eadeac-cpf"
+id="toc-ric-o-versus-eadeac-cpf"><span
+class="toc-section-number">4.4</span> RiC-O versus EAD/EAC-CPF</a></li>
+<li><a href="#digital-preservation" id="toc-digital-preservation"><span
+class="toc-section-number">4.5</span> Digital preservation</a></li>
+<li><a href="#specific-aspects-of-context-entities"
+id="toc-specific-aspects-of-context-entities"><span
+class="toc-section-number">4.6</span> Specific aspects of context
+entities</a></li>
+<li><a href="#datasets" id="toc-datasets"><span
+class="toc-section-number">4.7</span> Datasets</a></li>
+<li><a href="#other-kinds-of-cultural-heritage-objects"
+id="toc-other-kinds-of-cultural-heritage-objects"><span
+class="toc-section-number">4.8</span> Other kinds of cultural heritage
+objects</a></li>
+<li><a href="#simplification" id="toc-simplification"><span
+class="toc-section-number">4.9</span> Simplification</a></li>
+</ul>
+</div>
+<h2 data-number="4.1" id="what-is-this-part-about"><span
+class="header-section-number">4.1</span> What is this part about<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>As discussed in the introduction to <a
+href="https://www.ica.org/resource/records-in-contexts-conceptual-model/">RiC-CM</a>,
+Records in Contexts is designed for working intellectually with records
+and contexts of records. Its main focus is not upon other aspects of
+records — their storage, materiality, or preservation, for instance;
+upon other types of cultural heritage material such as books or
+artworks; or upon detailed description of people, places, and other
+entities. Nevertheless, RiC can be combined with standards for these
+domains and others. Introducing this topic will be the focus of the
+second half of this part of the Application Guidelines.</p>
+<p>In addition, RiC relates to other standards for archival description
+and records management. We will begin here, touching upon both standards
+of a more conceptual nature and technical standards which can complement
+the structured, machine-readable descriptions that are possible with
+RiC-O.</p>
+<h2 data-number="4.2" id="the-ica-standards-ric-replaces"><span
+class="header-section-number">4.2</span> The ICA standards RiC
+replace<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>As touched upon in the earlier parts of the Application Guidelines,
+RiC replaces ISAD(G), ISAAR(CPF), ISDF and ISDIAH, combining and
+significantly extending the ability to describe archival resources,
+actors, functions and archival institutions that using these earlier
+standards gave. Though RiC differs significantly from these standards
+both concretely and conceptually, it is backwards compatible with them.
+In <a href="getting_started_with_ric.html">§2</a>, we explored in detail
+an example of moving from a description made in accordance with these
+earlier standards to a RiC description. A full crosswalk is presented in
+<a href="mappings.html">§5</a>. There is not always a unique way to
+adapt a description based upon these standards to RiC, but there is
+always some way to do it.</p>
+<h2 data-number="4.3" id="records-management"><span
+class="header-section-number">4.3</span> Records managemen<span class="end-of-section-heading">t<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Records in Contexts is greatly inspired by, and closely related to,
+the standard <a href="https://www.iso.org/standard/73172.html">ISO
+23081</a> (Information and documentation – Records management processes
+– Metadata for records) for describing and managing records. The
+relation between the two is described in section 1.6.3 of RiC-CM. It
+states that the difference is that RiC-CM defines how to capture</p>
+<blockquote>
+<p>the metadata used to describe, control, and enable access to records
+of enduring value that are identified for ongoing preservation by an
+archival program</p>
+</blockquote>
+<p>whilst the focus of ISO 23081 is upon</p>
+<blockquote>
+<p>the metadata that is needed to protect, understand, and enable the
+usability of records as evidence from the point of creation by records
+creators and for as long as the records need to be retained.</p>
+</blockquote>
+<p>Records in Contexts can be helpful in implementing the ISO 23081
+standard. It is a significant step forward in this respect from ISAD(G)
+and its accompanying standards, closing the gap between ‘old’ and ‘new’
+archives. The three entities of people, records and mandates in ISO
+23081 are included in RiC, enabling both archivists and records managers
+to use the same general framework.</p>
+<p>RiC, though, introduces further entities, enabling more precise
+description of records than is possible in ISO 23081, in particular
+additional metadata concerning the provenance and history of records and
+their descriptions. The standardizing committee of ISO 23081 and EGAD
+intends to iron out the (subtle, where the two overlap) differences
+between the two standards in future versions of them.</p>
+<h2 data-number="4.4" id="ric-o-versus-eadeac-cpf"><span
+class="header-section-number">4.4</span> RiC-O versus EAD/EAC-CP<span class="end-of-section-heading">F<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>In RiC, we distinguish between a conceptual model and the way
+metadata is stored or disseminated. For the latter purpose, we provide
+the ontology <a
+href="https://www.ica.org/standards/RiC/ontology">RiC-O</a> to allow for
+expressing RiC metadata in <a
+href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a>
+triples — we feel this fits the networked, open-ended nature of RiC
+particularly well. As discussed in <a
+href="implementation_strategies.html#introduce-ric-in-your-software">§3.8</a>,
+though, it should also be possible to make use of a relational or NoSQL
+database instead.</p>
+<p>Over the past few decades, many people have made use of the Encoded
+Archival Description (EAD) XML standard for descriptive data, in
+conjunction with the Encoded Archival Context for Corporate Bodies,
+Persons and Families (EAC-CPF) XML standard. RiC-O serves the purpose of
+both standards, namely the capturing of data about Record Resources and
+Agents respectively.</p>
+<p>New versions, EAD4 and EAC-CPF, of the two Encoded Archival Standards
+are expected to be released in the summer of 2026, along with a new XML
+schema, EAC-F, for functions. They will place greater emphasis upon
+rich, detailed descriptions of entities such as record resources,
+instantiations, agents, and functions/activities. Relations between
+these entities will be represented more comprehensively, both
+structurally and semantically.</p>
+<p>The design and naming of relations in these new versions is inspired
+by RiC-O, ensuring conceptual alignment. Looking beyond their release,
+the plan is to focus development upon deeper integration and
+harmonization with related standards such as RiC, to foster a more
+consistent and interoperable metadata ecosystem.</p>
+<p>A mapping between RiC and EAD is provided in <a
+href="mappings.html">§5</a>.</p>
+<p>The nature of the EAD XML schema is such that if you use it to
+represent RiC-CM-based metadata, you may feel a need to duplicate some
+parts of a description. We suggest you try to avoid this as far as
+possible, or at least to create links with locally unique identifiers
+between EAD components describing the same record resource.</p>
+<p>Whatever technology you choose, we recommend that, in line with
+RiC-CM, you create separate descriptions for agents, events, activities,
+rules and places, pointing to them from your record resource
+descriptions. This might be by means of authority records; by using
+separate tables within a relational database; by using unique
+identifiers in EAD/EAC-CPF; or by using Uniform Resource Identifiers
+(URIs) in RiC-O.</p>
+<h2 data-number="4.5" id="digital-preservation"><span
+class="header-section-number">4.5</span> Digital preservatio<span class="end-of-section-heading">n<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>For digital storage in the long-term, specific, mostly technical,
+metadata is needed. Attributes and relations to this end are
+intentionally not provided in RiC, but are well defined in <a
+href="https://www.loc.gov/standards/premis/">PREMIS</a>, which provides
+a standard for</p>
+<blockquote>
+<p>metadata to support the preservation of digital objects and ensure
+their long-term usability.</p>
+</blockquote>
+<p>Alignment between PREMIS and RiC-CM, and between RiC-O and the PREMIS
+ontology, is planned as part of EGAD’s future work.</p>
+<h2 data-number="4.6" id="specific-aspects-of-context-entities"><span
+class="header-section-number">4.6</span> Specific aspects of context
+entitie<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Many record resources relate to persons, places, subject matter,
+events and the like. Sometimes your local culture will necessitate
+specific metadata structures to sufficiently capture these. In the
+Netherlands and Germany, for instance, a family name could consist of a
+prefix (‘von’) that must be separable from the rest of the family name.
+Addresses might have a particular structure in your country. RiC is
+extensible: it should be possible to apply an appropriate standard for
+your use case on top of RiC. In particular, controlled vocabularies,
+often expressed using <a
+href="https://www.w3.org/2004/02/skos/">SKOS</a>, can be used alongside
+RiC. We refer to <a
+href="faq--how_to_use_ric_with_vocabularies.html">§6f</a> for more on
+this.</p>
+<h2 data-number="4.7" id="datasets"><span
+class="header-section-number">4.7</span> Dataset<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>The concept of a ‘dataset’ can be useful, whether to refer to the
+content of a Record Resource — data collected by an organisation or for
+an academic project, say; or to metadata offering access points into a
+set of records; or to a selection of metadata describing records
+themselves which is organised into a single entity. Depending on the
+nature of the data and the context in which they are described, datasets
+can be considered a Record or a Record Set. See <a
+href="faq--record_or_record_set.html">§6b</a> for a discussion of this
+kind of judgement.</p>
+<p>Certain kinds of metadata might be appropriate for datasets, and
+collections of them, specifically. Two standards for this are the Data
+Catalog Vocabulary (<a
+href="https://www.w3.org/TR/vocab-dcat/">DCAT</a>) and the Vocabulary of
+Interlinked Datasets (<a href="https://www.w3.org/TR/void/">VoID</a>).
+They are used to describe the origin, contexts, accessibility and
+usability of in this case digital and structured data. According to its
+documentation, DCAT</p>
+<blockquote>
+<p>enables a publisher to describe datasets and data services in a
+catalog using a standard model and vocabulary that facilitates the
+consumption and aggregation of metadata from multiple catalogs.</p>
+</blockquote>
+<p>Whilst VOID is aimed towards RDF datasets:</p>
+<blockquote>
+<p>It is an RDF Schema vocabulary that provides terms and patterns for
+describing RDF datasets, and is intended as a bridge between the
+publishers and users of RDF data.</p>
+</blockquote>
+<p>We suggest to investigate whether these standards might be applicable
+to your use case alongside RiC. When viewing a dataset as a Record
+Resource, RiC can be used for archival and records management aspects,
+whilst a dataset standard can be used for dataset-specific aspects of
+content, provenance, or aggregation.</p>
+<h2 data-number="4.8"
+id="other-kinds-of-cultural-heritage-objects"><span
+class="header-section-number">4.8</span> Other kinds of cultural
+heritage object<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Archives are considered cultural heritage, as are — in some contexts
+— books, artworks, archeological findings, site, and built monuments.
+The concepts of RiC are approached from the point of view of description
+of records; other domains have their own conceptualizations, also of
+records in some cases, appropriate to the specificities of their own
+domains. If you wish to relate your records to other kinds of cultural
+heritage material or perspectives, standards exist which can be used
+along with RiC. We cannot give a complete overview, but will give brief
+descriptions of a few in the following paragraphs.</p>
+<p>The library community is organized by the International Federation of
+Library Associations (IFLA). They have set up a committee that
+standardized the <a
+href="https://repository.ifla.org/handle/20.500.14598/40.2">Library
+Reference Model</a> (LRM), a</p>
+<blockquote>
+<p>model that covers all aspects of bibliographic data.</p>
+</blockquote>
+<p>Also relevant is the <a
+href="https://www.rdatoolkit.org/about">Resource Description and
+Access</a> (RDA) standard, a</p>
+<blockquote>
+<p>package of data elements, guidelines, and instructions for creating
+library and cultural heritage resource metadata that are well-formed
+according to international models for user-focused linked data
+applications.</p>
+</blockquote>
+<p>In the museum community, the <em>Comité International pour la
+Documentation</em> (CIDOC), part of the International Council of Museums
+(ICOM), has developed the <a href="https://cidoc-crm.org/">Conceptual
+Reference Model</a> (CRM), mostly known as CIDOC-CRM. It contains</p>
+<blockquote>
+<p>definitions and a formal structure for describing the implicit and
+explicit concepts and relationships used in cultural heritage
+documentation.</p>
+</blockquote>
+<p>Whilst a careful relating of RiC and CIDOC-CRM remains for the
+future, experience suggests that descriptions expressed in RiC can be
+mapped to CIDOC-CRM, but with considerable loss of specificity: RiC is a
+domain standard, whilst CIDOC-CRM is a general cultural heritage/human
+knowledge framework at quite a high level of abstraction. The <a
+href="https://linked.art/">Linked Art</a> community has followed this
+template, building upon CIDOC-CRM to create a</p>
+<blockquote>
+<p>shared model … to describe cultural heritage, with a focus on artwork
+but also including archives and bibliographic material.</p>
+</blockquote>
+<p>At the data level, in line with the Linked Data philosophy, RDF
+enables you to link, by means of its URI, a description in RiC-O to the
+description of a cultural heritage object described in another
+formalised conceptual model. This might for instance be useful when an
+artwork or book is part of an archive, but needs to be described in an
+artistic or bibliographic context; or to describe the content of an
+artwork or publication held as a Record. It is possible to combine the
+classes and properties of RiC-O and those of RDA or CIDOC-CRM to
+describe a cultural object as, say, being both a LRM Expression and a
+RiC Record.</p>
+<p>We give a couple of examples of this kind of interaction in <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html#broader-cultural-heritage-aspects">§8.8</a>
+and <a
+href="extended_example--cervantes_and_the_printing_of_don_quixote.html#beyond-the-traditional-archival-context">§8.10</a>.</p>
+<h2 data-number="4.9" id="simplification"><span
+class="header-section-number">4.9</span> Simplificatio<span class="end-of-section-heading">n<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>In some cases, it might be necessary or useful to provide less
+complex metadata than RiC allows for, using a more general standard,
+such as <a
+href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">Dublin
+Core</a>, <a href="https://schema.org/docs/schemas.html">Schema.org</a>,
+or the <a
+href="https://pro.europeana.eu/page/edm-documentation">Europeana Data
+Model</a> (EDM). Mapping between RiC and these standards has not yet
+been carried out, but it is possible in practice, at least in specific
+cases. Whilst such standards cannot play the role RiC does, transforming
+your RiC metadata to them and publishing it as an extra service might
+facilitate interoperability.</p>
+<footer>
+<div class="page-footer">
+<div class="header-left">
+<span class="header-left-arrow"><a href="implementation_strategies.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 3." title="Section 3."></a></span>
+<span class="header-previous"><a href="implementation_strategies.html">3.</a> <span class="header-previous-title"><a href="implementation_strategies.html" class="header">Implementation
+strategies</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="mappings.html">5.</a> <span class="header-next-title"><a href="mappings.html" class="header">Mappings</a></span></span>
+<span class="header-right-arrow"><a href="mappings.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 5." title="Section 5."></a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5615.213 Safari/537.36" version="26.1.3">
+  <diagram name="Page-1" id="YkeQtNSh0a5jcGVTE8pN">
+    <mxGraphModel dx="878" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-1" value="Cervantes&#39; memorial on the printing of El Quixote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="170" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-1">
+          <mxGeometry y="40" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-10" value="Document (CIDOC)" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-1">
+          <mxGeometry y="66" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="300" as="sourcePoint" />
+            <mxPoint x="850" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-4" value="has or had constituent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-5" value="Cervantes&#39; signature" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="170" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-6" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-5">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-9" value="Mark (CIDOC)" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-5">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-19" value="Appellation (CIDOC)" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-5">
+          <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-7" value="Miguel de Cervantes Saavedra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-8" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-7">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-18" value="Actor (CIDOC)" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-7">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eAgPcUyU2nISuXhoeq7s-8" target="eAgPcUyU2nISuXhoeq7s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="170" as="sourcePoint" />
+            <mxPoint x="690" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-15" value="is author of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="330" as="sourcePoint" />
+            <mxPoint x="850" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-17" value="shows visual item (CIDOC)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.594;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eAgPcUyU2nISuXhoeq7s-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="158" as="sourcePoint" />
+            <mxPoint x="770" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAgPcUyU2nISuXhoeq7s-21" value="is identified by (CIDOC)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="eAgPcUyU2nISuXhoeq7s-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="rpcb4mzmXCl31CcHwljb">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-1" value="Parish register for Bratsberg church, 1938-1952&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="712" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9eICvYnxZosk0hdtQ2a_-1" vertex="1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-1" value="Marriages, christenings, funerals, and other ceremonies at Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="550" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="S63EhYjACRCDa8wTgJug-1" vertex="1">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9eICvYnxZosk0hdtQ2a_-1" target="baSBNlS9H2XuWueVJWXg-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="652" as="sourcePoint" />
+            <mxPoint x="1577" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-5" value="1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="902" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-6" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="S63EhYjACRCDa8wTgJug-5" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.376;exitY=1.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.844;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="baSBNlS9H2XuWueVJWXg-2" target="S63EhYjACRCDa8wTgJug-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="852.0000000000002" as="sourcePoint" />
+            <mxPoint x="1600" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-8" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.767;exitY=1.192;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.189;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9eICvYnxZosk0hdtQ2a_-2" target="S63EhYjACRCDa8wTgJug-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1157" y="829" as="sourcePoint" />
+            <mxPoint x="1000" y="954" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-10" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-3" value="Parish register entry for the marriage of Olav Johannes Ekli and Marianne Flønes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1012.5" y="390" width="247.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-4" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-3" vertex="1">
+          <mxGeometry y="40" width="247.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.533;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.537;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-4" target="9eICvYnxZosk0hdtQ2a_-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1144" y="460" as="sourcePoint" />
+            <mxPoint x="1410" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-7" value="is or was constituent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-6" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-8" value="Marriage of Olav Johannes Ekli and Marianne Flønes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1575" y="390" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-9" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=2;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-8" vertex="1">
+          <mxGeometry y="40" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.528;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.538;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="450" as="sourcePoint" />
+            <mxPoint x="1684.41" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-11" value="is or was subevent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-10" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="AIsGsS2JBfu4cgLnV8Io-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257.5" y="424" as="sourcePoint" />
+            <mxPoint x="1465.5" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-13" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-12" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-3" target="AIsGsS2JBfu4cgLnV8Io-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="351" as="sourcePoint" />
+            <mxPoint x="1330" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-15" value="has or had main subject" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-14" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-16" value="Olav Johannes Ekli" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="120" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-17" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-16" vertex="1">
+          <mxGeometry y="26" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-18" value="Marianne Flønes" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1365" y="270" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-19" value="Person" style="text;strokeColor=#E5DFEC;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-18" vertex="1">
+          <mxGeometry y="26" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.724;exitY=-0.045;exitDx=0;exitDy=0;entryX=0;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-3" target="AIsGsS2JBfu4cgLnV8Io-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="418" as="sourcePoint" />
+            <mxPoint x="1120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-21" value="has or had main subject" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-20" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-22" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;entryX=0.509;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.511;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-18" target="AIsGsS2JBfu4cgLnV8Io-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1415" y="270" as="sourcePoint" />
+            <mxPoint x="1030" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-23" value="has or had spouse" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-22" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.395;exitY=-0.015;exitDx=0;exitDy=0;entryX=1.011;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-8" target="AIsGsS2JBfu4cgLnV8Io-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="378" as="sourcePoint" />
+            <mxPoint x="1660" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-25" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-24" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.817;exitY=-0.046;exitDx=0;exitDy=0;entryX=1.033;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-8" target="AIsGsS2JBfu4cgLnV8Io-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1708" y="390" as="sourcePoint" />
+            <mxPoint x="1550" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-27" value="affects or affected" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-26" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="baSBNlS9H2XuWueVJWXg-1" value="Activity of Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="710" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="baSBNlS9H2XuWueVJWXg-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="baSBNlS9H2XuWueVJWXg-1" vertex="1">
+          <mxGeometry y="30" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="baSBNlS9H2XuWueVJWXg-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.504;exitY=1.077;exitDx=0;exitDy=0;entryX=0.546;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="S63EhYjACRCDa8wTgJug-2" target="baSBNlS9H2XuWueVJWXg-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="630" as="sourcePoint" />
+            <mxPoint x="2077" y="699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="baSBNlS9H2XuWueVJWXg-4" value="is or was subevent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="baSBNlS9H2XuWueVJWXg-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

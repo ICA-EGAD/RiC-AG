@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="gD_oswIPVhmendxxoWTu">
+    <mxGraphModel dx="1584" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1KNnokjcpxOvImdohz6O-1" value="UK import data, Jan - Jun 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="84" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="1KNnokjcpxOvImdohz6O-7" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1KNnokjcpxOvImdohz6O-1" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-1" value="Details of import of pineapples by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="78" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="z_VkaY4JEPrvHYw7quxx-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="z_VkaY4JEPrvHYw7quxx-1" vertex="1">
+          <mxGeometry y="40" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.003;exitY=0.455;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="1KNnokjcpxOvImdohz6O-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="110" as="sourcePoint" />
+            <mxPoint x="1140" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2DeLvdhZdxa3scJvV6O--2" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="2DeLvdhZdxa3scJvV6O--1" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--3" value="Country of despatch of pineapples imported by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="589.59" y="300" width="270" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3OjV7-LwKeenVDGuTnR--3" vertex="1">
+          <mxGeometry y="40" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--6" value="Costa Rica" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="480" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--7" value="Place" style="text;strokeColor=#FBD5B5;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3OjV7-LwKeenVDGuTnR--6" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.486;entryY=0.026;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-1" target="3OjV7-LwKeenVDGuTnR--3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="340" as="sourcePoint" />
+            <mxPoint x="1132" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OjV7-LwKeenVDGuTnR--10" value="has or had constituent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="3OjV7-LwKeenVDGuTnR--9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-3" value="Mode of transport of pineapples imported by Fruiterer A on the 3rd of May 2025" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="250" width="270" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YwInSzJZS02sovpQlkrH-3" vertex="1">
+          <mxGeometry y="40" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.844;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="z_VkaY4JEPrvHYw7quxx-2" target="YwInSzJZS02sovpQlkrH-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1199" y="420" as="sourcePoint" />
+            <mxPoint x="920" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwInSzJZS02sovpQlkrH-7" value="has or had constituent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YwInSzJZS02sovpQlkrH-6" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VpVrJqRH-TFN3eTQSxb-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.483;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3OjV7-LwKeenVDGuTnR--4" target="3OjV7-LwKeenVDGuTnR--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="370" as="sourcePoint" />
+            <mxPoint x="721" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VpVrJqRH-TFN3eTQSxb-2" value="is associated with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="4VpVrJqRH-TFN3eTQSxb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

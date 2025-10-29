@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="WZFGuF3_luYS6yypNmb6">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nzPCm0qADtQluWHLBumH-1" value="Recording of &lt;i&gt;Go Along Mule&lt;/i&gt; by Uncle Dave Macon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="270" width="180" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-1" vertex="1">
+          <mxGeometry y="40" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-3" value="Use of &#39;Recording of &lt;i&gt;Go Along Mule&lt;/i&gt; by Uncle Dave Macon&#39; should take into account that it may be viewed as offensive" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="321.25" y="430" width="337.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-4" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nzPCm0qADtQluWHLBumH-3" vertex="1">
+          <mxGeometry y="40" width="337.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.539;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.517;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nzPCm0qADtQluWHLBumH-3" target="nzPCm0qADtQluWHLBumH-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="492" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-6" value="regulates or regulated" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-7" value="Uncle Dave Macon&#39;s recording of &lt;i&gt;Go Along Mule&lt;/i&gt; contains a verse that, at least out of context, very likely would be considered racist" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="790" y="428" width="260" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nzPCm0qADtQluWHLBumH-3" target="nzPCm0qADtQluWHLBumH-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="464" as="sourcePoint" />
+            <mxPoint x="750" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzPCm0qADtQluWHLBumH-9" value="history" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nzPCm0qADtQluWHLBumH-8" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTJTVhNfXjWjMm-1RvKL-1" value="1927" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="277" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PTJTVhNfXjWjMm-1RvKL-2" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PTJTVhNfXjWjMm-1RvKL-1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PTJTVhNfXjWjMm-1RvKL-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nzPCm0qADtQluWHLBumH-1" target="PTJTVhNfXjWjMm-1RvKL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="264" as="sourcePoint" />
+            <mxPoint x="510" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTJTVhNfXjWjMm-1RvKL-4" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="PTJTVhNfXjWjMm-1RvKL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

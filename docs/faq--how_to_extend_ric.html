@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — How to extend RiC</title>
+  <link rel="stylesheet" href="application_guidelines.css">
+</head>
+<body>
+<header>
+<div class="page-header">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--how_to_use_ric_with_vocabularies.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6f." title="Section 6f."></a></span>
+<span class="header-previous"><a href="faq--how_to_use_ric_with_vocabularies.html">6f.</a> <span class="header-previous-title"><a href="faq--how_to_use_ric_with_vocabularies.html" class="header">FAQ
+— How to use RiC with vocabularies</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html">7.</a> <span class="header-next-title"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html" class="header">Case
+study — How might RiC be of use to indigenous communities and other
+minority groups?</a></span></span>
+<span class="header-right-arrow"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 7." title="Section 7."></a></span>
+</div>
+</div>
+</header>
+<h1 class="title">6g. FAQ — How to extend RiC</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#what-is-this-faq-about"
+id="toc-what-is-this-faq-about"><span
+class="toc-section-number">6g.1</span> What is this FAQ about?</a></li>
+<li><a href="#why-extend-ric" id="toc-why-extend-ric"><span
+class="toc-section-number">6g.2</span> Why extend RiC?</a></li>
+<li><a href="#is-your-journey-necessary"
+id="toc-is-your-journey-necessary"><span
+class="toc-section-number">6g.3</span> Is your journey
+necessary?</a></li>
+<li><a href="#is-your-need-really-specific-to-your-project"
+id="toc-is-your-need-really-specific-to-your-project"><span
+class="toc-section-number">6g.4</span> Is your need really specific to
+your project?</a></li>
+<li><a
+href="#if-you-decide-to-develop-an-extension-a-few-recommendations"
+id="toc-if-you-decide-to-develop-an-extension-a-few-recommendations"><span
+class="toc-section-number">6g.5</span> If you decide to develop an
+extension: a few recommendations</a></li>
+<li><a href="#conclusion" id="toc-conclusion"><span
+class="toc-section-number">6g.6</span> Conclusion</a></li>
+</ul>
+</div>
+<h2 data-number="6g.1" id="what-is-this-faq-about"><span
+class="header-section-number">6g.1</span> What is this FAQ about<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>This FAQ offers some food for thought and advice for people who would
+like to extend RiC — whether RiC-CM or RiC-O. That is to say, to add
+components to RiC that you need for your descriptions.</p>
+<h2 data-number="6g.2" id="why-extend-ric"><span
+class="header-section-number">6g.2</span> Why extend RiC<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>RiC is a generic, international, standard; it might be necessary to
+extend it to meet local requirements. In addition, RiC-CM is a reference
+framework, without the level of granularity that might be necessary to,
+say, precisely describe special collections — sets of medieval charters,
+postcards, or notarial acts, for instance — precisely, or to meet the
+very specific needs of researchers. As the introduction to RiC-CM puts
+it in 1.2 Purpose and Scope:</p>
+<blockquote>
+<p>As a high-level model, RiC-CM is a broad conceptual framework. It
+does not address the full range of activities needed to manage records,
+nor does it address the full detail that may be required in any possible
+context in which it may be applied.</p>
+</blockquote>
+<p>RiC-O offers a richer arsenal than RiC-CM; it currently has 107
+classes, 75 datatype properties, and 480 object properties, as presented
+in its <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#history-note">history
+note</a>. Nevertheless, the ontology cannot anticipate all use cases and
+all current and future needs, though suggestions for additions are
+always welcome.</p>
+<p>Furthermore, RiC is a recent standard. Version 1.0 of RiC-CM and
+version 1.1 of RiC-O are themselves the result of enhancements to
+previous versions. Though they constitute a coherent whole, at this
+stage of its history, RiC is not as complete as one might hope in an
+ideal world, or as it will be in the future.</p>
+<h2 data-number="6g.3" id="is-your-journey-necessary"><span
+class="header-section-number">6g.3</span> Is your journey necessary<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Developing an extension to RiC involves defining additional entities,
+attributes, or relations — or, in the case of RiC-O, additional classes
+or properties — to complete the model. This requires thought, testing,
+formalization, and time. Once the extension is developed, it must be
+implemented in practice; in some cases, albeit somewhat unlikely today,
+there not yet being a profusion of software for RiC, this may involve
+adapting a pre-existing, RiC-compliant, tool. The extension must then be
+maintained, and if RiC evolves, you may need to update it
+accordingly.</p>
+<p>Thus, before embarking upon such an initiative, it’s a good idea to
+verify that your extension really is necessary in your institution or
+for your project!</p>
+<p>If RiC-CM doesn’t include the additional entity, attribute, or
+relation you would like, check to see if RiC-O offers it. Here are some
+examples of RiC-O components that currently don’t appear in any form in
+RiC-CM, and which concern Record Resources or Instantiations:</p>
+<ul>
+<li><p>the classes <a
+href="https://www.ica.org/standards/RiC/ontology#Title">rico:Title</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#IdentifierType">rico:IdentifierType</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#TitleType">rico:TitleType</a>;
+the properties <a
+href="https://www.ica.org/standards/RiC/ontology#title">rico:title</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#hasIdentifierType">rico:hasIdentifierType</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#hasTitleType">rico:hasTitleType</a>,
+and their inverse properties;</p></li>
+<li><p>several object properties which are sub-properties of <a
+href="https://www.ica.org/standards/RiC/ontology#includesOrIncluded">rico:includesOrIncluded</a>,
+like <a
+href="https://www.ica.org/standards/RiC/ontology#included">rico:included</a>;</p></li>
+<li><p>several object properties which have domain <a
+href="https://www.ica.org/standards/RiC/ontology#Date">rico:Date</a>,
+e.g. <a
+href="https://www.ica.org/standards/RiC/ontology#isDerivationDateOf">rico:isDerivationDateOf</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#isMigrationDateOf">rico:isMigrationDateOf</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#isAccumulationDateOf">rico:isAccumulationDateOf</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#isDestructionDateOf">rico:isDestructionDateOf</a>,
+<a
+href="https://www.ica.org/standards/RiC/ontology#isPublicationDateOf">rico:isPublicationDateOf</a>,
+and their inverse properties;</p></li>
+<li><p>several object properties and datatype useful to represent
+sequences (see <a href="faq--sequences.html">§6e</a> for more on these)
+and hierarchies of record resources, such as the ones defined as
+sub-properties of <a
+href="https://www.ica.org/standards/RiC/ontology#precedesOrPreceded">rico:precedesOrPreceded</a>,
+and also <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasMergedInto">rico:wasMergedInto</a>
+and <a
+href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasSplitInto">rico:wasSplitInto</a>,
+as well as the inverse properties of all of these;</p></li>
+<li><p>several object properties which are subproperties of <a
+href="https://www.ica.org/standards/RiC/ontology#hasOrHadSubject">rico:hasOrHadSubject</a>,
+such as <a
+href="https://www.ica.org/standards/RiC/ontology#hasContentWhichRepresents">rico:hasContentWhichRepresents</a>;</p></li>
+<li><p>the <a
+href="https://www.ica.org/standards/RiC/ontology#recordResourceHasSourceOfInformation">rico:recordResourceHasSourceOfInformation</a>
+object property;</p></li>
+<li><p>datatype properties related to the dimensions of things, such as
+<a
+href="https://www.ica.org/standards/RiC/ontology#width">rico:width</a>
+or <a
+href="https://www.ica.org/standards/RiC/ontology#height">rico:height</a>.</p></li>
+</ul>
+<p>If you find any of these RiC-O components useful, then when
+developing an extension for RiC-CM, you can draw inspiration from them
+and, whenever possible, explicitly establish a correspondence in your
+extension between components you add and existing components in
+RiC-O.</p>
+<p>Check toothat there are no other models that meet your needs, whose
+scope would be complementary to that of RiC, and that you could use in
+combination with RiC. For more on this, see <a
+href="combining_ric_with_other_standards.html">§4</a> and <a
+href="faq--how_to_use_ric_with_vocabularies.html#skos-vocabularies-to-populate-classes-in-ric-o-datasets">§6f.3</a>.</p>
+<p>Here are two examples of existing projects that have combined RiC and
+other models:</p>
+<ul>
+<li><p>The <a href="https://francearchives.gouv.fr/">FranceArchives (FA)
+portal</a> team has semanticized, in accordance with RiC-O 0.2, all the
+archival metadata that this portal aggregates; see <a
+href="https://francearchives.gouv.fr/fr/article/756183859">this page</a>
+(in French). Since FranceArchives also manages specific data, such as
+opening hours and contact details, on French archival institutions that
+provide finding aids to the portal, the FA team had to find a solution
+to structuring this data, since RiC-O does not provide properties for
+this. It was decided to use a few properties defined in <a
+href="https://schema.org/">Schema.org</a>, including <a
+href="https://schema.org/openingHours">schema:openingHours</a> and <a
+href="https://schema.org//openingHours">schema:telephone</a>, as well as
+the class <a
+href="https://schema.org/PostalAddress">schema:PostalAddress</a>. See
+for example <a href="https://francearchives.gouv.fr/service/33862">this
+description</a> of a French territorial archives service, the ‘Archives
+départementales de la Mayenne’.</p>
+<p>Note that this implies that such an archival service, initially
+defined as an instance of the <a
+href="https://www.ica.org/standards/RiC/ontology#CorporateBody">rico:CorporateBody</a>
+class, also can be considered an instance of the Schema.org <a
+href="https://schema.org/LocalBusiness">Local Business</a> or <a
+href="https://schema.org/CivicStructure">Civic Structure</a> class,
+since the union of these two is the domain of <a
+href="https://schema.org/openingHours">schema:openingHours</a> and <a
+href="https://schema.org//openingHours">schema:telephone</a>.</p></li>
+<li><p>The <a href="https://memoriav.ch/fr/memobase">Memobase
+portal</a>, which aggregates data about audiovisual cultural heritage in
+Switzerland, uses RiC-O 0.2 as its main reference ontology, completed by
+properties defined by <a href="https://www.rdaregistry.info/">the RDA
+registry</a>, and by properties defined by <a
+href="https://tech.ebu.ch/metadata/ebucore">EBUCore</a>, an ontology
+developed by The European Broadcasting Union, an alliance of public
+service media. See the <a
+href="https://ub-basel.atlassian.net/wiki/spaces/MD/pages/336855177/Memobase+RDF">documentation</a>of
+the Memobase data model, particularly the list of properties for digital
+instantiations, such as ebucore:duration or
+ebucore:mediaResourceDescription.</p></li>
+</ul>
+<h2 data-number="6g.4"
+id="is-your-need-really-specific-to-your-project"><span
+class="header-section-number">6g.4</span> Is your need really specific to
+your project<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>If your needs seem to be of quite general interest and might be
+shared by others, you are very welcome to contact EGAD; we would be
+happy to discuss them with you. You might contact EGAD in one of the
+ways indicated below, explaining what you would need; and then EGAD will
+see if RiC can be enriched so that your need is addressed.</p>
+<p>This is how, alongside other processes, RiC-O has evolved over the
+past few years. Here are two examples, among several others, of
+developments requested by users, and publicly discussed:</p>
+<ul>
+<li><p>A <a
+href="https://groups.google.com/g/Records_in_Contexts_users/c/yYQFdlDcPBQ">discussion</a>
+on the RiC users list in August 2024 resulted in the creation of several
+properties, used to link a <a
+href="https://www.ica.org/standards/RiC/ontology#Record">rico:Record</a>
+or a <a
+href="https://www.ica.org/standards/RiC/ontology#RecordPart">rico:RecordPart</a>
+to a thing it represents or an emotion expressed — see <a
+href="https://github.com/ICA-EGAD/RiC-O/pull/138">the pull
+request</a>;</p></li>
+<li><p>an issue created on GitHub in November 2024 about adding a
+property to link a student and the organization at which they studied,
+resulted in the creation of two properties and one class — see <a
+href="https://github.com/ICA-EGAD/RiC-O/issues/125">the issue</a> and
+the <a href="https://github.com/ICA-EGAD/RiC-O/pull/129">resulting pull
+request</a>.</p></li>
+</ul>
+<p>Do not hesitate to create issues on GitHub, comment on issues, and
+make pull requests. EGAD may need time to think about your problems and
+proposals, make a decision and carry out the necessary work, so it is
+possible that you will have to extend RiC-CM or RiC-O in the meantime.
+But taking the step of contacting EGAD might benefit both your
+organization and the the whole community, either immediately or over
+time!</p>
+<h2 data-number="6g.5"
+id="if-you-decide-to-develop-an-extension-a-few-recommendations"><span
+class="header-section-number">6g.5</span> If you decide to develop an
+extension: a few recommendation<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>As the additional components you need are not included in RiC, they
+should be clearly declared as such: create your own list of additional
+entities, attributes and relations (or classes and properties), in a
+distinct model (resp. or ontology) which would have its own identifier
+and name (resp. URI and namespace prefix). Equip each component which
+you add with its own name and identifier too (resp. its own URI).</p>
+<p>Given that you are constructing an extension of RiC, the next step
+would be to define your new components as sub-entities, sub-attributes,
+sub-relations, of an entity, an attribute or a relation of RiC-CM (resp.
+sub-classes or sub-properties of an existing component of RiC-O). It is
+worth taking the time to ask yourself and reflect upon precisely which
+existing component in RiC could be this attachment point; the extension
+must be consistent with the semantics and hierarchies provided by
+RiC.</p>
+<p>Let us consider a very simple example. Suppose you are describing a
+set of notarial records, including many wills, and that you need to
+record the relations that exist between these Records and People or
+Corporate bodies very accurately. In particular, you wish to record that
+a given person is the testator of a given will, so that later, end users
+can query the data, asking say: “give me the names of the testators of
+the wills that are dated within some given date range and/or held by
+some institution”.</p>
+<p>Neither RiC-CM nor RiC-O provides a relation or property to record
+such a fact, or address this specific need, nor is likely to do so soon.
+For RiC is not a model about wills, nor about the roles of the
+individuals involved, it is about records in general and their context
+entities. If you need to express the situation, and if RiC is your main
+reference model, this is a good reason to extend RiC.</p>
+<p>Start by looking amongst the RiC relations for one that you are
+confident is broader than your ‘has testator’ relation. There is, for
+instance, a <em>has author</em> relation in RiC-CM, and a corresponding
+property in RiC-O, <a
+href="https://www.ica.org/standards/RiC/ontology#hasAuthor">rico:hasAuthor</a>.
+This relation is defined as follows in RiC-O, and it’s just the same in
+RiC-CM.</p>
+<blockquote>
+<p>Label(s): a pour responsable intellectuel (fr) | has author (en) |
+tiene como autor a (es)</p>
+<p>Definition: Connects a Record to the Group, Person or Position that
+is responsible for conceiving and formulating the information contained
+in the Record.</p>
+<p>Scope note: To be used for a Person, Group or Position that makes any
+contribution to the content of a record. Includes the Person, Group or
+Position in whose name or by whose command the content may have been
+formulated and first instantiated (for example the Person who signed the
+Record).</p>
+<p>Has super-properties: rico:hasCreator</p>
+<p>Has domain: rico:Record</p>
+<p>Has range: rico:Group or rico:Person or rico:Position</p>
+<p>Has inverse: rico:isAuthorOf</p>
+</blockquote>
+<p>The definition and scope note here encompass, broadly speaking, ‘has
+testator’. Whether the will was created by the testator’s hand then
+deposited within the records of a notary, or by a third party (for
+example a notary), its content is defined by the testator and the
+testator’s signature attests to this, i.e. is a kind of authorship.</p>
+<p>The ‘has testator’ relation you want to create could therefore be
+declared as a sub-relation or sub-property <em>has author</em>. It would
+always have a Person as its source, this being consistent with the
+domain of <em>has author</em> relation, which is a union of Group,
+Person, and Position. The relation would have a will as its target,
+which can be considered a kind of Record, and thus everything is fine —
+there is no logical inconsistency between RiC and your proposal. You’ve
+found a good solution!</p>
+<p>If you decide to define a conceptual model for your project, you will
+define the <em>has testator</em> relation there, giving it a clear
+textual definition, maybe a scope note. You would specify that this
+relation has domain RiC-CM Person, and target RiC-CM Record.</p>
+<p>If you decide to define an ontology for your project, named say “An
+ontology for notarial records held by my institution”, you will need to
+assign a URI to it,
+e.g. ‘http://myinstitution.org/projects/notarialRecords/ontology’, as
+well, possibly, as a preferred namespace prefix, such as ‘my-onto’. You
+would define the <em>has testator</em> relation in the ontology, giving
+it a URI derived from the one for the ontology, say
+‘http://myinstitution.org/projects/notarialRecords/ontology#hasTestator’),
+and then, again, a clear textual definition and a scope note. You would
+specify that this relation has domain rico:Person and range rico:Record.
+All this might result in the following lines (in Turtle syntax):</p>
+<pre><code>@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix vann: &lt;http://purl.org/vocab/vann/&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
+@prefix my-onto: &lt;http://myinstitution.org/projects/notarialRecords/ontology#&gt; .
+
+
+&lt;http://myinstitution.org/projects/notarialRecords/ontology&gt;
+  a owl:Ontology ;
+# This ontology imports RiC-O 1.1; this is not absolutely necessary to do so when developing an extension, but throughout the development of the extension it may be very helpful.
+  owl:imports &lt;https://www.ica.org/standards/RiC/ontology/1.1&gt; ;
+  dc:title &quot;&quot;&quot;An ontology for notarial records in my
+            institution&quot;&quot;&quot;@en ;
+# It&#39;s good to declare a license, the contributors, and other metadata about the ontology here; we will skip this.
+  vann:preferredNamespacePrefix &quot;my-onto&quot; ;
+  vann:preferredNamespaceUri &quot;http://myinstitution.org/projects/notarialRecords/ontology#&quot; .
+
+dc:title
+  a owl:AnnotationProperty ;
+  rdfs:isDefinedBy &lt;http://purl.org/dc/elements/1.1/&gt; .
+
+vann:preferredNamespacePrefix
+  a owl:AnnotationProperty ;
+  rdfs:isDefinedBy &lt;http://purl.org/vocab/vann/&gt;.
+
+vann:preferredNamespaceUri
+  a owl:AnnotationProperty ;
+  rdfs:isDefinedBy &lt;http://purl.org/vocab/vann/&gt;.
+
+&lt;http://myinstitution.org/projects/notarialRecords/ontology#hasTestator&gt;
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf &lt;https://www.ica.org/standards/RiC/ontology#hasAuthor&gt; ;
+  owl:inverseOf &lt;http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf&gt; ;
+# we will also declare the inverse property below.
+  rdfs:domain &lt;https://www.ica.org/standards/RiC/ontology#Person&gt; ;
+  rdfs:range &lt;https://www.ica.org/standards/RiC/ontology#Record&gt; ;
+  rdfs:isDefinedBy &lt;http://myinstitution.org/projects/notarialRecords/ontology&gt; ;
+  rdfs:label &quot;has testator&quot;@en .
+# Here it is recommended to add a textual definition of the property, using e.g. rdfs:comment, and if necessary a scope note,
+# using e.g. skos:scopeNote; we will skip this.
+
+&lt;http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf&gt;
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf &lt;https://www.ica.org/standards/RiC/ontology#isAuthorOf&gt; ;
+  owl:inverseOf &lt;http://myinstitution.org/projects/notarialRecords/ontology#hasTestator&gt; ;
+  rdfs:domain &lt;https://www.ica.org/standards/RiC/ontology#Record&gt; ;
+  rdfs:range &lt;https://www.ica.org/standards/RiC/ontology#Person&gt; ;
+  rdfs:isDefinedBy &lt;https://rdf.archives-nationales.culture.gouv.fr/ontology&gt; ;
+  rdfs:label &quot;is testator of&quot;@en .</code></pre>
+<p>If you use this extension, and thus create triples in your dataset
+whose predicate is ‘my-onto:hasTestator’, a reasoner will be able to
+infer from each such triple one where the ‘my-onto:hasTestator’
+predicate is replaced by <a
+href="https://www.ica.org/standards/RiC/ontology#hasAuthor">rico:hasAuthor</a>;
+and that the target of the triple is a <a
+href="https://www.ica.org/standards/RiC/ontology#Record">rico:Record</a>,
+its source a <a
+href="https://www.ica.org/standards/RiC/ontology#Person">rico:Person</a>.</p>
+<p>We recommend that you use an OWL 2 ontology editor, it will likely be
+very useful to you. The open source <a
+href="https://protege.stanford.edu/software.php#desktop-protege">Protégé
+Desktop software</a>, for example, can display your extension and the
+original model extended in the same window (if you have imported the
+latter), so that you can see where the components are declared in the
+RiC-O hierarchy. Such tools typically embed reasoners which can check
+that there is no logical inconsistency in what you have asserted, as
+well as infer triples.</p>
+<p>If you clearly document the extension you have defined, and publish
+it under a permissive licence along with the data using the components
+you have added, this will enable others to reuse your data,
+understanding its semantics. They will also enable the production from
+your dataset of one which is strictly compliant to RiC-O, i.e. not an
+extension, since the components you have defined are sub-properties or
+sub-classes of RiC-O. Portals or aggregators might for instance wish to
+gather datasets using RiC-O only, not taking into account extensions; or
+they might also be interested in your extension, and reuse it.</p>
+<p>In the end, all of this might influence the development of RiC
+itself.</p>
+<h2 data-number="6g.6" id="conclusion"><span
+class="header-section-number">6g.6</span> Conclusio<span class="end-of-section-heading">n<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>It may be important in the future to maintain a registry of RiC-CM
+and RiC-O extensions. For now, we invite you to add an entry for your
+work to the <a href="https://ica-egad.github.io/RiC-ResourceList/">RiC
+resource list</a>.</p>
+<footer>
+<div class="page-footer">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--how_to_use_ric_with_vocabularies.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6f." title="Section 6f."></a></span>
+<span class="header-previous"><a href="faq--how_to_use_ric_with_vocabularies.html">6f.</a> <span class="header-previous-title"><a href="faq--how_to_use_ric_with_vocabularies.html" class="header">FAQ
+— How to use RiC with vocabularies</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html">7.</a> <span class="header-next-title"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html" class="header">Case
+study — How might RiC be of use to indigenous communities and other
+minority groups?</a></span></span>
+<span class="header-right-arrow"><a href="case_study--how_might_ric_be_of_use_to_indigenous_communities_and_other_minority_groups.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 7." title="Section 7."></a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

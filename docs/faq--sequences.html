@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ — Sequences</title>
+  <link rel="stylesheet" href="application_guidelines.css">
+</head>
+<body>
+<header>
+<div class="page-header">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6d." title="Section 6d."></a></span>
+<span class="header-previous"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html">6d.</a> <span class="header-previous-title"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html" class="header">FAQ
+— How to describe activities such as digitization, appraisal, or
+disposition</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--how_to_use_ric_with_vocabularies.html">6f.</a> <span class="header-next-title"><a href="faq--how_to_use_ric_with_vocabularies.html" class="header">FAQ
+— How to use RiC with vocabularies</a></span></span>
+<span class="header-right-arrow"><a href="faq--how_to_use_ric_with_vocabularies.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6f." title="Section 6f."></a></span>
+</div>
+</div>
+</header>
+<h1 class="title">6e. FAQ — Sequences</h1>
+<div class="table-of-contents">
+<ul>
+<li><a href="#what-is-this-faq-about"
+id="toc-what-is-this-faq-about"><span
+class="toc-section-number">6e.1</span> What is this FAQ about?</a></li>
+<li><a href="#records-in-order" id="toc-records-in-order"><span
+class="toc-section-number">6e.2</span> Records in order</a></li>
+<li><a href="#beyond-sequence-numbers"
+id="toc-beyond-sequence-numbers"><span
+class="toc-section-number">6e.3</span> Beyond sequence numbers</a></li>
+<li><a href="#not-only-chains" id="toc-not-only-chains"><span
+class="toc-section-number">6e.4</span> Not only chains</a></li>
+<li><a href="#different-points-of-view"
+id="toc-different-points-of-view"><span
+class="toc-section-number">6e.5</span> Different points of view</a></li>
+</ul>
+</div>
+<h2 data-number="6e.1" id="what-is-this-faq-about"><span
+class="header-section-number">6e.1</span> What is this FAQ about<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>We <a href="#records-in-order">begin</a> by discussing sequences of
+records and how they might be modelled in RiC. We explore a simple
+example, indicating along the way how correspondence might be modelled
+in RiC. This section is appropriate for a beginner in RiC.</p>
+<p>We then <a href="#beyond-sequence-numbers">turn</a> to a different
+example, of documentation of activity in a hospital ward. We show how
+the relational approach to sequences which RiC takes is flexible,
+allowing for the solving of concrete problems in records management.
+This section is appropriate for an intermediate to advanced user of RiC.
+The use of RiC’s Activity entity (see <a
+href="faq--general_questions_and_smaller_modelling_questions.html#are-activity-and-event-central-entities-in-ric-how-about-rule-and-place">§6a.3.2</a>)
+to express functional provenance is also illustrated.</p>
+<p>The short <a href="#not-only-chains">third section</a>, building upon
+the same example, discusses the assembly of sequences into patterns
+other than chains, and how RiC can handle this. It would be appropriate
+for an intermediate user of RiC, or a curious beginner.</p>
+<p>The <a href="#different-points-of-view">final section</a>, again
+quite short, is a further elaboration upon the same example, delving a
+little more deeply into what is possible in RiC. It is most appropriate
+for an advanced user of RiC, or an intermediate user reasonably
+comfortable with some of <a
+href="faq--record_or_record_set.html">§6b</a>.</p>
+<h2 data-number="6e.2" id="records-in-order"><span
+class="header-section-number">6e.2</span> Records in orde<span class="end-of-section-heading">r<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>It frequently happens that records form a sequence, the order of
+which it is important to preserve. Database migrations, for example,
+might be stored in a directory of a digital file system, its contents
+being sorted by file name; one would typically prefix these by a date,
+or by increasing numbers, to ensure that the order is retained.</p>
+<pre><code>001--first-migration.sql 002--second-migration.sql 003--third-migration.sql</code></pre>
+<p>In a finding aid, a sequence of series might correspond to a sequence
+of paragraphs within a free-text section for description of these
+series. The paragraphs might be numbered — but neither this numbering or
+the division of the paragraphs into a sequence are part of the
+documentary structure of the finding aid.</p>
+<p>This mixing of semantics might be regarded as less than ideal: should
+a name not simply be a name, and a description a description?! We might
+hope for specific metadata/structure for expressing that we have a
+sequence.</p>
+<p>Let us now focus upon correspondence between a citizen and an
+official body: an initial inquiry sent by the citizen, a reply by the
+official body, a response to this reply by the citizen, and so on. The
+order of the copies of these records kept by the official body might be
+able to be gleaned from inspection of their contents, or even just from
+their form: the iterative usage in the subject line of ‘Re:’, ‘Re: Re:’,
+‘Re: Re: Re:’ and so on would have been enough in the early days of
+email, for instance!</p>
+<p>So that we do not need to explore these records to ascertain their
+order, a sequence number might be assigned to each of them. However, for
+reasons we shall discuss <a href="#beyond-sequence-numbers">below</a>,
+RiC instead takes the point of view that a sequence is more robustly
+expressed by relations <em>between</em> records: that one record
+<em>precedes or preceded</em> another (or, inversely, <em>follows or
+followed</em> another). In this way, our example might be modelled as
+follows — the relation <em>precedes in time</em> could have been used in
+place of <em>precedes or preceded</em>.</p>
+<p><a href="diagrams/correspondence_sequence.svg"><img
+src="diagrams/correspondence_sequence.svg"
+alt="Correspondence sequence" /></a></p>
+<p>RiC goes beyond older standards in its possibilities for modelling
+correspondence; we might make use of this to incorporate more of the
+context of the example. The fact that the sequence is defined by replies
+to correspondence can be expressed using the relation <em>is reply
+to</em> (or its inverse <em>has reply</em>), whilst the <em>has
+addressee</em> and <em>has author</em> relations and their inverses
+allow for further precision; this is illustrated below. Such an approach
+would allow for searching in a precise way for a reply to a given
+inquiry, or for all replies to a particular person, and so on; dates,
+and more, could be included to expand the possibilities.</p>
+<p><a href="diagrams/correspondence_sequence_context.svg"><img
+src="diagrams/correspondence_sequence_context.svg"
+alt="Correspondence sequence context" /></a></p>
+<h2 data-number="6e.3" id="beyond-sequence-numbers"><span
+class="header-section-number">6e.3</span> Beyond sequence number<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Let us turn to a different example. In a hospital ward, at the end of
+a shift, a nurse typically writes a report on each of their patients.
+The collection of end-of-shift reports for a particular patient forms a
+sequence of records; including some context, we might model it in RiC as
+follows.</p>
+<p><a href="diagrams/end-of-shift_reports.svg"><img
+src="diagrams/end-of-shift_reports.svg"
+alt="End-of-shift reports" /></a></p>
+<p>During their shift, a nurse might in addition write progress notes
+for a patient; the progress notes and end-of-shift notes together also
+form a sequence. If the hospital’s records managers wish to keep track
+of both sequences using sequence numbers, either each end-of-shift
+report must be equipped with two of them — one for the sequence
+consisting only end-of-shift reports, and one for the sequence involving
+both kinds of reports. Alternatively, some workaround is needed, say an
+indexing syntax which takes the form S1-1, S1-2, S1-3, … and S2-1, S2-2,
+S2-3, … for progress notes written during the nurse’s first and second
+shifts respectively, and S1-R and S2-R for the first and second
+end-of-shift reports respectively. Either way, this is quite complex,
+and management of the sequences of records would be a little
+fragile.</p>
+<p>Progress notes for a patient written by doctors might also need to be
+managed, both as a sequence on their own, and as part of a sequence
+including the nurses’ progress notes and shift reports. Chaos!</p>
+<p>By contrast, when expressing sequences in the way RiC does, one can
+simply add extra <em>precedes or preceded</em> or <em>precedes in
+time</em> relations to handle all of this, as illustrated in the
+following diagram. If one is only interested in the patient’s progress
+notes, one can simply ignore the end-of-shift reports and the arrows to
+and from them, and vice versa.</p>
+<p><a href="diagrams/progress_notes_and_end-of-shift_reports.svg"><img
+src="diagrams/progress_notes_and_end-of-shift_reports.svg"
+alt="Progress notes and end-of-shift reports" /></a></p>
+<p>In particular, RiC can, without trouble, handle multiple, parallel
+sequences involving the same record resources. This is a significant
+departure from older standards, where writing a finding aid would likely
+necessitate choosing one sequence as primary; another sequence might
+well involve the creation of a second finding aid for almost the same
+record resources — this redundancy having costs both for the institution
+holding the records and its users.</p>
+<p>RiC’s approach also allows for flexibility in the construction of
+sequences. It might be, for instance, that the nurses use an app to log
+their progress notes and end-of-shift reports, but that the end-of-shift
+reports are not regarded as part of a sequence within the app itself,
+because they are primarily viewed by the incoming nurse immediately
+after a change of shift. In other words, the situation might be as
+follows in the internals of the app, with the end-of-shift reports not
+related by <em>precedes or preceded</em> or <em>precedes in
+time</em>.</p>
+<p><a
+href="diagrams/progress_notes_and_isolated_end-of-shift_reports.svg"><img
+src="diagrams/progress_notes_and_isolated_end-of-shift_reports.svg"
+alt="Progress notes and isolated end-of-shift reports" /></a></p>
+<p>It might be only later that extra <em>precedes or preceded</em>
+relations are added, say upon discharge of the patient and an archiving
+of the documentation of their stay, ending up with a diagram akin to the
+following.</p>
+<p><a
+href="diagrams/joined_progress_notes_and_end-of-shift_reports.svg"><img
+src="diagrams/joined_progress_notes_and_end-of-shift_reports.svg"
+alt="Joined progress notes and end-of-shift reports" /></a></p>
+<p>By contrast, if one relies upon sequence numbers, any change in a
+sequence — an addition or removal somewhere — would necessitate
+recomputing all sequence numbers after where the change was made. This
+would be the case even if one’s sequence is only a simple chain.</p>
+<h2 data-number="6e.4" id="not-only-chains"><span
+class="header-section-number">6e.4</span> Not only chain<span class="end-of-section-heading">s<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Sequences of records can assemble into other shapes too; RiC can
+express these equally well. Suppose, for instance, that in the time
+between a nurse writing a first progress note and a later one, two
+different doctors — with different fields of expertises, say — visit a
+patient, and themselves each write progress notes. We might model this
+as follows; in different contexts, any or all of the paths through the
+diamond might be relevant.</p>
+<p><a href="diagrams/diamond_of_progress_notes.svg"><img
+src="diagrams/diamond_of_progress_notes.svg"
+alt="Diamond of progress notes" /></a></p>
+<p>For a different example, a patient, following discharge, might — in
+the case of recovery from a heart attack, for instance — continue to
+visit a hospital periodically for physiotherapy, and separately for
+clinical follow-up. These two sequences of visits might be modelled as a
+bifurcation of the chain of documentation created during the patient’s
+hospital stay, as in the following diagram.</p>
+<p><a href="diagrams/bifurcation_following_discharge.svg"><img
+src="diagrams/bifurcation_following_discharge.svg"
+alt="Bifurcation following discharge" /></a></p>
+<h2 data-number="6e.5" id="different-points-of-view"><span
+class="header-section-number">6e.5</span> Different points of vie<span class="end-of-section-heading">w<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
+<p>Thus far we have discussed sequences of records involving a single
+patient, but per-nurse sequences of records might be equally important
+to manage. A nurse’s end-of-shift report encompasses all of their
+patients; as discussed in <a
+href="faq--record_or_record_set.html#record-within-a-record">§6b.2.5</a>,
+RiC allows a Record to be included in other Records, and we might make
+use of this to describe how the per-nurse and per-patient sequences
+interact. The diagram below suggests one way to do it; a sequence of
+records authored by Nurse 1 lies horizontally in the middle of the
+diagram, whilst sequences of records for two patients, A and B, lie
+above and below it.</p>
+<p><a href="diagrams/nurse_point_of_view.svg"><img
+src="diagrams/nurse_point_of_view.svg"
+alt="Nurse point of view" /></a></p>
+<footer>
+<div class="page-footer">
+<div class="header-left">
+<span class="header-left-arrow"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html"><img class="header-icon" src="icons/left_arrow.svg" alt="Section 6d." title="Section 6d."></a></span>
+<span class="header-previous"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html">6d.</a> <span class="header-previous-title"><a href="faq--how_to_describe_activities_such_as_digitization_appraisal_or_disposition.html" class="header">FAQ
+— How to describe activities such as digitization, appraisal, or
+disposition</a></span></span>
+</div>
+<div>
+<div><span><h1 class="page-header"><a class="header" href="index.html">Records in Contexts — Application Guidelines</a></h1></span></div>
+<div class="sub-header"><span class="sub-header"><a href="index.html">Front matter</a></span> <span class="sub-header-end"><a href="table_of_contents.html">Table of contents</a></span></div>
+</div>
+<div class="header-right">
+<span class="header-next"><a href="faq--how_to_use_ric_with_vocabularies.html">6f.</a> <span class="header-next-title"><a href="faq--how_to_use_ric_with_vocabularies.html" class="header">FAQ
+— How to use RiC with vocabularies</a></span></span>
+<span class="header-right-arrow"><a href="faq--how_to_use_ric_with_vocabularies.html"><img class="header-icon" src="icons/right_arrow.svg" alt="Section 6f." title="Section 6f."></a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

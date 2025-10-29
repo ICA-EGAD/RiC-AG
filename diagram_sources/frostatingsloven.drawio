@@ -1,0 +1,250 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="O2NB3AHUGkKWXO4BTzOB">
+    <mxGraphModel dx="5551" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-1" value="13th century manuscript form of Frostatingsloven" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="220" width="200" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L6I_B5Xg3VRzbRjyq4MM-1" vertex="1">
+          <mxGeometry y="40" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-3" value="Upper part of page of manuscript from the 13th century containing Frostatingsloven" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="120" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-4" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L6I_B5Xg3VRzbRjyq4MM-3" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-5" value="Lower part of page of manuscript from the 13th century containing Frostatingsloven" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-6" value="Record Part" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L6I_B5Xg3VRzbRjyq4MM-5" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.471;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.471;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-5" target="L6I_B5Xg3VRzbRjyq4MM-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-8" value="follows or follows" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="L6I_B5Xg3VRzbRjyq4MM-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-1" target="L6I_B5Xg3VRzbRjyq4MM-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="246" as="sourcePoint" />
+            <mxPoint x="500" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-10" value="has or had constituent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="L6I_B5Xg3VRzbRjyq4MM-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-2" target="L6I_B5Xg3VRzbRjyq4MM-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="387" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-12" value="has or had constituent" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="L6I_B5Xg3VRzbRjyq4MM-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-1" target="L6I_B5Xg3VRzbRjyq4MM-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="187" as="sourcePoint" />
+            <mxPoint x="630" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-15" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="L6I_B5Xg3VRzbRjyq4MM-14" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-16" value="Propagation of Frostatingsloven in the 13th century" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="535" y="54" width="190" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L6I_B5Xg3VRzbRjyq4MM-17" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="L6I_B5Xg3VRzbRjyq4MM-16" vertex="1">
+          <mxGeometry y="40" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-1" value="13th century manuscript form of Frostatingsloven, still extant in the 17th century" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="220" width="280" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-1" vertex="1">
+          <mxGeometry y="40" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-1" target="PNjjJlQ0i2x1OqJXH55u-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="310" as="sourcePoint" />
+            <mxPoint x="848" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-4" value="has copy" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-7" value="Preserving of 13th century manuscripts of Frostatingsloven until the 17th century" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="54" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-8" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-7" vertex="1">
+          <mxGeometry y="40" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0;exitDx=0;exitDy=0;entryX=0.517;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-1" target="PNjjJlQ0i2x1OqJXH55u-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="220" as="sourcePoint" />
+            <mxPoint x="1080" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-10" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.496;exitY=1.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-2" target="PNjjJlQ0i2x1OqJXH55u-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="420" as="sourcePoint" />
+            <mxPoint x="1064" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-12" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-16" value="17th century transcription of 13th century manuscript form of Frostatingsloven" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="941" y="390" width="239" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-17" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-16" vertex="1">
+          <mxGeometry y="40" width="239" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.168;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-16" target="PNjjJlQ0i2x1OqJXH55u-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="360" as="sourcePoint" />
+            <mxPoint x="1270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-19" value="physical characteristics note" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-18" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-21" value="Complete" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="PNjjJlQ0i2x1OqJXH55u-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="150" as="sourcePoint" />
+            <mxPoint x="-80" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-23" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-22" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-24" value="Fragment of upper part of page of 13th century manuscript containing&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="120" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-25" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-24" vertex="1">
+          <mxGeometry y="40" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="PNjjJlQ0i2x1OqJXH55u-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="342" as="sourcePoint" />
+            <mxPoint x="-111" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-27" value="has or had instantiation" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-26" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-28" value="Fragment of lower part of page of 13th century manuscript containing&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#F5DEB3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="310" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-29" value="Instantiation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#F5DEB3;strokeWidth=2;fillColor=#F5DEB3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-28" vertex="1">
+          <mxGeometry y="40" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-24" target="PNjjJlQ0i2x1OqJXH55u-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="86" y="86.66" as="sourcePoint" />
+            <mxPoint x="50" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-31" value="physical characteristics note" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-30" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-32" value="Fragment" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.742;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-29" target="PNjjJlQ0i2x1OqJXH55u-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="380" as="sourcePoint" />
+            <mxPoint x="70" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-34" value="physical characteristics note" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-33" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-35" value="Fragment" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-37" value="Second half of 13th century" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="430" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-38" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-37" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.187;exitY=1.137;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-2" target="PNjjJlQ0i2x1OqJXH55u-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="361" as="sourcePoint" />
+            <mxPoint x="386" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-40" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-39" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-41" value="Frostating" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="404" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-42" value="Corporate Body" style="text;strokeColor=#C6D9F1;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-41" vertex="1">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.809;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-2" target="PNjjJlQ0i2x1OqJXH55u-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="260" as="sourcePoint" />
+            <mxPoint x="850" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-44" value="has author" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-43" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-45" value="Frostatingsloven" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#EAF1DD;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="456" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-46" value="Rule&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#EAF1DD;strokeWidth=2;fillColor=#EAF1DD;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-45" vertex="1">
+          <mxGeometry y="26" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.505;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="L6I_B5Xg3VRzbRjyq4MM-2" target="PNjjJlQ0i2x1OqJXH55u-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657" y="316" as="sourcePoint" />
+            <mxPoint x="500" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-48" value="is associated&amp;nbsp; with rule" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-47" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-45" target="PNjjJlQ0i2x1OqJXH55u-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871" y="470" as="sourcePoint" />
+            <mxPoint x="870" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-51" value="is associated&amp;nbsp; with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-50" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-52" value="Frosta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#FAA0A0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830.0000000000009" y="580" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-53" value="Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="PNjjJlQ0i2x1OqJXH55u-52" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.565;exitY=1.135;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PNjjJlQ0i2x1OqJXH55u-42" target="PNjjJlQ0i2x1OqJXH55u-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="500" as="sourcePoint" />
+            <mxPoint x="1010" y="606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNjjJlQ0i2x1OqJXH55u-55" value="is associated&amp;nbsp; with place" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="PNjjJlQ0i2x1OqJXH55u-54" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

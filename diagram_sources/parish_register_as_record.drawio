@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="rpcb4mzmXCl31CcHwljb">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-1" value="Parish register for Bratsberg church, 1938-1952&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="610" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9eICvYnxZosk0hdtQ2a_-1" vertex="1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-1" value="Activity of Bratsberg church, 1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="606" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="S63EhYjACRCDa8wTgJug-1" vertex="1">
+          <mxGeometry y="30" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="S63EhYjACRCDa8wTgJug-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1273" y="636" as="sourcePoint" />
+            <mxPoint x="1430" y="635.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-5" value="1938 - 1952" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DDD9C3;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="800" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-6" value="Date" style="text;strokeColor=#DDD9C3;strokeWidth=2;fillColor=#DDD9C3;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="S63EhYjACRCDa8wTgJug-5" vertex="1">
+          <mxGeometry y="26" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.332;exitY=1.115;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.844;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="S63EhYjACRCDa8wTgJug-2" target="S63EhYjACRCDa8wTgJug-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="750.0000000000002" as="sourcePoint" />
+            <mxPoint x="1600" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-8" value="occurred at date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.767;exitY=1.192;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.189;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9eICvYnxZosk0hdtQ2a_-2" target="S63EhYjACRCDa8wTgJug-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1157" y="727" as="sourcePoint" />
+            <mxPoint x="1000" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-10" value="has creation date" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

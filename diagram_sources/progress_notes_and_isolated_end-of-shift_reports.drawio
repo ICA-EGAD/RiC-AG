@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5615.213 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="3I6mRa5P5nZsIQNZ7VRq">
+    <mxGraphModel dx="1033" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-1" value="First end-of-shift report for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="640" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="i-SSKv4laA4iEFBlzxF1-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="i-SSKv4laA4iEFBlzxF1-1" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-2" value="Second end-of-shift report for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="640" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="urL7mEImCn63v73o6za4-3" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="urL7mEImCn63v73o6za4-2" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-1" value="First progress note for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="438" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="vCd1ojvnbuHwF5kZcieS-1" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-3" value="Second progress note for patient A" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelPadding=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="440" width="150" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-4" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="vCd1ojvnbuHwF5kZcieS-3" vertex="1">
+          <mxGeometry y="40" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.005;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="vCd1ojvnbuHwF5kZcieS-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="471.44" as="sourcePoint" />
+            <mxPoint x="769" y="470.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCd1ojvnbuHwF5kZcieS-6" value="precedes or preceded" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="vCd1ojvnbuHwF5kZcieS-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

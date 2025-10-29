@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="rpcb4mzmXCl31CcHwljb">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-1" value="Parish register" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="817" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9eICvYnxZosk0hdtQ2a_-2" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9eICvYnxZosk0hdtQ2a_-1" vertex="1">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-1" value="Marriages, christenings, funerals, and other ceremonies at a church" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="810" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="S63EhYjACRCDa8wTgJug-1" vertex="1">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.576;entryDx=0;entryDy=0;exitX=1.01;exitY=0.137;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="9eICvYnxZosk0hdtQ2a_-2" target="S63EhYjACRCDa8wTgJug-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="757" as="sourcePoint" />
+            <mxPoint x="1577" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S63EhYjACRCDa8wTgJug-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="S63EhYjACRCDa8wTgJug-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-3" value="Parish register entry for a marriage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1012.5" y="620" width="247.5" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-4" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-3" vertex="1">
+          <mxGeometry y="30" width="247.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.533;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-4" target="9eICvYnxZosk0hdtQ2a_-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1144" y="690" as="sourcePoint" />
+            <mxPoint x="1410" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-7" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-6" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-8" value="A church marriage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="620" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-9" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=2;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="AIsGsS2JBfu4cgLnV8Io-8" vertex="1">
+          <mxGeometry y="30" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.481;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.471;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-9" target="S63EhYjACRCDa8wTgJug-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="682" as="sourcePoint" />
+            <mxPoint x="1638" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-11" value="is or was subevent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-10" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="AIsGsS2JBfu4cgLnV8Io-3" target="AIsGsS2JBfu4cgLnV8Io-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257.5" y="654" as="sourcePoint" />
+            <mxPoint x="1465.5" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsGsS2JBfu4cgLnV8Io-13" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="AIsGsS2JBfu4cgLnV8Io-12" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-1" value="Civil register entry for a marriage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="290" width="270" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-2" value="Record" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pV9FwaY-A3g4o-simPut-1" vertex="1">
+          <mxGeometry y="30" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.479;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pV9FwaY-A3g4o-simPut-2" target="lHas0bxFGft9U4VrOiWB-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="491" as="sourcePoint" />
+            <mxPoint x="1619" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-4" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="pV9FwaY-A3g4o-simPut-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-13" value="Marriages in a municipality in France" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=27;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="450" width="230" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-14" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pV9FwaY-A3g4o-simPut-13" vertex="1">
+          <mxGeometry y="27" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-16" value="Civil register" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="290" width="250" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-17" value="Record Set" style="text;strokeColor=#DAEEF3;strokeWidth=3;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pV9FwaY-A3g4o-simPut-16" vertex="1">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.009;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pV9FwaY-A3g4o-simPut-1" target="pV9FwaY-A3g4o-simPut-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1810" y="320" as="sourcePoint" />
+            <mxPoint x="1810" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-19" value="is or was included in" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="pV9FwaY-A3g4o-simPut-18" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.468;entryY=0.014;entryDx=0;entryDy=0;exitX=0.491;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="pV9FwaY-A3g4o-simPut-17" target="pV9FwaY-A3g4o-simPut-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2090" y="705" as="sourcePoint" />
+            <mxPoint x="2330" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-21" value="documents" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="pV9FwaY-A3g4o-simPut-20" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0;entryDx=0;entryDy=0;jumpStyle=gap;jumpSize=19;entryPerimeter=0;" parent="1" source="lHas0bxFGft9U4VrOiWB-1" target="pV9FwaY-A3g4o-simPut-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1638" y="657" as="sourcePoint" />
+            <mxPoint x="1638" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pV9FwaY-A3g4o-simPut-33" value="is or was subevent of" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="pV9FwaY-A3g4o-simPut-32" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHas0bxFGft9U4VrOiWB-1" value="A civil marriage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;strokeColor=#FFFAA0;strokeWidth=2;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="450" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="lHas0bxFGft9U4VrOiWB-2" value="Activity" style="text;strokeColor=#FFFAA0;strokeWidth=2;fillColor=#FFFFFF;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="lHas0bxFGft9U4VrOiWB-1" vertex="1">
+          <mxGeometry y="30" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHas0bxFGft9U4VrOiWB-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lHas0bxFGft9U4VrOiWB-1" target="AIsGsS2JBfu4cgLnV8Io-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="490" as="sourcePoint" />
+            <mxPoint x="1581" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHas0bxFGft9U4VrOiWB-4" value="precedes in time" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="lHas0bxFGft9U4VrOiWB-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
