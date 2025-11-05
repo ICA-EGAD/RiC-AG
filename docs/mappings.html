@@ -181,20 +181,19 @@ ready to use; it is just a generic mapping between the EAD 2002 DTD and
 <a href="https://www.ica.org/standards/RiC/ontology">RiC-O 1.1</a>, the
 former currently remaining the most widely-used of the EAD versions. The
 Tag Library of EAD 2002 DTD can be accessed <a
-href="https://www.loc.gov/ead/tglib//">here</a>; a few EAD
-elements are still missing from the crosswalk.</p>
+href="https://www.loc.gov/ead/tglib">here</a>; a few EAD elements are
+still missing from the crosswalk.</p>
 <p>The content of the spreadsheet can be discussed or even contradicted,
 but we hope that it might be useful, at least as far as initiating
 reflection. It should be modified or refined according to the rules by
 which EAD is applied within your institution, in your specific project,
-or in national or supranational recommendations, should you be called
-upon to prepare these.</p>
+or in national or supranational recommendations.</p>
 <p>EAD 2002 is very flexible, and includes many mixed content elements.
 Indeed, when EAD is implemented in a given context, most usually a
 specific, more constraining profile is used. Therefore, a local mapping
 will probably far exceed what is proposed below.</p>
-<p>A more precise specification for converting EAD documents to a RiC-O
-1.1 dataset is provided by the <a
+<p>An example of such a detailed specification for converting EAD 2002
+documents to a RiC-O 1.1 dataset is provided by the <a
 href="https://archivesnationalesfr.github.io/rico-converter/en/Mappings.html">documentation</a>
 and <a
 href="https://archivesnationalesfr.github.io/rico-converter/en/UnitTests.html">unit
@@ -237,9 +236,9 @@ audience attribute, and in particular making sure you do not take into
 account, when processing the EAD files, c, numbered c, or scopecontent
 elements that have an audience attribute with the value ‘internal’.</p>
 <p>Remember that it is possible to store an XML structure as the value
-of a RDF datatype property: see <a
-href="https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-XML-literals">https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-XML-literals</a>),
-which may be very helpful if you wish to convert the text content of EAD
+of a RDF datatype property (see <a
+href="https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-XML-literals">https://www.w3.org/TR/rdf-syntax-grammar/#section-Syntax-XML-literals</a>).
+This may be very helpful if you wish to convert the text content of EAD
 elements like bioghist, custodhist or scopecontent, that might include a
 series of p or list elements. Converting them to a XHTML structure
 included in a html:div wrapper element, as the RiC-O converter does, is

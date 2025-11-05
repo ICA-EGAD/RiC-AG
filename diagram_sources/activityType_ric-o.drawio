@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-10-13T20:24:26.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="R6qYOnutoqfQIhFjaXZW" version="24.5.1" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="1JxPmDrOZ6C-Ugt2GIDU">
-    <mxGraphModel dx="1276" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,8 +22,8 @@
         <mxCell id="8VdEKnk1jZlLYVMc5YEI-9" value="rico:Place" style="text;strokeColor=#FAA0A0;strokeWidth=2;fillColor=#FAA0A0;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="8VdEKnk1jZlLYVMc5YEI-8" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8VdEKnk1jZlLYVMc5YEI-11" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;The organization’s&lt;br/&gt;mission is to create programs to improve the quality of residential housing and&lt;br/&gt;develop projects to improve the East Side of Buffalo and Western New York&lt;/font&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="170" y="414" width="230" height="96" as="geometry" />
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-11" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;The organization’s&lt;br/&gt;mission is to create programs to improve the quality of residential housing and&lt;br/&gt;develop projects to improve the East Side of Buffalo and Western New York&lt;/font&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;labelPadding=0;overflow=visible;" parent="1" vertex="1">
+          <mxGeometry x="110" y="414" width="270" height="96" as="geometry" />
         </mxCell>
         <mxCell id="8VdEKnk1jZlLYVMc5YEI-15" value="&lt;br&gt;&lt;pre&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;N 42°53′48&quot; W 78°50′2&quot; &lt;br/&gt;[WGS84]&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;rounded=1;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="760" y="348" width="170" height="66" as="geometry" />
@@ -31,7 +31,7 @@
         <mxCell id="8VdEKnk1jZlLYVMc5YEI-16" value="ge" style="endArrow=classic;html=1;rounded=0;exitX=0.204;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8VdEKnk1jZlLYVMc5YEI-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="279" y="336" as="sourcePoint" />
-            <mxPoint x="260" y="410" as="targetPoint" />
+            <mxPoint x="259" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8VdEKnk1jZlLYVMc5YEI-17" value="rico:generalDescription" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-16" connectable="0" vertex="1">
@@ -43,7 +43,7 @@
             <mxPoint x="610" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8VdEKnk1jZlLYVMc5YEI-19" value="hasActivityType" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-18" connectable="0" vertex="1">
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-19" value="rico:hasActivityType" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-18" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8VdEKnk1jZlLYVMc5YEI-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.722;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8VdEKnk1jZlLYVMc5YEI-4" target="8VdEKnk1jZlLYVMc5YEI-5" edge="1">
@@ -77,26 +77,26 @@
             <mxPoint x="458" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8VdEKnk1jZlLYVMc5YEI-29" value="ricp:isEventAssociatedWith" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-28" connectable="0" vertex="1">
+        <mxCell id="8VdEKnk1jZlLYVMc5YEI-29" value="rico:isEventAssociatedWith" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="8VdEKnk1jZlLYVMc5YEI-28" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-3" value="Community development" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="450" width="180" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="nHtug_AuCQl4-Nsb1y1J-4" value="rico:ActivityType&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-3" vertex="1">
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-4" value="rico:ActivityType; skos:Concept&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-3" vertex="1">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-7" value="Community development" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="458" width="200" height="52" as="geometry" />
+          <mxGeometry x="990" y="480" width="200" height="52" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-8" value="&lt;div&gt;skos:Concept&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-7" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nHtug_AuCQl4-Nsb1y1J-9" value="Art and Architecture Thesaurus (AAT)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="252" width="200" height="52" as="geometry" />
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-9" value="Art and Architecture Thesaurus (AAT)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=38;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="252" width="200" height="64" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-10" value="&lt;div&gt;skos:ConceptScheme&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-9" vertex="1">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="38" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.204;entryY=1.062;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nHtug_AuCQl4-Nsb1y1J-7" target="nHtug_AuCQl4-Nsb1y1J-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -107,11 +107,11 @@
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-12" value="skos:inScheme" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="nHtug_AuCQl4-Nsb1y1J-11" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nHtug_AuCQl4-Nsb1y1J-13" value="The institution or project&#39;s vocabulary on Activity types" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="590" width="230" height="52" as="geometry" />
+        <mxCell id="nHtug_AuCQl4-Nsb1y1J-13" value="The institution or project&#39;s vocabulary on Activity types" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="590" width="230" height="66" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-14" value="&lt;div&gt;skos:ConceptScheme&lt;/div&gt;" style="text;strokeColor=none;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="nHtug_AuCQl4-Nsb1y1J-13" vertex="1">
-          <mxGeometry y="26" width="230" height="26" as="geometry" />
+          <mxGeometry y="40" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nHtug_AuCQl4-Nsb1y1J-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.838;exitY=1.169;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nHtug_AuCQl4-Nsb1y1J-4" target="nHtug_AuCQl4-Nsb1y1J-13" edge="1">
           <mxGeometry relative="1" as="geometry">

@@ -60,11 +60,11 @@ components to RiC that you need for your descriptions.</p>
 class="header-section-number">6g.2</span> Why extend RiC<span class="end-of-section-heading">?<a href="#"><img class="to-top-icon" src="icons/up_arrow.svg" alt="To top of page" title="To top of page"/></a></span></h2>
 <p>RiC is a generic, international, standard; it might be necessary to
 extend it to meet local requirements. In addition, RiC-CM is a reference
-framework, without the level of granularity that might be necessary to,
-say, precisely describe special collections — sets of medieval charters,
-postcards, or notarial acts, for instance — precisely, or to meet the
-very specific needs of researchers. As the introduction to RiC-CM puts
-it in 1.2 Purpose and Scope:</p>
+framework, without the level of granularity that might be necessary to
+precisely describe special collections — sets of medieval charters,
+postcards, or notarial acts, for instance — or to meet the very specific
+needs of researchers. As the introduction to RiC-CM puts it in 1.2
+Purpose and Scope:</p>
 <blockquote>
 <p>As a high-level model, RiC-CM is a broad conceptual framework. It
 does not address the full range of activities needed to manage records,
@@ -137,10 +137,6 @@ sequences (see <a href="faq--sequences.html">§6e</a> for more on these)
 and hierarchies of record resources, such as the ones defined as
 sub-properties of <a
 href="https://www.ica.org/standards/RiC/ontology#precedesOrPreceded">rico:precedesOrPreceded</a>,
-and also <a
-href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasMergedInto">rico:wasMergedInto</a>
-and <a
-href="https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasSplitInto">rico:wasSplitInto</a>,
 as well as the inverse properties of all of these;</p></li>
 <li><p>several object properties which are subproperties of <a
 href="https://www.ica.org/standards/RiC/ontology#hasOrHadSubject">rico:hasOrHadSubject</a>,
@@ -160,7 +156,7 @@ developing an extension for RiC-CM, you can draw inspiration from them
 and, whenever possible, explicitly establish a correspondence in your
 extension between components you add and existing components in
 RiC-O.</p>
-<p>Check toothat there are no other models that meet your needs, whose
+<p>Check too that there are no other models that meet your needs, whose
 scope would be complementary to that of RiC, and that you could use in
 combination with RiC. For more on this, see <a
 href="combining_ric_with_other_standards.html">§4</a> and <a
@@ -179,21 +175,21 @@ to structuring this data, since RiC-O does not provide properties for
 this. It was decided to use a few properties defined in <a
 href="https://schema.org/">Schema.org</a>, including <a
 href="https://schema.org/openingHours">schema:openingHours</a> and <a
-href="https://schema.org//openingHours">schema:telephone</a>, as well as
-the class <a
+href="https://schema.org/telephone">schema:telephone</a>, as well as the
+class <a
 href="https://schema.org/PostalAddress">schema:PostalAddress</a>. See
 for example <a href="https://francearchives.gouv.fr/service/33862">this
 description</a> of a French territorial archives service, the ‘Archives
-départementales de la Mayenne’.</p>
-<p>Note that this implies that such an archival service, initially
-defined as an instance of the <a
+départementales de la Mayenne’. Note that this implies that they have
+checked that such an archival service, which is explicitly defined as an
+instance of the <a
 href="https://www.ica.org/standards/RiC/ontology#CorporateBody">rico:CorporateBody</a>
-class, also can be considered an instance of the Schema.org <a
-href="https://schema.org/LocalBusiness">Local Business</a> or <a
-href="https://schema.org/CivicStructure">Civic Structure</a> class,
-since the union of these two is the domain of <a
+class, can also be considered as an instance of the <a
+href="https://schema.org/CivicStructure">Schema.org Civic Structure</a>
+or of the <a href="https://schema.org/LocalBusiness">Schema.org Local
+Business</a> class, which are in the domain of <a
 href="https://schema.org/openingHours">schema:openingHours</a> and <a
-href="https://schema.org//openingHours">schema:telephone</a>.</p></li>
+href="https://schema.org/telephone">schema:telephone</a>.</p></li>
 <li><p>The <a href="https://memoriav.ch/fr/memobase">Memobase
 portal</a>, which aggregates data about audiovisual cultural heritage in
 Switzerland, uses RiC-O 0.2 as its main reference ontology, completed by
@@ -336,11 +332,14 @@ All this might result in the following lines (in Turtle syntax):</p>
 
 &lt;http://myinstitution.org/projects/notarialRecords/ontology&gt;
   a owl:Ontology ;
-# This ontology imports RiC-O 1.1; this is not absolutely necessary to do so when developing an extension, but throughout the development of the extension it may be very helpful.
+# This ontology imports RiC-O 1.1; this is not absolutely necessary to do when
+# developing an extension, but throughout the development of the extension it
+# may be very helpful.
   owl:imports &lt;https://www.ica.org/standards/RiC/ontology/1.1&gt; ;
   dc:title &quot;&quot;&quot;An ontology for notarial records in my
             institution&quot;&quot;&quot;@en ;
-# It&#39;s good to declare a license, the contributors, and other metadata about the ontology here; we will skip this.
+# It&#39;s good to declare a license, the contributors, and other metadata about the
+# ontology here; we will skip this.
   vann:preferredNamespacePrefix &quot;my-onto&quot; ;
   vann:preferredNamespaceUri &quot;http://myinstitution.org/projects/notarialRecords/ontology#&quot; .
 
@@ -360,13 +359,14 @@ vann:preferredNamespaceUri
   a owl:ObjectProperty ;
   rdfs:subPropertyOf &lt;https://www.ica.org/standards/RiC/ontology#hasAuthor&gt; ;
   owl:inverseOf &lt;http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf&gt; ;
-# we will also declare the inverse property below.
+# We will also declare the inverse property below.
   rdfs:domain &lt;https://www.ica.org/standards/RiC/ontology#Person&gt; ;
   rdfs:range &lt;https://www.ica.org/standards/RiC/ontology#Record&gt; ;
   rdfs:isDefinedBy &lt;http://myinstitution.org/projects/notarialRecords/ontology&gt; ;
   rdfs:label &quot;has testator&quot;@en .
-# Here it is recommended to add a textual definition of the property, using e.g. rdfs:comment, and if necessary a scope note,
-# using e.g. skos:scopeNote; we will skip this.
+# Here it is recommended to add a textual definition of the property, using e.g.
+# rdfs:comment, and if necessary a scope note, using e.g. skos:scopeNote; we
+# will skip this.
 
 &lt;http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf&gt;
   a owl:ObjectProperty ;
@@ -400,9 +400,10 @@ you have added, this will enable others to reuse your data,
 understanding its semantics. They will also enable the production from
 your dataset of one which is strictly compliant to RiC-O, i.e. not an
 extension, since the components you have defined are sub-properties or
-sub-classes of RiC-O. Portals or aggregators might for instance wish to
-gather datasets using RiC-O only, not taking into account extensions; or
-they might also be interested in your extension, and reuse it.</p>
+sub-classes of RiC-O. Such a use-case could for example arise if in the
+future some portals or aggregators wish to gather datasets and to use
+RiC-O only, not to take into account any extension developed from
+RiC-O.</p>
 <p>In the end, all of this might influence the development of RiC
 itself.</p>
 <h2 data-number="6g.6" id="conclusion"><span

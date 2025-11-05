@@ -566,21 +566,25 @@ XML file</a> that describes a corporate body, the Lt. Col. Matt Urban
 Human Services Center of Western New York, in which the following
 XML/EAC-CPF code block is to be found:</p>
 <pre><code>&lt;function valueURI=&quot;http://vocab.getty.edu/page/aat/300055433&quot; vocabularySource=&quot;aat&quot;
-vocabularySourceURI=&quot;https://www.getty.edu/research/tools/vocabularies/aat/&quot;&gt;
-     &lt;term&gt;community development&lt;/term&gt;
-     &lt;placeName target=&quot;IDPlaceName1&quot;&gt;East Side (Buffalo, N.Y.)&lt;/placeName&gt;
-         &lt;descriptiveNote&gt;
-           &lt;p&gt;The organization’s mission is to create programs to improve the quality of
-              residential housing and develop projects to improve the East Side of Buffalo and
-              Western New York.&lt;/p&gt;
-         &lt;/descriptiveNote&gt;
+  vocabularySourceURI=&quot;https://www.getty.edu/research/tools/vocabularies/aat/&quot;&gt;
+    &lt;term&gt;community development&lt;/term&gt;
+    &lt;placeName target=&quot;IDPlaceName1&quot;&gt;East Side (Buffalo, N.Y.)&lt;/placeName&gt;
+    &lt;descriptiveNote&gt;
+        &lt;p&gt;The organization’s mission is to create programs to improve the
+           quality of residential housing and develop projects to improve the
+           East Side of Buffalo and Western New York.
+        &lt;/p&gt;
+    &lt;/descriptiveNote&gt;
 &lt;/function&gt;
 &lt;places&gt;
-     &lt;place&gt;
-      &lt;placeName vocabularySource=&quot;local&quot; id=&quot;IDPlaceName1&quot;&gt;East Side (Buffalo,
-            N.Y.)&lt;/placeName&gt;
-      &lt;geographicCoordinates coordinateSystem=&quot;WGS84&quot;&gt;N 42°53´48&quot; W 78°50´2&quot;&lt;/geographicCoordinates&gt;
-      &lt;/place&gt;
+    &lt;place&gt;
+        &lt;placeName vocabularySource=&quot;local&quot; id=&quot;IDPlaceName1&quot;&gt;
+            East Side (Buffalo, N.Y.)
+        &lt;/placeName&gt;
+        &lt;geographicCoordinates coordinateSystem=&quot;WGS84&quot;&gt;
+            N 42°53´48&quot; W 78°50´2&quot;
+        &lt;/geographicCoordinates&gt;
+    &lt;/place&gt;
 &lt;/places&gt;</code></pre>
 <p>The activity of this corporate body is briefly described, and linked
 to the activity of <a
@@ -589,10 +593,10 @@ development</a> in the <a
 href="https://www.getty.edu/research/tools/vocabularies/aat/">Getty
 Center’s Art and Architecture Thesaurus (AAT)</a>, the URI of the
 activity being provided in the valueURI attribute of the
-<code>function</code> element, and that of the thesaurus itself is given
-by the vocabularySourceURI attribute of <code>function</code>. In
-addition to the HTML view, thesaurus is available formally in RDF and
-other c formats. As well as the URI, the preferred term ‘community
+<code>function</code> element, and that of the thesaurus itself being
+given by the vocabularySourceURI attribute of <code>function</code>. In
+addition to the HTML view, the AAT thesaurus is available formally in
+RDF and other formats. As well as the URI, the preferred term ‘community
 development’ is encoded in the <code>term</code> subelement of
 <code>function</code>. We will return to this example later.</p>
 <p>Regardless of the technical architecture and storage formats you work
@@ -651,7 +655,7 @@ principle you cannot assign more than one value to this attribute for
 the same entity. As an example, the repeatable Language attribute can be
 used to express that a given Record has content in several different
 languages, but since Documentary Form Type and State are non-repeatable,
-it is to be assigned a single legal status or state; if there seem to be
+it is to be assigned a single legal status or state. If there seem to be
 several possibilities, the narrowest, most precise term should be chosen
 — in a well-designed, comprehensive vocabulary, there should exist such
 a choice.</p>
@@ -703,29 +707,31 @@ concerns us here.</p>
 <p><a href="diagrams/activityType_ric-o.svg"><img
 src="diagrams/activityType_ric-o.svg"
 alt="Categorizing an Activity using RiC-O" /></a></p>
-<p>In this RDF graph, the Activity Type attribute has been mapped using
-the <a
-href="http://www.w3.org/2004/02/skos/core#exactMatch">skos:exactMatch</a>
-relation to a <a
+<p>In this RDF graph, the Activity Type attribute has become an instance
+of the <a
 href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a>
 class: ‘Community development’ is indeed a concept that categorizes the
-activity described, whilst <a
+activity described; and to define this concept, we have chosen to use a
+data model that the W3C has developed and which is widely used to
+formalize concepts and vocabularies: <a
 href="https://www.w3.org/2004/02/skos/">Simple Knowledge Organization
-System (SKOS)</a> is a data model developed by the W3C which is widely
-used to formalize concepts and vocabularies. As with (almost) everything
-in RDF, the ‘Community development’ Activity Type implicitly has an URI,
-and we have equipped it with a label, but SKOS also facilitates
-assigning other properties to it, though we omit this in the diagram: a
-definition, scope notes, examples, change notes, relations to broader or
-narrower concepts, and so on.</p>
-<p>Included in the diagram is the fact that ‘Community development’
-could be included in a <a
+System (SKOS)</a>. As with (almost) everything in RDF, the ‘Community
+development’ Activity Type implicitly has an URI, and we have equipped
+it with a label, but SKOS also facilitates assigning other properties to
+it, though we omit this in the diagram: a definition, scope notes,
+examples, change notes, relations to broader or narrower concepts, and
+so on. It is a concept that we could define in a <a
 href="http://www.w3.org/2004/02/skos/core#ConceptScheme">skos:ConceptScheme</a>
-defined by our institution or project, whilst it is also included the
-Getty Center’s AAT thesaurus. We could alternatively choose not to
-create and manage the description of this concept ourselves, and instead
-link the Activity directly to the AAT concept as follows (using Turtle
-syntax, and supposing that the activity described has</p>
+developed by our institution or project, and is declared as equivalent
+to the concept with the same name in the Getty Center’s AAT thesaurus
+(which is itself expressed in RDF, in accordance with SKOS and an
+ontology developed by the Getty Center), using the <a
+href="http://www.w3.org/2004/02/skos/core#exactMatch">skos:exactMatch</a>
+relation.</p>
+<p>We could alternatively choose not to create and manage the
+description of this concept ourselves, and instead link the Activity
+directly to the AAT concept as follows (using Turtle syntax, and
+supposing that the activity described has</p>
 <pre><code>https://www.ica.org/standards/RiC/examples#AG_section_06_faq_vocabs_Activity</code></pre>
 <p>as URI):</p>
 <pre><code>@prefix rico: &lt;https://www.ica/org/standards/RiC/ontology#&gt; .
@@ -740,10 +746,10 @@ the existence or not of external vocabularies that are truly suited to
 our needs; and so on. Whatever our decision, the vocabulary we wish to
 use with RiC-O data should be expressed in RDF; and the <a
 href="https://www.ica.org/standards/RiC/ontology#hasActivityType">rico:hasActivityType</a>
-object property should be used link the ‘Community development’ Activity
-to the concept that categorizes it. An analogous object property, and an
-inverse for it, exists for all of the attributes which we are discussing
-here.</p>
+object property should be used to link the ‘Community development’
+Activity to the concept that categorizes it. An analogous object
+property, and an inverse for it, exists for all of the attributes which
+we are discussing here.</p>
 <p>If we were to apply a reasoner to the above RDF snippet, it would
 infer, and add to the existing graph, that the concept with URI
 <code>http://vocab.getty.edu/page/aat/300055433</code> is an instance of
@@ -765,7 +771,7 @@ makes it possible to immediately have vocabularies and concepts whose
 formal specification is complete, and which are therefore ready to be
 used in RiC-O datasets, without having to rely on a reasoner. Later, it
 may also enable, depending upon time and means, moving beyond
-terminology, usng RiC-O properties to assign say temporal or spatial
+terminology, using RiC-O properties to assign say temporal or spatial
 dimensions to the concepts described; to connect them to Rules when
 appropriate (decrees, legal texts, policies…); to express that they have
 successor concepts, and so on; in other words to contextualize concepts.
