@@ -6,7 +6,7 @@ This FAQ offers some food for thought and advice for people who would like to ex
 
 ## Why extend RiC?
 
-RiC is a generic, international, standard; it might be necessary to extend it to meet local requirements. In addition, RiC-CM is a reference framework, without the level of granularity that might be necessary to, say, precisely describe special collections — sets of medieval charters, postcards, or notarial acts, for instance —  precisely, or to meet the very specific needs of researchers. As the introduction to RiC-CM puts it in 1.2 Purpose and Scope:
+RiC is a generic, international, standard; it might be necessary to extend it to meet local requirements. In addition, RiC-CM is a reference framework, without the level of granularity that might be necessary to precisely describe special collections — sets of medieval charters, postcards, or notarial acts, for instance — or to meet the very specific needs of researchers. As the introduction to RiC-CM puts it in 1.2 Purpose and Scope:
 
 > As a high-level model, RiC-CM is a broad conceptual framework. It does not address the full range of activities needed to manage records, nor does it address the full detail that may be required in any possible context in which it may be applied.
 
@@ -29,7 +29,7 @@ If RiC-CM doesn't include the additional entity, attribute, or relation you woul
 
 - several object properties which have domain [rico:Date](https://www.ica.org/standards/RiC/ontology#Date), e.g. [rico:isDerivationDateOf](https://www.ica.org/standards/RiC/ontology#isDerivationDateOf),  [rico:isMigrationDateOf](https://www.ica.org/standards/RiC/ontology#isMigrationDateOf), [rico:isAccumulationDateOf](https://www.ica.org/standards/RiC/ontology#isAccumulationDateOf), [rico:isDestructionDateOf](https://www.ica.org/standards/RiC/ontology#isDestructionDateOf), [rico:isPublicationDateOf](https://www.ica.org/standards/RiC/ontology#isPublicationDateOf), and their inverse properties;
 
-- several object properties and datatype useful to represent sequences (see [int-ref](int-ref:faq--sequences) for more on these) and hierarchies of record resources, such as the ones defined as sub-properties of [rico:precedesOrPreceded](https://www.ica.org/standards/RiC/ontology#precedesOrPreceded), and also [rico:wasMergedInto](https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasMergedInto) and [rico:wasSplitInto](https://www.ica.org/standards/RiC/RiC-O_1-1.html#wasSplitInto), as well as the inverse properties of all of these;
+- several object properties and datatype useful to represent sequences (see [int-ref](int-ref:faq--sequences) for more on these) and hierarchies of record resources, such as the ones defined as sub-properties of [rico:precedesOrPreceded](https://www.ica.org/standards/RiC/ontology#precedesOrPreceded), as well as the inverse properties of all of these;
 
 - several object properties which are subproperties of [rico:hasOrHadSubject](https://www.ica.org/standards/RiC/ontology#hasOrHadSubject), such as [rico:hasContentWhichRepresents](https://www.ica.org/standards/RiC/ontology#hasContentWhichRepresents);
 
@@ -39,13 +39,12 @@ If RiC-CM doesn't include the additional entity, attribute, or relation you woul
 
 If you find any of these RiC-O components useful, then when developing an extension for RiC-CM, you can draw inspiration from them and, whenever possible, explicitly establish a correspondence in your extension between components you add and existing components in RiC-O.
 
-Check toothat there are no other models that meet your needs, whose scope would be complementary to that of RiC, and that you could use in combination with RiC. For more on this, see [int-ref](int-ref:combining_ric_with_other_standards) and [int-ref](int-ref:faq--how_to_use_ric_with_vocabularies:skos-vocabularies-to-populate-classes-in-ric-o-datasets).
+Check too that there are no other models that meet your needs, whose scope would be complementary to that of RiC, and that you could use in combination with RiC. For more on this, see [int-ref](int-ref:combining_ric_with_other_standards) and [int-ref](int-ref:faq--how_to_use_ric_with_vocabularies:skos-vocabularies-to-populate-classes-in-ric-o-datasets).
 
 Here are two examples of existing projects that have combined RiC and other models:
 
-- The [FranceArchives (FA) portal](https://francearchives.gouv.fr/) team has semanticized, in accordance with RiC-O 0.2, all the archival metadata that this portal aggregates; see [this page](https://francearchives.gouv.fr/fr/article/756183859) (in French). Since FranceArchives also manages specific data, such as opening hours and contact details, on French archival institutions that provide finding aids to the portal, the FA team had to find a solution to structuring this data, since RiC-O does not provide properties for this. It was decided to use a few properties defined in [Schema.org](https://schema.org/), including [schema:openingHours](https://schema.org/openingHours) and [schema:telephone](https://schema.org//openingHours), as well as the class [schema:PostalAddress](https://schema.org/PostalAddress). See for example [this description](https://francearchives.gouv.fr/service/33862) of a French territorial archives service, the 'Archives départementales de la Mayenne'.
+- The [FranceArchives (FA) portal](https://francearchives.gouv.fr/) team has semanticized, in accordance with RiC-O 0.2, all the archival metadata that this portal aggregates; see [this page](https://francearchives.gouv.fr/fr/article/756183859) (in French). Since FranceArchives also manages specific data, such as opening hours and contact details, on French archival institutions that provide finding aids to the portal, the FA team had to find a solution to structuring this data, since RiC-O does not provide properties for this. It was decided to use a few properties defined in [Schema.org](https://schema.org/), including [schema:openingHours](https://schema.org/openingHours) and [schema:telephone](https://schema.org/telephone), as well as the class [schema:PostalAddress](https://schema.org/PostalAddress). See for example [this description](https://francearchives.gouv.fr/service/33862) of a French territorial archives service, the 'Archives départementales de la Mayenne'. Note that this implies that they have checked that such an archival service, which is explicitly defined as an instance of the [rico:CorporateBody](https://www.ica.org/standards/RiC/ontology#CorporateBody) class, can also be considered as an instance of the [Schema.org Civic Structure](https://schema.org/CivicStructure) or of the [Schema.org Local Business](https://schema.org/LocalBusiness) class, which are in the domain of [schema:openingHours](https://schema.org/openingHours) and [schema:telephone](https://schema.org/telephone).
 
-    Note that this implies that such an archival service, initially defined as an instance of the [rico:CorporateBody](https://www.ica.org/standards/RiC/ontology#CorporateBody) class, also can be considered an instance of the Schema.org [Local Business](https://schema.org/LocalBusiness) or [Civic Structure](https://schema.org/CivicStructure) class, since the union of these two is the domain of [schema:openingHours](https://schema.org/openingHours) and [schema:telephone](https://schema.org//openingHours).
 
 - The [Memobase portal](https://memoriav.ch/fr/memobase), which aggregates data about audiovisual cultural heritage in Switzerland, uses RiC-O 0.2 as its main reference ontology, completed by properties defined by [the RDA registry](https://www.rdaregistry.info/), and by properties defined by [EBUCore](https://tech.ebu.ch/metadata/ebucore), an ontology developed by The European Broadcasting Union, an alliance of public service media. See the [documentation](https://ub-basel.atlassian.net/wiki/spaces/MD/pages/336855177/Memobase+RDF)of the Memobase data model, particularly the list of properties for digital instantiations, such as ebucore:duration or ebucore:mediaResourceDescription.
 
@@ -106,11 +105,14 @@ If you decide to define an ontology for your project, named say "An ontology for
 
 <http://myinstitution.org/projects/notarialRecords/ontology>
   a owl:Ontology ;
-# This ontology imports RiC-O 1.1; this is not absolutely necessary to do so when developing an extension, but throughout the development of the extension it may be very helpful.
+# This ontology imports RiC-O 1.1; this is not absolutely necessary to do when
+# developing an extension, but throughout the development of the extension it
+# may be very helpful.
   owl:imports <https://www.ica.org/standards/RiC/ontology/1.1> ;
   dc:title """An ontology for notarial records in my
             institution"""@en ;
-# It's good to declare a license, the contributors, and other metadata about the ontology here; we will skip this.
+# It's good to declare a license, the contributors, and other metadata about the
+# ontology here; we will skip this.
   vann:preferredNamespacePrefix "my-onto" ;
   vann:preferredNamespaceUri "http://myinstitution.org/projects/notarialRecords/ontology#" .
 
@@ -130,13 +132,14 @@ vann:preferredNamespaceUri
   a owl:ObjectProperty ;
   rdfs:subPropertyOf <https://www.ica.org/standards/RiC/ontology#hasAuthor> ;
   owl:inverseOf <http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf> ;
-# we will also declare the inverse property below.
+# We will also declare the inverse property below.
   rdfs:domain <https://www.ica.org/standards/RiC/ontology#Person> ;
   rdfs:range <https://www.ica.org/standards/RiC/ontology#Record> ;
   rdfs:isDefinedBy <http://myinstitution.org/projects/notarialRecords/ontology> ;
   rdfs:label "has testator"@en .
-# Here it is recommended to add a textual definition of the property, using e.g. rdfs:comment, and if necessary a scope note,
-# using e.g. skos:scopeNote; we will skip this.
+# Here it is recommended to add a textual definition of the property, using e.g.
+# rdfs:comment, and if necessary a scope note, using e.g. skos:scopeNote; we
+# will skip this.
 
 <http://myinstitution.org/projects/notarialRecords/ontology#isTestatorOf>
   a owl:ObjectProperty ;
@@ -153,7 +156,7 @@ If you use this extension, and thus create triples in your dataset whose predica
 
 We recommend that you use an OWL 2 ontology editor, it will likely be very useful to you. The open source [Protégé Desktop software](https://protege.stanford.edu/software.php#desktop-protege), for example, can display your extension and the original model extended in the same window (if you have imported the latter), so that you can see where the components are declared in the RiC-O hierarchy. Such tools typically embed reasoners which can check that there is no logical inconsistency in what you have asserted, as well as infer triples.
 
-If you clearly document the extension you have defined, and publish it under a permissive licence along with the data using the components you have added, this will enable others to reuse your data, understanding its semantics. They will also enable the production from your dataset of one which is strictly compliant to RiC-O, i.e. not an extension, since the components you have defined are sub-properties or sub-classes of RiC-O. Portals or aggregators might for instance wish to gather datasets using RiC-O only, not taking into account extensions; or they might also be interested in your extension, and reuse it.
+If you clearly document the extension you have defined, and publish it under a permissive licence along with the data using the components you have added, this will enable others to reuse your data, understanding its semantics. They will also enable the production from your dataset of one which is strictly compliant to RiC-O, i.e. not an extension, since the components you have defined are sub-properties or sub-classes of RiC-O. Such a use-case could for example arise if in the future some portals or aggregators wish to gather datasets and to use RiC-O only, not to take into account any extension developed from RiC-O.
 
 In the end, all of this might influence the development of RiC itself.
 

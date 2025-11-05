@@ -389,5 +389,5 @@ your experience will help other people.
 
 - Implementations are still at an early stage, but some exist, as do tools.  See
   the RiC [Resource
-List](https://ica-egad.github.io/RiC-ResourceList/index.html) for more, and
+List](https://ica-egad.github.io/RiC-ResourceList) for more, and
 contribute your work to it.

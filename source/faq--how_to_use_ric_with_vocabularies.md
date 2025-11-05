@@ -241,25 +241,29 @@ An example is provided by the Society of American Archivists' Encoded Archival S
 
 ```
 <function valueURI="http://vocab.getty.edu/page/aat/300055433" vocabularySource="aat"
-vocabularySourceURI="https://www.getty.edu/research/tools/vocabularies/aat/">
-     <term>community development</term>
-     <placeName target="IDPlaceName1">East Side (Buffalo, N.Y.)</placeName>
-         <descriptiveNote>
-           <p>The organization’s mission is to create programs to improve the quality of
-              residential housing and develop projects to improve the East Side of Buffalo and
-              Western New York.</p>
-         </descriptiveNote>
+  vocabularySourceURI="https://www.getty.edu/research/tools/vocabularies/aat/">
+    <term>community development</term>
+    <placeName target="IDPlaceName1">East Side (Buffalo, N.Y.)</placeName>
+    <descriptiveNote>
+        <p>The organization’s mission is to create programs to improve the
+           quality of residential housing and develop projects to improve the
+           East Side of Buffalo and Western New York.
+        </p>
+    </descriptiveNote>
 </function>
 <places>
-     <place>
-      <placeName vocabularySource="local" id="IDPlaceName1">East Side (Buffalo,
-            N.Y.)</placeName>
-      <geographicCoordinates coordinateSystem="WGS84">N 42°53´48" W 78°50´2"</geographicCoordinates>
-      </place>
+    <place>
+        <placeName vocabularySource="local" id="IDPlaceName1">
+            East Side (Buffalo, N.Y.)
+        </placeName>
+        <geographicCoordinates coordinateSystem="WGS84">
+            N 42°53´48" W 78°50´2"
+        </geographicCoordinates>
+    </place>
 </places>
 ```
 
-The activity of this corporate body is briefly described, and linked to the activity of [community development](http://vocab.getty.edu/page/aat/300055433) in the [Getty Center's Art and Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/), the URI of the activity being provided in the valueURI attribute of the `function` element, and that of the thesaurus itself is given by the vocabularySourceURI attribute of `function`. In addition to the HTML view, thesaurus is available formally in RDF and other c formats. As well as the URI, the preferred term 'community development' is encoded in the `term` subelement of `function`. We will return to this example later.
+The activity of this corporate body is briefly described, and linked to the activity of [community development](http://vocab.getty.edu/page/aat/300055433) in the [Getty Center's Art and Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/), the URI of the activity being provided in the valueURI attribute of the `function` element, and that of the thesaurus itself being given by the vocabularySourceURI attribute of `function`. In addition to the HTML view, the AAT thesaurus is available formally in RDF and other formats. As well as the URI, the preferred term 'community development' is encoded in the `term` subelement of `function`. We will return to this example later.
 
 Regardless of the technical architecture and storage formats you work with constructing descriptions, such good practices should ideally be applied to all RiC-CM entities you include, no matter whether Record Resources or contextual entities. This will provide your end users with precise and functional search criteria. If your vocabularies are generic, possibly multilingual, ones in widespread use, federated search across institutions will be possible.
 
@@ -277,7 +281,7 @@ Be sure to comply with the specification of the attributes in RiC-CM. In particu
 
 The attributes Content Type, Documentary Form Type, Language, Legal Status, and State have the special aspect, explained in section 3.4 of RiC-CM, that although a priori attributes of a Record or Record Part, RiC-CM allows them to be used as attributes of any Record Resource; when used to describe a Record Set, this is to be understood to mean that the Record Set includes Records having the specified attribute. Such a possibility can greatly facilitate the migration of ISAD(G)-style archival descriptions to RiC-CM, where sets of records are quite often indexed with several genre or form terms.
 
-If an attribute is specified as non-repeatable, this means that in principle you cannot assign more than one value to this attribute for the same entity. As an example, the repeatable Language attribute can be used to express that a given Record has content in several different languages, but since Documentary Form Type and State are non-repeatable, it is to be assigned a single legal status or state; if there seem to be several possibilities, the narrowest, most precise term should be chosen — in a well-designed, comprehensive vocabulary, there should exist such a choice.
+If an attribute is specified as non-repeatable, this means that in principle you cannot assign more than one value to this attribute for the same entity. As an example, the repeatable Language attribute can be used to express that a given Record has content in several different languages, but since Documentary Form Type and State are non-repeatable, it is to be assigned a single legal status or state. If there seem to be several possibilities, the narrowest, most precise term should be chosen — in a well-designed, comprehensive vocabulary, there should exist such a choice.
 
 ## Using SKOS vocabularies to populate classes in RiC-O datasets
 
@@ -299,9 +303,9 @@ If we used RiC-O, we would instead end up with a graph like the following one. W
 [![Categorizing an Activity using RiC-O](../diagrams/activityType_ric-o.svg)](../diagrams/activityType_ric-o.svg)
 
 
-In this RDF graph, the Activity Type attribute has been mapped using the [skos:exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) relation to a [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept) class: 'Community development' is indeed a concept that categorizes the activity described, whilst [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) is a data model developed by the W3C which is widely used to formalize concepts and vocabularies. As with (almost) everything in RDF, the 'Community development' Activity Type implicitly has an URI, and we have equipped it with a label, but SKOS also facilitates assigning other properties to it, though we omit this in the diagram: a definition, scope notes, examples, change notes, relations to broader or narrower concepts, and so on.
+In this RDF graph, the Activity Type attribute has become an instance of the [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept) class: 'Community development' is indeed a concept that categorizes the activity described; and to define this concept, we have chosen to use a data model that the W3C has developed and which is widely used to formalize concepts and vocabularies: [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/). As with (almost) everything in RDF, the 'Community development' Activity Type implicitly has an URI, and we have equipped it with a label, but SKOS also facilitates assigning other properties to it, though we omit this in the diagram: a definition, scope notes, examples, change notes, relations to broader or narrower concepts, and so on. It is a concept that we could define in a [skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme) developed by our institution or project, and is declared as equivalent to the concept with the same name in the Getty Center's AAT thesaurus (which is itself expressed in RDF, in accordance with SKOS and an ontology developed by the Getty Center), using the [skos:exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) relation.
 
-Included in the diagram is the fact that 'Community development' could be included in a [skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme) defined by our institution or project, whilst it is also included the Getty Center's AAT thesaurus.  We could alternatively choose not to create and manage the description of this concept ourselves, and instead link the Activity directly to the AAT concept as follows (using Turtle syntax, and supposing that the activity described has
+We could alternatively choose not to create and manage the description of this concept ourselves, and instead link the Activity directly to the AAT concept as follows (using Turtle syntax, and supposing that the activity described has
 
 ```
 https://www.ica.org/standards/RiC/examples#AG_section_06_faq_vocabs_Activity
@@ -317,11 +321,11 @@ as URI):
     <http://vocab.getty.edu/page/aat/300055433> .
 ```
 
-Choosing between these two options depends upon our modelling strategy, which may depend upon available human and technical resources; the lists or vocabularies we already have and our plans concerning them; the existence or not of external vocabularies that are truly suited to our needs; and so on. Whatever our decision, the vocabulary we wish to use with RiC-O data should be expressed in RDF; and the [rico:hasActivityType](https://www.ica.org/standards/RiC/ontology#hasActivityType) object property should be used link the 'Community development' Activity to the concept that categorizes it. An analogous object property, and an inverse for it, exists for all of the attributes which we are discussing here.
+Choosing between these two options depends upon our modelling strategy, which may depend upon available human and technical resources; the lists or vocabularies we already have and our plans concerning them; the existence or not of external vocabularies that are truly suited to our needs; and so on. Whatever our decision, the vocabulary we wish to use with RiC-O data should be expressed in RDF; and the [rico:hasActivityType](https://www.ica.org/standards/RiC/ontology#hasActivityType) object property should be used to link the 'Community development' Activity to the concept that categorizes it. An analogous object property, and an inverse for it, exists for all of the attributes which we are discussing here.
 
 If we were to apply a reasoner to the above RDF snippet, it would infer, and add to the existing graph, that the concept with URI `http://vocab.getty.edu/page/aat/300055433` is an instance of the [rico:ActivityType](https://www.ica.org/standards/RiC/ontology#ActivityType) class, because the [rico:hasActivityType](https://www.ica.org/standards/RiC/ontology#hasActivityType) property is formally defined in RiC-O as having as range [rico:ActivityType](https://www.ica.org/standards/RiC/ontology#ActivityType). See [RDFS entailment rules](https://www.w3.org/TR/rdf-mt/#RDFSRules]) for more on this.
 
-On the other hand, it is permitted to explicitly specify that the concepts you use to categorize Activities are both an instance of skos:Concept and of the [rico:ActivityType](https://www.ica.org/standards/RiC/ontology#ActivityType) RiC-O class; the same is true in all analogous cases, and is the approach taken by, for instance, the Archives nationales de France. This makes it possible to immediately have vocabularies and concepts whose formal specification is complete, and which are therefore ready to be used in RiC-O datasets, without having to rely on a reasoner. Later, it may also enable, depending upon time and means, moving beyond terminology, usng RiC-O properties to assign say temporal or spatial dimensions to the concepts described; to connect them to Rules when appropriate (decrees, legal texts, policies...); to express that they have successor concepts, and so on; in other words to contextualize concepts. Particularly interesting might be the contextualization of Activity Types, Documentary Form Types, or Corporate Body Types.
+On the other hand, it is permitted to explicitly specify that the concepts you use to categorize Activities are both an instance of skos:Concept and of the [rico:ActivityType](https://www.ica.org/standards/RiC/ontology#ActivityType) RiC-O class; the same is true in all analogous cases, and is the approach taken by, for instance, the Archives nationales de France. This makes it possible to immediately have vocabularies and concepts whose formal specification is complete, and which are therefore ready to be used in RiC-O datasets, without having to rely on a reasoner. Later, it may also enable, depending upon time and means, moving beyond terminology, using RiC-O properties to assign say temporal or spatial dimensions to the concepts described; to connect them to Rules when appropriate (decrees, legal texts, policies...); to express that they have successor concepts, and so on; in other words to contextualize concepts. Particularly interesting might be the contextualization of Activity Types, Documentary Form Types, or Corporate Body Types.
 
 If you do not have, or cannot find, any appropriate vocabulary for populating RiC-O classes, the [rico:type](https://www.ica.org/standards/RiC/ontology#type) datatype property to store, as a string, the term you wish to use. If you need to define another category than those in RiC-O today, you can easily extend RiC-O, creating in your own ontology a subclass of [rico:Concept](https://www.ica.org/standards/RiC/ontology#Concept) or [rico:Type](https://www.ica.org/standards/RiC/ontology#Type), and defining the properties you needed to connect the relevant entities to your new concept. See [int-ref](int-ref:faq--how_to_extend_ric) for more on this.
 
@@ -341,7 +345,7 @@ Note that if you have asserted that all the members of a Record Set have documen
 
 RiC-O provides a technical method for dating and, more generally speaking, contextualizing the relation between an entity and the category it may belong to. This is touched upon at the end of [int-ref](int-ref:extended_example--cervantes_and_the_printing_of_don_quixote:records-of-the-council-of-castile-i), but let us give another example.
 
-The Archives nationales de France, which was created in 1790, only received its current status as a 'service à compétence nationale’ (service with national competence; a status authorizing them to carry out missions halfway between those of central administration and territorial administration) in December 2006. To model this in RiC-O, we might use the [rico:TypeRelation](https://www.ica.org/standards/RiC/ontology#TypeRelation) in the following way.
+The Archives nationales de France, which was created in 1790, only received its current status as a 'service à compétence nationale' (service with national competence; a status authorizing them to carry out missions halfway between those of central administration and territorial administration) in December 2006. To model this in RiC-O, we might use the [rico:TypeRelation](https://www.ica.org/standards/RiC/ontology#TypeRelation) in the following way.
 
 [![using a rico:TypeRelation](../diagrams/corporateBodyType_withDate_ric-o.svg)](../diagrams/corporateBodyType_withDate_ric-o.svg)
 
