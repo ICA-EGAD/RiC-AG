@@ -89,7 +89,7 @@ One also has the attributes of relations in §5.5 of RiC-CM, implemented as sub-
 
 Recording of meta-metadata is important in settings where artifical intelligence is used; it is sometimes referred to as paradata in this context. The diagram below indicates how this might be modelled in the case of transcription of handwritten parish register using AI. Instead of the single _has or had derived instantiation_ relation, a number of Activity and other entities are involved. More could of course be included. Standards developed specifically for the purpose might be used to form the content of the Records documenting the two Activities in the modelling.
 
-[![Transcription using artificial intelligence](../diagrams/artificial_intelligence_transcription.svg)](../diagrams/artifical_intelligence_transcription.svg)
+[![Transcription using artificial intelligence](../diagrams/artificial_intelligence_transcription.svg)](../diagrams/artificial_intelligence_transcription.svg)
 
 As a second example, a generative AI chatbot might be used to create an overview of the contents of a Record, to be used as part of a description of that Record. This might be modelled as follows, the prompt given to the chatbot being an important piece of meta-metadata/paradata in such cases. Again, more could be included.
 
