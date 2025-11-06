@@ -1,0 +1,34 @@
+name: "Sync with AG working repository"
+on:
+  push:
+    branches:
+      - "!main"
+      - sync/*
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "Checkout working AG"
+        uses: actions/checkout@v4
+        with:
+          repository: ICA-EGAD/RiC-AG-Working
+          ssh-key: ${{ secrets.RIC_AG_WORKING_PRIVATE_SSH_KEY }}
+          persist-credentials: false
+          path: RiC-AG-Working
+      - name: "Sync with working AG repository"
+        run: |
+          cp RiC-AG-Working/html/*.html docs/
+          cp RiC-AG-Working/html/*.css docs/
+          cp RiC-AG-Working/html/*.svg docs/
+          cp RiC-AG-Working/html/diagrams/*.svg docs/diagrams/
+          cp RiC-AG-Working/html/icons/*.svg docs/icons/
+          cp RiC-AG-Working/html/mappings/* docs/mappings/
+          cp RiC-AG-Working/html/miscellaneous/* docs/miscellaneous/
+          cp RiC-AG-Working/diagram_sources/*.drawio diagram_sources/
+          cp RiC-AG-Working/source/*.md source/
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "Sync" || echo "No changes to sync"
+          git push
