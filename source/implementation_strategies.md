@@ -7,7 +7,7 @@ thinking about, and may take serious effort. You will need to develop an
 understanding of the needs and goals of your organization in relation to the
 changes in archival description practice that RiC reflects.
 
-We cannot provide a step-by-step guide to implemententing RiC — the huge variety
+We cannot provide a step-by-step guide to implementing RiC — the huge variety
 of specific use-cases make this impossible. Instead, our aim in this part of the
 Application Guidelines is to provide a list of actions that might be considered.
 It should not be regarded as complete or definitive. In describing some possible
