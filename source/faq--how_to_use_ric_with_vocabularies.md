@@ -237,7 +237,7 @@ Concretely, even if none of our suggestions here are to be regarded as obligator
 
 Here we are only stating good practices which are already well-established within many institutions, and which are often followed when indexing the description of archival resources within finding aids conforming to ISAD(G); possibly accompanied by descriptions of persons, corporate bodies and families conforming to ISAAR(CPF).
 
-An example is provided by the Society of American Archivists' Encoded Archival Standards: Best Practices Guide. The [EAC-CPF examples page of this guide](https://saa-sdt.github.io/EAS-Best-Practices/docs/examples/eaccpf-examples.html) provides a link to [an XML file](https://raw.githubusercontent.com/SAA-SDT/EAS-Best-Practices/refs/heads/main/_examples/eaccpf-matturbancenter.xml) that describes a corporate body, the Lt. Col. Matt Urban Human Services Center of Western New York, in which the following XML/EAC-CPF code block is to be found:
+An example is provided by the Society of American Archivists' Encoded Archival Standards: Best Practices Guide. The [EAC-CPF examples page of this guide](https://saa-sdt.github.io/EAS-Best-Practices/docs/eas-suite/eac-cpf/eac-examples/eaccpfxml.html) provides a link to [an XML file](https://raw.githubusercontent.com/SAA-SDT/EAS-Best-Practices/refs/heads/main/_examples/eaccpf-matturbancenter.xml) that describes a corporate body, the Lt. Col. Matt Urban Human Services Center of Western New York, in which the following XML/EAC-CPF code block is to be found: 
 
 ```
 <function valueURI="http://vocab.getty.edu/page/aat/300055433" vocabularySource="aat"
